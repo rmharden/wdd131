@@ -23,11 +23,22 @@ hr{
 h1, h2, p {
     text-align: center;
 }
-#logos {
+
+/*#logos {
     text-align: center;
-}
+} */
+
 img {
     width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+.list {
+    list-style-type: none;
 }
 
 /* example comments: footer */
