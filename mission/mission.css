@@ -7,22 +7,24 @@ body {
 }
 #content {
     max-width: 60%;
-    border: 1px solid darkgrey;
+    border: .5px solid darkgrey;
     margin: 40px auto;
     padding: 50px;
 }
-p {
-    color: #035f9c;
-    font-size: 1.3em;
-}
+
 hr{
-    height: 3px;
-    background-color: #035f9c;
+    height: .5px;
+    background-color: darkgray;
     width: 80%;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 h1{
     text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: .9em;
+    color: #035f9c;
 }
 
 /*#logos {
@@ -30,9 +32,9 @@ h1{
 } */
 
 img {
-    width: 50%;
+    width: 20%;
     display: block;
-    margin: 50px auto;
+    margin: 10% auto;
 }
 #topics {
     line-height: 1.5em;
