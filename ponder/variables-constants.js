@@ -9,3 +9,6 @@ radius = 20;
 area = radius * radius * PI;
 
 console.log(area)
+
+const one = 1;
+const two = '2';
