@@ -11,6 +11,11 @@ body {
     margin: 40px auto;
     padding: 50px;
 }
+p {
+    color: #035f9c;
+    font-size: 1.3em;
+    
+}
 
 
 /* example comments: footer */
