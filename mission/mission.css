@@ -31,9 +31,12 @@ h2 {
     color: #035f9c;
 }
 
-/*#logos {
-    text-align: center;
-} */
+p {
+    font-family: Garamond, serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
 
 img {
     width: 20%;
