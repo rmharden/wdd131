@@ -16,7 +16,7 @@ console.log(area)
 const one = 1;
 const two = '2';
 
-let result = oen * two;
+let result = one * two;
 console.log(result);
 
 result = one + Number(two);
