@@ -6,7 +6,7 @@ body {
     font-size: 20px;
 }
 #content {
-    max-width: 60%;
+    max-width: 100%;
     border: 1px solid #ccc;
     box-sizing: border-box;
     margin: 40px auto;
