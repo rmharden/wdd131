@@ -14,7 +14,11 @@ body {
 p {
     color: #035f9c;
     font-size: 1.3em;
-    
+}
+hr{
+    height: 3px;
+    background-color: #035f9c;
+    width: 80%;
 }
 
 
