@@ -20,6 +20,14 @@ hr{
     background-color: #035f9c;
     width: 80%;
 }
-
+h1, h2, p {
+    text-align: center;
+}
+#logos {
+    text-align: center;
+}
+img {
+    width: 50%;
+}
 
 /* example comments: footer */
