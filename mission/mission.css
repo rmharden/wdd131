@@ -19,10 +19,14 @@ hr{
     margin-top: 10px;
 }
 h1{
+    font: Garamond, serif;
     text-align: center;
+    text-transform: uppercase;
 }
-h3 {
+h2 {
+    font: "Georgia", serif;
     text-align: center;
+    text-transform: uppercase;
     font-size: .9em;
     color: #035f9c;
 }
