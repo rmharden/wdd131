@@ -10,5 +10,9 @@ area = radius * radius * PI;
 
 console.log(area)
 
+// Called "type coersion"
 const one = 1;
 const two = '2';
+
+let result = oen * two;
+console.log(result);
