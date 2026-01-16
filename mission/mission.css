@@ -7,28 +7,38 @@ body {
 }
 #content {
     max-width: 60%;
-    border: .5px solid darkgrey;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
     margin: 40px auto;
-    padding: 50px;
+    padding: 40px 50px;
+    background-color: white;
 }
 
 hr{
-    height: .5px;
-    background-color: darkgray;
-    width: 80%;
-    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 75%;
+    margin-top: 0 auto 1.2em auto;
 }
 h1{
-    font: Garamond, serif;
+    font-family: Garamond, serif;
     text-align: center;
+    font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.4em;
+    font-size: 2.5rem;
 }
 h2 {
-    font: "Georgia", serif;
+    font-family: "Georgia", serif;
     text-align: center;
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: 1rem;
+    font-weight: 600;
     color: #035f9c;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    margin-bottom: 0.3em;
 }
 
 p {
@@ -41,15 +51,21 @@ p {
 img {
     width: 20%;
     display: block;
-    margin: 10% auto;
+    margin: 4em auto 0 auto;
 }
 #topics {
     line-height: 1.5em;
     margin: 0 auto;
-    width: 55%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
-.list {
+ul.list {
     list-style-type: decimal;
+    padding-left: 1.5em;
+    font-family: Garamond, serif;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 /* example comments: footer */
