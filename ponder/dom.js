@@ -19,3 +19,6 @@ let para = document.querySelector('p');
 // para.style.backgroundColor = 'lightblue';
 
 para.classList.add('background');
+
+
+// document.querySelector('body').classList.add('background');
