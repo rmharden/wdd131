@@ -13,3 +13,7 @@ document.getElementById('topics').style.color = 'purple';
 let list = document.querySelector('.list');
 
 list.style.border = '3px solid black'
+
+let para = document.querySelector('p');
+
+para.style.backgroundColor = 'lightblue';
