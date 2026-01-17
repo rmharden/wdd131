@@ -7,3 +7,5 @@ title.textContent = 'Web Page Components';
 let topics = document.querySelector('#topics');
 
 // document.querySelector('#topic').style.color = 'red'; 
+
+document.getElementById('topics').style.color = 'purple';
