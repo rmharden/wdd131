@@ -16,4 +16,6 @@ list.style.border = '3px solid black'
 
 let para = document.querySelector('p');
 
-para.style.backgroundColor = 'lightblue';
+// para.style.backgroundColor = 'lightblue';
+
+para.classList.add('background');
