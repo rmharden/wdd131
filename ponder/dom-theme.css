@@ -1,6 +1,9 @@
 
 body {
+    /*This option is from the code provided:*/
     background-size: 100vw 100vh;
+    /*This is the example from the video tutorial that shows what we should probably use in our homework:*/
+    /* background-size: cover; */
     margin: 0;
     padding: 20px;
     transition: background-image 1s ease;
