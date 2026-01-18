@@ -12,6 +12,7 @@ body {
 
 .container {
     text-align: center;
+    /*rem is 16 pxl size, em is default font size*/
     padding: 2rem;
     max-width: 600px;
     margin: 2rem auto;
