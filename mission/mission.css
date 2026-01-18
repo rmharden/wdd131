@@ -17,6 +17,7 @@ hr{
     border: none;
     border-top: 1px solid #ccc;
     width: 100%;
+    /*This was where the error was, it needs to be margin, not margin-top:*/
     margin: 0 auto 1.2em auto;
 }
 h1{
