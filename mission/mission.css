@@ -69,3 +69,9 @@ ul.list li {
     line-height: 1.5;
     margin-bottom: 0.8em;
 }
+
+.top-left-controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
