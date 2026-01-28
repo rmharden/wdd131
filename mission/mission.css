@@ -76,10 +76,12 @@ ul.list li {
     left: 10px;
 }
 
-body.dark {
-    background-color: #2b2b2b;
+body.dark #content {
     background-color: #333;
-    border-color: #555;
+    border-color: white;
+}
+body.dark h1 {
+    color: white;
 }
 
 body.dark p,
