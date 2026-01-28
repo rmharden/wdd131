@@ -1,4 +1,4 @@
-
+/*The example has #theme-select so I changed this here*/
 let selectElem = document.querySelector('#theme-select');
 let pageContent = document.body;
 let logo = document.querySelector('img');
