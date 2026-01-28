@@ -7,6 +7,7 @@ selectElem.addEventListener('change', changeTheme);
 
 function changeTheme() {
     let current = selectElem.value;
+    /*I put === here instead of == because our example had === and not == like the code we copied. I don't know if there is a difference but I was going off of the ponder assignment. */
     if (current === 'dark') {
         // code for changes to colors and logo
         pageContent.classList.add('dark')
