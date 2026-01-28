@@ -78,6 +78,13 @@ ul.list li {
 
 body.dark {
     background-color: #2b2b2b;
+    background-color: #333;
+    border-color: #555;
+}
+
+body.dark p,
+body.dark li,
+body.dark em {
     color: #f2f2f2;
 }
 body.dark h2 {
