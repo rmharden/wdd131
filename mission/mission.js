@@ -13,5 +13,7 @@ function changeTheme() {
         logo.src = 'images/byui-logo-white.png'
     } else {
         // code for changes to colors and logo
+        pageContent.classList.remove('dark')
+        logo.src = 'images/byu-logo.jpg';
     }
 }
