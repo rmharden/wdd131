@@ -77,11 +77,11 @@ ul.list li {
 }
 body.dark {
 background-color: #333;
-color: #f2f2f2;
+color: white;
 }
 body.dark #content {
     background-color: #333;
-    border-color: #f2f2f2;
+    border-color: white;
 }
 body.dark h2 {
     color: #7fb7ff;
