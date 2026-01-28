@@ -75,6 +75,9 @@ ul.list li {
     top: 10px;
     left: 10px;
 }
+body.dark {
+    background-color: #333;
+}
 
 body.dark #content {
     background-color: #333;
