@@ -80,6 +80,7 @@ footer {
 }
  
 /*Media Query Syntax*/
+/*All media queries need to be at the bottom of the css always.*/
 /*We want this to go to two columns for the tablet. Everthing above this was for mobile and one column*/
 /*This will go to two pixels when it gets to 700 pixels*/
 /*We need to change the main section where the scriptures are to add the two columns.*/
@@ -117,5 +118,6 @@ footer {
 /*We can add more media queries*/
 @media screen and (min-width: 1000px) {
     main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
