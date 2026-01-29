@@ -107,7 +107,8 @@ footer {
         display: inline;
     }
     /*this moves them to align to the right side of the page*/
-    nav a {
+    /*Okay, so why do we not put nav a here? When I put nav a, it doesn't align it on the right side, why?*/
+    nav {
         text-align: right;
     }
 }
