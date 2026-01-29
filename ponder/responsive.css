@@ -108,6 +108,7 @@ footer {
     }
     /*this moves them to align to the right side of the page*/
     /*Okay, so why do we not put nav a here? When I put nav a, it doesn't align it on the right side, why?*/
+    /*text-align aligns content inside the element. Each <a> only contains its own text. If i out nav a { here, it would align each text inside eack link and not the group of links so nothing would move visually. It needs to be just nav because that is the parent containter not the children.*/
     nav {
         text-align: right;
     }
