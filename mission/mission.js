@@ -13,6 +13,7 @@ function changeTheme() {
         logo.src = 'images/byui-logo-white.png'
     } else {
         // code for changes to colors and logo
+        // I didn't use 'none' here like the example because it has an image. This is my guess on how to change back to default of the page or light mode. Ponder - DOM Basics lesson talks about remove being used with .classList.
         document.body.classList.remove('dark')
         logo.src = 'images/byu-logo.jpg';
     }
