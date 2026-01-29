@@ -1,4 +1,4 @@
-/*This is importing a font called Roboto that applies to the whole body*/
+/*This is importing a font called Roboto that applies to the whole body. All children inherit the font*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
@@ -6,6 +6,12 @@ body {
     padding: 0;
     font-family: Roboto, sans-serif;
 }
+/*This sets each of the header, main and footer with a max-width where it stops growing at a 1000px*/
+/*The margins are centered with 1rem auto. It gives each side equal portions so it centers it.*/
+/*There is a 1px small and hard to see border that is gray*/
+/*Padding is the space inside an element between the content and the border. rem is relative to root html and em is relative to the parent element*/
+/*The body stays white but the background color of light blue is for the header, main and footer*/
+/*rem is keeping spacing consistent across the whole page*/
 header,
 main,
 footer {
@@ -15,24 +21,34 @@ footer {
   padding: 1rem;
   background-color: lightblue;
 }
+/*h1 is centered*/
 h1 {
     text-align: center;
 }
+/*section is a semantic HTML element and is used to group related content on the page. */
+/*For this page, the sections are holding the scriptures.*/
+/*A margin of 1em adds space to the outside of the section, applies to all four sides, and scales naturally if the text size changes. It's used to keep content spaced proportional to text.*/
+/*The background-white makes each section of scripture have a white box behind it*/
 section {
   padding: 20px;
   background-color: white;
   margin: 1em;
   border: 1px solid #ccc;
 }
+/*A nav holds navigational links. display is set to none, so it doesn't show it*/
 nav a {
     padding: 20px;
     color: black;
+    /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
     display: none;
 }
+/*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
 nav a:hover {
     text-decoration: none;
     color: #616061;
 }
+/*The menu button has a hand instead of a curser arrow or the default.  */
+/*by default the buttons have a border with a background so we set the border to none and the background to transparent*/
 .menu-btn {
     cursor: pointer;
     border: none;
