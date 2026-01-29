@@ -68,3 +68,7 @@ footer {
     text-align: center;
 }
           
+/*We want this to go to two columns for the tablet. Everthing above this was for mobile and one column*/
+@media screen and (min-width: 700px) {
+
+}
