@@ -21,6 +21,17 @@ footer {
   padding: 1rem;
   background-color: lightblue;
 }
+
+
+/*This is added after the provided code. Not originally here.*/
+/*The video says at about 10:10 minutes that you can put this here to already set it up for a grid. */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
 /*h1 is centered*/
 h1 {
     text-align: center;
