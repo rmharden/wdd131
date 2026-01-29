@@ -67,8 +67,15 @@ nav a:hover {
 footer {
     text-align: center;
 }
-          
+ 
+/*Media Query Syntax*/
 /*We want this to go to two columns for the tablet. Everthing above this was for mobile and one column*/
+/*This will go to two pixels when it gets to 700 pixels*/
+/*We need to change the main section where the scriptures are to add the two columns.*/
+/*fr is a fractional unit and it represents a share of the available space in a grid container. 1rf and 1fr are sharing space where they each have 50%, so 50% and 50% of the space*/
 @media screen and (min-width: 700px) {
-
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
