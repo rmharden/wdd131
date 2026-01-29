@@ -84,9 +84,30 @@ footer {
 /*This will go to two pixels when it gets to 700 pixels*/
 /*We need to change the main section where the scriptures are to add the two columns.*/
 /*fr is a fractional unit and it represents a share of the available space in a grid container. 1rf and 1fr are sharing space where they each have 50%, so 50% and 50% of the space*/
-@media screen and (min-width: 700px) {
+/*This is what we put first:*/
+/*@media screen and (min-width: 700px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+}*/
+/*This shows the change after we added the main grid with 1fr up above:*/
+@media screen and (min-width: 700px) {
+    main {
+        /*This gets taken out when it is stated up above:*/
+        /*display: grid;*/
+        grid-template-columns: 1fr 1fr;
+    }
+    /*We would have enough room now to show all the links in nav, so the hamburger button needs to go away.*/
+    .menu-btn {
+        display: none;
+    }
+    /*This changes the nav menu of home, scriptures, favorites, and about from a block to a line*/
+    nav a {
+        display: inline;
+    }
+    /*this moves them to align to the right side of the page*/
+    nav a {
+        text-align: right;
     }
 }
