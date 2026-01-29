@@ -36,6 +36,7 @@ section {
   border: 1px solid #ccc;
 }
 /*A nav holds navigational links. display is set to none, so it doesn't show it*/
+/*The nav is in the header in the html*/
 nav a {
     padding: 20px;
     color: black;
@@ -54,12 +55,15 @@ nav a:hover {
     border: none;
     background-color: transparent;
 }
+/*This is displaying the bars. How do you make them one above the other? Is that in the HTML? this gives each bar sizes for the width, height, background-color, and margin.*/
+/*The button is in the header*/
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 4px;
     background-color: black;
     margin: 5px 0;
 }
+/*This centers the footer at the bottom of the page. Right now it says 'Jane Doe'*/
 footer {
     text-align: center;
 }
