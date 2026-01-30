@@ -77,18 +77,11 @@ nav a:hover {
 }
 /*The menu button has a hand instead of a curser arrow or the default.  */
 /*by default the buttons have a border with a background so we set the border to none and the background to transparent*/
+
 .menu-btn {
-    cursor: pointer;
-    border: none;
     background-color: transparent;
-}
-/*This is displaying the bars. How do you make them one above the other? Is that in the HTML? this gives each bar sizes for the width, height, background-color, and margin.*/
-/*The button is in the header*/
-.bar1, .bar2, .bar3 {
-    width: 30px;
-    height: 4px;
-    background-color: white;
-    margin: 5px 0;
+    border: none;
+    color: white;
 }
 /*This centers the footer at the bottom of the page. Right now it says 'Jane Doe'*/
 footer {
