@@ -105,7 +105,7 @@ footer {
     }
 }*/
 /*This shows the change after we added the main grid with 1fr up above:*/
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 756px) {
     main {
         /*This gets taken out when it is stated up above:*/
         /*display: grid;*/
