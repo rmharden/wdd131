@@ -19,7 +19,7 @@ footer {
   margin: 1rem auto;
   border: 1px solid #ccc;
   padding: 1rem;
-  background-color: lightblue;
+  background-color: steelblue;
 }
 
 
@@ -35,22 +35,38 @@ main {
 /*h1 is centered*/
 h1 {
     text-align: center;
+    color: white;
 }
 /*section is a semantic HTML element and is used to group related content on the page. */
 /*For this page, the sections are holding the scriptures.*/
 /*A margin of 1em adds space to the outside of the section, applies to all four sides, and scales naturally if the text size changes. It's used to keep content spaced proportional to text.*/
 /*The background-white makes each section of scripture have a white box behind it*/
 section {
-  padding: 20px;
-  background-color: white;
-  margin: 1em;
-  border: 1px solid #ccc;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1em;
+
+    width: 300px;
+    padding: 10px;
+    box-sizing: content-box;
+
+    box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.15)
 }
+
+/*This is provided. I don't know if it goes here or if there is a better spot*/
+img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
 /*A nav holds navigational links. display is set to none, so it doesn't show it*/
 /*The nav is in the header in the html*/
 nav a {
     padding: 20px;
-    color: black;
+    color: white;
     /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
     display: none;
 }
@@ -79,12 +95,6 @@ footer {
     text-align: center;
 }
  
-/*This is provided. I don't know if it goes here or if there is a better spot*/
-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
 
 
 /*Media Query Syntax*/
