@@ -1,0 +1,123 @@
+/*This is importing a font called Roboto that applies to the whole body. All children inherit the font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+/*This sets each of the header, main and footer with a max-width where it stops growing at a 1000px*/
+/*The margins are centered with 1rem auto. It gives each side equal portions so it centers it.*/
+/*There is a 1px small and hard to see border that is gray*/
+/*Padding is the space inside an element between the content and the border. rem is relative to root html and em is relative to the parent element*/
+/*The body stays white but the background color of light blue is for the header, main and footer*/
+/*rem is keeping spacing consistent across the whole page*/
+header,
+main,
+footer {
+  max-width: 1000px;
+  margin: 1rem auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: lightblue;
+}
+
+
+/*This is added after the provided code. Not originally here.*/
+/*The video says at about 10:10 minutes that you can put this here to already set it up for a grid. */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+
+/*h1 is centered*/
+h1 {
+    text-align: center;
+}
+/*section is a semantic HTML element and is used to group related content on the page. */
+/*For this page, the sections are holding the scriptures.*/
+/*A margin of 1em adds space to the outside of the section, applies to all four sides, and scales naturally if the text size changes. It's used to keep content spaced proportional to text.*/
+/*The background-white makes each section of scripture have a white box behind it*/
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 1em;
+  border: 1px solid #ccc;
+}
+/*A nav holds navigational links. display is set to none, so it doesn't show it*/
+/*The nav is in the header in the html*/
+nav a {
+    padding: 20px;
+    color: black;
+    /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
+    display: none;
+}
+/*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+/*The menu button has a hand instead of a curser arrow or the default.  */
+/*by default the buttons have a border with a background so we set the border to none and the background to transparent*/
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+/*This is displaying the bars. How do you make them one above the other? Is that in the HTML? this gives each bar sizes for the width, height, background-color, and margin.*/
+/*The button is in the header*/
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    margin: 5px 0;
+}
+/*This centers the footer at the bottom of the page. Right now it says 'Jane Doe'*/
+footer {
+    text-align: center;
+}
+ 
+/*Media Query Syntax*/
+/*All media queries need to be at the bottom of the css always.*/
+/*We want this to go to two columns for the tablet. Everthing above this was for mobile and one column*/
+/*This will go to two pixels when it gets to 700 pixels*/
+/*We need to change the main section where the scriptures are to add the two columns.*/
+/*fr is a fractional unit and it represents a share of the available space in a grid container. 1rf and 1fr are sharing space where they each have 50%, so 50% and 50% of the space*/
+/*This is what we put first:*/
+/*@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}*/
+/*This shows the change after we added the main grid with 1fr up above:*/
+@media screen and (min-width: 700px) {
+    main {
+        /*This gets taken out when it is stated up above:*/
+        /*display: grid;*/
+        grid-template-columns: 1fr 1fr;
+    }
+    /*We would have enough room now to show all the links in nav, so the hamburger button needs to go away.*/
+    .menu-btn {
+        display: none;
+    }
+    /*This changes the nav menu of home, scriptures, favorites, and about from a block to a line*/
+    nav a {
+        display: inline;
+    }
+    /*this moves them to align to the right side of the page*/
+    /*Okay, so why do we not put nav a here? When I put nav a, it doesn't align it on the right side, why?*/
+    /*text-align aligns content inside the element. Each <a> only contains its own text. If i out nav a { here, it would align each text inside eack link and not the group of links so nothing would move visually. It needs to be just nav because that is the parent containter not the children.*/
+    nav {
+        text-align: right;
+    }
+}
+
+/*We can add more media queries*/
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
