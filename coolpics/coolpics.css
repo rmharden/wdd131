@@ -16,7 +16,6 @@ body {
 /*rem is keeping spacing consistent across the whole page*/
 header,
 footer {
-  border: 1px solid #ccc;
   padding: 1rem;
   background-color: steelblue;
 }
