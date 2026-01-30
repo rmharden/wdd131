@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+
+    background-color: #ccc;
 }
 /*This sets each of the header, main and footer with a max-width where it stops growing at a 1000px*/
 /*The margins are centered with 1rem auto. It gives each side equal portions so it centers it.*/
@@ -128,7 +130,7 @@ footer {
 }
 
 /*We can add more media queries*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1120px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
