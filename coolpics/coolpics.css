@@ -1,4 +1,4 @@
-/*This is importing a font called Roboto that applies to the whole body. All children inherit the font*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
@@ -8,37 +8,24 @@ body {
 
     background-color: #ccc;
 }
-/*This sets each of the header, main and footer with a max-width where it stops growing at a 1000px*/
-/*The margins are centered with 1rem auto. It gives each side equal portions so it centers it.*/
-/*There is a 1px small and hard to see border that is gray*/
-/*Padding is the space inside an element between the content and the border. rem is relative to root html and em is relative to the parent element*/
-/*The body stays white but the background color of light blue is for the header, main and footer*/
-/*rem is keeping spacing consistent across the whole page*/
+
 header,
 footer {
   padding: 1rem;
   background-color: steelblue;
 }
 
-
-/*This is added after the provided code. Not originally here.*/
-/*The video says at about 10:10 minutes that you can put this here to already set it up for a grid. */
 main {
     display: grid;
     grid-template-columns: 1fr;
 }
 
 
-
-/*h1 is centered*/
 h1 {
     text-align: center;
     color: white;
 }
-/*section is a semantic HTML element and is used to group related content on the page. */
-/*For this page, the sections are holding the scriptures.*/
-/*A margin of 1em adds space to the outside of the section, applies to all four sides, and scales naturally if the text size changes. It's used to keep content spaced proportional to text.*/
-/*The background-white makes each section of scripture have a white box behind it*/
+
 section {
     background-color: white;
     border: 1px solid #ccc;
@@ -51,7 +38,6 @@ section {
     box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.15)
 }
 
-/*This is provided. I don't know if it goes here or if there is a better spot*/
 img {
     display: block;
     width: 300px;
@@ -60,8 +46,7 @@ img {
 }
 
 
-/*A nav holds navigational links. display is set to none, so it doesn't show it*/
-/*The nav is in the header in the html*/
+
 nav a {
     padding: 20px;
     color: white;
@@ -73,8 +58,6 @@ nav a:hover {
     text-decoration: none;
     color: #616061;
 }
-/*The menu button has a hand instead of a curser arrow or the default.  */
-/*by default the buttons have a border with a background so we set the border to none and the background to transparent*/
 
 .menu-btn {
     background-color: transparent;
@@ -88,44 +71,26 @@ footer {
 }
  
 
-
-/*Media Query Syntax*/
-/*All media queries need to be at the bottom of the css always.*/
-/*We want this to go to two columns for the tablet. Everthing above this was for mobile and one column*/
-/*This will go to two pixels when it gets to 700 pixels*/
-/*We need to change the main section where the scriptures are to add the two columns.*/
-/*fr is a fractional unit and it represents a share of the available space in a grid container. 1rf and 1fr are sharing space where they each have 50%, so 50% and 50% of the space*/
-/*This is what we put first:*/
-/*@media screen and (min-width: 700px) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}*/
-/*This shows the change after we added the main grid with 1fr up above:*/
 @media screen and (min-width: 744px) {
     main {
         /*This gets taken out when it is stated up above:*/
         /*display: grid;*/
         grid-template-columns: 1fr 1fr;
     }
-    /*We would have enough room now to show all the links in nav, so the hamburger button needs to go away.*/
+
     .menu-btn {
         display: none;
     }
-    /*This changes the nav menu of home, scriptures, favorites, and about from a block to a line*/
+
     nav a {
         display: inline;
     }
-    /*this moves them to align to the right side of the page*/
-    /*Okay, so why do we not put nav a here? When I put nav a, it doesn't align it on the right side, why?*/
-    /*text-align aligns content inside the element. Each <a> only contains its own text. If i out nav a { here, it would align each text inside eack link and not the group of links so nothing would move visually. It needs to be just nav because that is the parent containter not the children.*/
+
     nav {
         text-align: center;
     }
 }
 
-/*We can add more media queries*/
 @media screen and (min-width: 1120px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
