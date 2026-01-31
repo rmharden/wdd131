@@ -8,20 +8,16 @@ body {
 
     background-color: #ccc;
 }
-
 header,
 footer {
   padding: 1rem;
   background-color: steelblue;
 }
-
 main {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
 }
-
-
 h1 {
     text-align: center;
     color: white;
@@ -34,7 +30,6 @@ h1 {
     font-size: 1.5rem;
     font-weight: 500;
 }
-
 section {
     background-color: white;
     border: 1px solid #ccc;
@@ -46,39 +41,30 @@ section {
 
     box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.15)
 }
-
 img {
     display: block;
     width: 300px;
     height: 300px;
     object-fit: cover;
 }
-
-
-
 nav a {
     padding: 20px;
     color: white;
-    /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
     display: none;
 }
-/*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
 nav a:hover {
     text-decoration: none;
     color: #616061;
 }
-
 .menu-btn {
     background-color: transparent;
     border: none;
     color: white;
 }
-
 footer {
     text-align: center;
     color: white;
 }
- 
 
 @media screen and (min-width: 744px) {
     main {
@@ -86,7 +72,6 @@ footer {
     }
 
 }
-
 @media screen and (min-width: 1120px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
