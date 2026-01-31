@@ -81,7 +81,21 @@ nav a:hover {
     height: 4px;
     background-color: black;
     margin: 5px 0;
+    /*when they move, it will prevent a harsh movement with the transition*/
+    transition: .4s;
 }
+/*We don't have a .change in html but we can add it in JavaScript
+its going to move and rotate them and hide one of them*/
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+          
+
 /*This centers the footer at the bottom of the page. Right now it says 'Jane Doe'*/
 footer {
     text-align: center;
