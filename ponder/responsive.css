@@ -54,9 +54,13 @@ nav a {
     /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
     /*This was prior to the Creating a responsive menu video: */
     /*display: none;*/
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-top: 1px solid gray;
 }
 .hide {
-    display: none;
+    /*display: none;*/
 }
 /*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
 nav a:hover {
