@@ -5,7 +5,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-
     background-color: #ccc;
 }
 header,
@@ -23,9 +22,9 @@ h1 {
     color: white;
 }
 .section-title {
-    grid-column: 1 / -1;
+    display: block;
+    width: 100%;
     text-align: center;
-
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 500;
@@ -39,7 +38,13 @@ section {
     padding: 10px;
     box-sizing: content-box;
 
-    box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.15)
+    /*The example has a drop shadow around the sections, here are sites I found to find out how to do it:
+    
+    https://learn.microsoft.com/en-us/power-pages/getting-started/tutorial-add-custom-style
+    
+    https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975625(v=vs.85)
+    */
+    box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)
 }
 img {
     display: block;
