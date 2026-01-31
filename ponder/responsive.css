@@ -60,7 +60,7 @@ nav a {
     border-top: 1px solid gray;
 }
 .hide {
-    /*display: none;*/
+    display: none;
 }
 /*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
 nav a:hover {
