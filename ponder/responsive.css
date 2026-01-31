@@ -54,6 +54,9 @@ nav a {
     /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
     display: none;
 }
+.hide {
+    display: none;
+}
 /*When the nav a is shown, it has a hover effect where the line is removed and the color changes*/
 nav a:hover {
     text-decoration: none;
