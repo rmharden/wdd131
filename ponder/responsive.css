@@ -52,7 +52,7 @@ nav a {
     padding: 20px;
     color: black;
     /*if this is changed to 'display: block;' it will show the navigational options for Home, Scriptures, Favorites, and About*/
-    /*This was prior to the Creating a responsive menu video:*/
+    /*This was prior to the Creating a responsive menu video: */
     /*display: none;*/
 }
 .hide {
