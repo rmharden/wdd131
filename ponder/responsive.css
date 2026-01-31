@@ -87,7 +87,7 @@ nav a:hover {
 /*We don't have a .change in html but we can add it in JavaScript
 its going to move and rotate them and hide one of them*/
 .change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
+  transform: translate(0, 8.5px) rotate(-45deg);
 }
 .change .bar2 {opacity: 0;}
 
