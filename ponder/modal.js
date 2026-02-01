@@ -11,9 +11,13 @@ gallery.addEventListener('click', openModal);
 
 /*The e is an event parameter. */
 function openModal(e) {
-    console.log(e);
+    /*This is not showing me anything in the console*/
+    console.log(e.target);
+
 // Code to show modal  - Use event parameter 'e'   
-    
+    const img = e.target;
+    const src = img.getAttribute('src');
+    const at = img.getAttribute('alt');
 }
 // Close modal on button click (the close button)
 closeButton.addEventListener('click', () => {
