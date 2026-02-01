@@ -18,6 +18,7 @@ function openModal(e) {
     const img = e.target;
     const src = img.getAttribute('src');
     const at = img.getAttribute('alt');
+    const full = src.replace('sm', 'full');
 }
 // Close modal on button click (the close button)
 closeButton.addEventListener('click', () => {
