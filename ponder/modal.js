@@ -6,10 +6,12 @@ const closeButton = modal.querySelector('.close-viewer');
 
 // Event listener for opening the modal
 /*This listens for the user to click inside the gallery. When clicked, openModal function will get called.*/
+/*When we call openModal, it didn't send in a parameter.*/
 gallery.addEventListener('click', openModal);
 
+/*The e is an event parameter. */
 function openModal(e) {
-    
+    console.log(e);
 // Code to show modal  - Use event parameter 'e'   
     
 }
