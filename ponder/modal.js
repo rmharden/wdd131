@@ -23,6 +23,7 @@ function openModal(e) {
     modalImage.src = full;
     modalImage.alt = alt;
 
+    /*You don't have access the rest of the page until you close the image or close the modal out.*/
     modal.showModal();
 }
 // Close modal on button click (the close button)
