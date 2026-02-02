@@ -54,6 +54,10 @@ img {
 nav a {
     padding: 20px;
     color: white;
+    /*display: none;*/
+}
+/*So far, when the browser page is at desktop view */
+.hide {
     display: none;
 }
 nav a:hover {
