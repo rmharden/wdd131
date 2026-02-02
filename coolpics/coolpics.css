@@ -91,14 +91,10 @@ footer {
         display: none;
     }
     header nav {
-        /*text-align: center;*/
-        display: flex;
-        justify-content: center;
-
+        text-align: center;
     }
     header nav a {
-        /*display: inline;*/
-        display: inline-block;
-        padding: 0 1rem;
+        display: inline;
+
     }
 }
