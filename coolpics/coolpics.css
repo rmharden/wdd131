@@ -10,7 +10,7 @@ body {
 header,
 footer {
   padding: 1rem;
-  background-color: steelblue;
+  background-color: #008ae6;
   text-align: center;
 }
 main {
