@@ -44,6 +44,7 @@ section {
     https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975625(v=vs.85)
     */
     /*box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)*/
+}
 .gallery {
     max-width: 1000px;
     margin: 0 auto;
@@ -116,12 +117,14 @@ footer {
     .gallery {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        justify-items: center;
     }    
 
 }
 @media screen and (min-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
     }
         .menu-btn {
         display: none;
