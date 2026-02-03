@@ -21,6 +21,21 @@ h1 {
     text-align: center;
     color: white;
 }
+.gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+figure img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    display: block;
+    margin: 0 auto;
+}
+
 .section-title {
     display: block;
     text-align: center;
@@ -33,7 +48,7 @@ section {
     border: 1px solid #ccc;
     margin: 1em;
 
-    width: 300px;
+    width: 350px;
     padding: 10px;
     box-sizing: content-box;
 
@@ -43,14 +58,14 @@ section {
     
     https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975625(v=vs.85)
     */
-    box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)
+    /*box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)*/
 }
-img {
+/*img {
     display: block;
     width: 300px;
     height: 300px;
     object-fit: cover;
-}
+}*/
 nav a {
     padding: 20px;
     color: white;
@@ -76,13 +91,13 @@ footer {
     color: white;
 }
 
-@media screen and (min-width: 744px) {
+@media screen and (min-width: 700px) {
     main {
         grid-template-columns: 1fr 1fr;
     }
 
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1000px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
