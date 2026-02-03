@@ -136,6 +136,17 @@ footer {
     dialog img {
         width: 60%;
     }
+    .close-viewer {
+        position: absolute;
+        right: 50px;
+    }
+    .viewer {
+        margin: 50px;
+        padding: 50px;
+    }
+    .viewer img {
+        max-width: 800px;
+    }
 }
 
 /*Sites I used for help:
