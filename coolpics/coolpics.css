@@ -67,7 +67,7 @@ dialog img {
 }
 dialog {
     width: 100%;
-    display: block;
+    /*display: block;*/
     margin: 20vh auto;
 }
 .close-viewer {
