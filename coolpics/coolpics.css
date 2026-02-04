@@ -31,7 +31,6 @@ h1 {
     font-weight: 500;
 }
 section {
-    /*background-color: white;*/
     border: 1px solid #ccc;
     margin: 1em;
 
@@ -70,7 +69,6 @@ dialog img {
 dialog {
     margin: 0;
     width: 100%;
-    /*display: block;*/
     margin: 10vh auto;
     background: transparent;
     border: none;
@@ -84,20 +82,13 @@ dialog {
     font-size: 1.5em;
 }
 
-/*img {
-    display: block;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}*/
 nav a {
     padding: 20px;
     color: white;
     display: block;
     text-align: center;
-    /*display: none;*/
 }
-/*So far, when the browser page is at desktop view */
+
 .hide {
     display: none;
 }
@@ -119,8 +110,6 @@ footer {
 }
 
 @media screen and (min-width: 700px) {
-    /*main {
-        grid-template-columns: 1fr 1fr;*/
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
     }    
@@ -161,11 +150,3 @@ footer {
         max-width: 800px;
     }
 }
-
-/*Sites I used for help:
-https://learn.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ee371209(v=expression.40)
-
-https://www.w3schools.com/css/css_important.asp
-
-These sites are where I learned how to use the !important where it overrides the header nav and helps it show instead of hiding it. I couldn't find a better way to do this.
-*/
