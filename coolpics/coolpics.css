@@ -40,6 +40,10 @@ section {
     box-sizing: content-box;
 }
 .gallery {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.gallery-grid {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -117,13 +121,13 @@ footer {
 @media screen and (min-width: 700px) {
     /*main {
         grid-template-columns: 1fr 1fr;*/
-    .gallery {
+    .gallery-grid {
         grid-template-columns: 1fr 1fr;
     }    
 
 }
 @media screen and (min-width: 1000px) {
-    .gallery {
+    .gallery-grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
         .menu {
