@@ -10,7 +10,7 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
 }
-/*Takes the images are not a true square, object-fit: cover allows the image not to distort and crops the images*/
+
 figure img {
     width: 250px;
     height: 250px;
@@ -26,7 +26,6 @@ figure img {
 dialog img {
     width: 90%;
     display: block;
-    /*This is a viewport height measurement*/
     margin: 20vh auto;
 }
 dialog {
@@ -35,7 +34,7 @@ dialog {
     background-color: rgba(0,0,0,.75);
 }
 .close-viewer {
-    /*I don't want this to be in the natural flow of html. I want the x to be outside of the flow. It is adjusts to the parent, if there is no parent, it uses the body. You have to tell it where to be placed.*/
+
     position: absolute;
     top: 10vh;
     right: 2vh;
@@ -69,4 +68,3 @@ dialog {
         max-width: 800px;
     }
 }
-/*This is just a test to see if I can push this commit to the github repository.*/          
