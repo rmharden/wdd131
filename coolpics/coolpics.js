@@ -1,26 +1,20 @@
-const btn = document.querySelector('.menu-btn');
-const menu = document.querySelector('nav');
+/*targets our elements*/
 const gallery = document.querySelector('.gallery');
 const modal = document.querySelector('dialog');
 const modalImage = modal.querySelector('img');
 const closeButton = modal.querySelector('.close-viewer');
 
-btn.addEventListener('click', toggleMenu);
-
-function toggleMenu() {
-    // .hide is a class, but we don't need the . here because we already said it is a class with .classlsit.
-    menu.classList.toggle('hide');
-    // in the video, this was to change Menu into an x. I don't think the assignment needs this.
-    // btn.classList.toggle('change');
-}
-
 // Event listener for opening the modal
+/*This listens for the user to click inside the gallery. When clicked, openModal function will get called.*/
+/*When we call openModal, it didn't send in a parameter.*/
 gallery.addEventListener('click', openModal);
 
+/*The e is an event parameter. */
 function openModal(e) {
-// Code to show modal  - Use event parameter 'e'   
+    /*This is not showing me anything in the console*/
     console.log(e.target);
 
+// Code to show modal  - Use event parameter 'e'   
     const img = e.target;
     const src = img.getAttribute('src');
     const alt = img.getAttribute('alt');
@@ -29,15 +23,15 @@ function openModal(e) {
     modalImage.src = full;
     modalImage.alt = alt;
 
+    /*You don't have access the rest of the page until you close the image or close the modal out.*/
     modal.showModal();
-    
 }
-// Close modal on button click
+// Close modal on button click (the close button)
 closeButton.addEventListener('click', () => {
     modal.close();
 });
 
-// Close modal if clicking outside the image
+// Close modal if clicking outside the image. This closes if they click on the dialog area itself.
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.close();
