@@ -46,6 +46,9 @@ section {
     /*box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)*/
 }
 .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -113,16 +116,13 @@ footer {
     /*main {
         grid-template-columns: 1fr 1fr;*/
     .gallery {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-items: center;
     }    
 
 }
 @media screen and (min-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
     }
         .menu-btn {
         display: none;
