@@ -37,13 +37,7 @@ section {
     padding: 10px;
     box-sizing: content-box;
 
-    /*The example has a drop shadow around the sections, here are sites I found to find out how to do it:
-    
-    https://learn.microsoft.com/en-us/power-pages/getting-started/tutorial-add-custom-style
-    
-    https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ff975625(v=vs.85)
-    */
-    /*box-shadow: 8px 4px 15px rgba(0, 0, 0, 0.35)*/
+
 }
 .gallery {
     display: grid;
