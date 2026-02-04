@@ -1,60 +1,48 @@
+/*https://jigsaw.w3.org/css-validator/*/
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-color: #ccc;
 }
 header,
-main,
 footer {
-  max-width: 1000px;
-  margin: 1rem auto;
-  border: 1px solid #ccc;
   padding: 1rem;
-  background-color: lightblue;
+  background-color: #008ae6;
+  text-align: center;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 h1 {
     text-align: center;
+    color: white;
+}
+.section-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 section {
-  padding: 20px;
-  background-color: white;
-  margin: 1em;
-  border: 1px solid #ccc;
-}
+    /*background-color: white;*/
+    border: 1px solid #ccc;
+    margin: 1em;
 
-p {
-    text-align: center;
-    color: white;
-}
-
-.menu-btn {
-    cursor: pointer;
-    border: none;
-    background-color: transparent;
-    display: center;
-}
-
-nav a {
-    align-items: center;
-    padding: 20px;
-    color: white;
-    display: none;
-}
-nav a:hover {
-    text-decoration: none;
-    color: #616061;
-}
-footer {
-    text-align: center;
-}
-h1 {
-    text-align: center;
-    margin: 35px 0;
+    /*width: 350px;*/
+    padding: 10px;
+    box-sizing: content-box;
 }
 .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -68,17 +56,21 @@ figure img {
     display: block;
     margin: 0 auto;
 }
-/* modal */
-
+/* modal */ 
 dialog img {
     width: 90%;
+    max-width: 100%;
     display: block;
-    margin: 20vh auto;
+    margin: 10vh auto;
 }
 dialog {
+    margin: 0;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.75);
+    /*display: block;*/
+    margin: 10vh auto;
+    background: transparent;
+    border: none;
+    padding: 0;
 }
 .close-viewer {
     position: absolute;
@@ -88,23 +80,71 @@ dialog {
     font-size: 1.5em;
 }
 
+/*img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}*/
+nav a {
+    padding: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    /*display: none;*/
+}
+/*So far, when the browser page is at desktop view */
+.hide {
+    display: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+.menu {
+    color: white;
+}
+.menu-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+footer {
+    text-align: center;
+    color: white;
+}
+
 @media screen and (min-width: 700px) {
+    /*main {
+        grid-template-columns: 1fr 1fr;*/
     .gallery {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-    }
+    }    
+
 }
 @media screen and (min-width: 1000px) {
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
+        .menu {
+            display: none;
+        }
+        .menu-btn {
+        display: none;
+    }
+    nav {
+        text-align: center;
+        display: block !important;
+    }
+    nav a {
+        display: inline;      
+    }
     dialog img {
         width: 60%;
-        margin: 15vh auto;
     }
     .close-viewer {
         position: absolute;
-        right: 15vh;
+        right: 50px;
     }
     .viewer {
         margin: 50px;
@@ -114,3 +154,15 @@ dialog {
         max-width: 800px;
     }
 }
+
+/*Sites I used for help:
+https://learn.microsoft.com/en-us/previous-versions/visualstudio/design-tools/expression-studio-4/ee371209(v=expression.40)
+
+https://www.w3schools.com/css/css_important.asp
+
+These sites are where I learned how to use the !important where it overrides the header nav and helps it show instead of hiding it. I couldn't find a better way to do this.
+*/
+
+/*This is a test to see if I can push this commit.*/
+/*I pushed the "delete directory" button in GitHub for my coolpics folder. I am not sure what that did, but after, I was able to push commits and the website is showing updated now.*/
+
