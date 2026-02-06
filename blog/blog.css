@@ -47,6 +47,9 @@ header, footer {
     border-radius: 8px;
     margin: 0 auto;
 }
+.release-date {
+    font-style: italic;
+}
 #desc {
     grid-column: 1/3;
 }
