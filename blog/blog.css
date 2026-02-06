@@ -6,8 +6,8 @@ body {
     line-height: 1.6;
 }
 header, footer {
-    background-color: #222;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1rem;
     text-align: center;
 }
@@ -19,14 +19,14 @@ header, footer {
     padding: 8px;
 }
 .main-nav a {
-    color: #ffc107;
+    color: #b30059;
     text-decoration: none;
 }
 #movie-list {
     padding: 0 2rem;
 }
 .movie {
-    border: 2px solid #ccc;
+    border: 2px solid #ffc107;
     padding: 1rem;
     border-radius: 10px;
     max-width: 700px;
