@@ -30,6 +30,7 @@ function listTemplate(item) {
 
 myList.innerHTML = stepsHtml.join('');
 
+// case sensitive
 let grades = ['A', 'B', 'C'];
 let points;
 
