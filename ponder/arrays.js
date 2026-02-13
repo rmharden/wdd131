@@ -24,7 +24,34 @@ const stepsHtml = steps.map(listTemplate);
 // li element is list with a li tag
 // we could put it in the html with <li> but we want it to be "dynamic" through JavaScript
 function listTemplate(item) {
-    return `<li>${item}</li>`; //'<li>'+item+'</li>
+    // called a template literal
+    return `<li>${item}</li>`; //'<li>'+item+'</li> 
 };
 
 myList.innerHTML = stepsHtml.join('');
+
+let grades = ['A', 'B', 'C'];
+let points;
+
+function convert(grade) {
+        switch (grade){
+            case 'A':
+                points = 4;
+                break;
+            case 'B':
+                points = 3;
+                break;
+            case 'C':
+                points = 2;
+                break;
+            case 'D':
+                points = 1;
+                break;
+            case 'F':
+                points = 0;
+                break;
+            default:
+                alert('not a valid grade');
+        }
+    return points;
+}
