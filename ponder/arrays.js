@@ -88,3 +88,11 @@ const luckyNumber = 21;
 let luckyIndex = myArray.indexOf(luckyNumber);
 console.log(luckyIndex);
 
+// dynamic content
+let container = document.querySelector('#studentContainer');
+
+const students = [
+    {last: 'Andrus', first: 'Aaron'},
+    {last: 'Masa', first:  'Manny'},
+    {last: 'Tanda', first: 'Tamanda'}
+];
