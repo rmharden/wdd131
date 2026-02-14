@@ -31,7 +31,7 @@ function listTemplate(item) {
 myList.innerHTML = stepsHtml.join('');
 
 // case sensitive
-let grades = ['A', 'B', 'C'];
+let grades = ['A', 'A', 'A'];
 let points;
 
 let gpaPoints = grades.map(convert);
@@ -60,3 +60,25 @@ function convert(grade) {
 }
 
 console.log(gpaPoints);
+
+// .reduce
+
+let totalPoints = gpaPoints.reduce(getTotal);
+
+function getTotal(total, item){
+    return total + item;
+}
+console.log(totalPoints);
+
+let gpaAverage = totalPoints/gpaPoints.length;
+console.log(gpaAverage);
+
+// .filter
+
+const words = ['watermelon', 'peach', 'apple', 'tomato', 'grape'];
+
+const shortWords = words.filter(function(word){
+    return word.length < 6;
+})
+console.log(shortWords);
+ 
