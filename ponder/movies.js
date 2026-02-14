@@ -42,9 +42,9 @@ const movies = [
       }
     ];
 
+    const movieList = document.querySelector('#movie-list');
     movies.forEach(movie => {
 
-        const movieList = document.querySelector('#movie-list');
         let html = `<article class="movie">
             <h2>${movie.title}</h2>
             <img src=${movie.imgSrc} alt=${movie.imgAlt}>
