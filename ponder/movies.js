@@ -54,6 +54,6 @@ const movies = [
             <p><strong>Rating:</strong> <span aria-label="${movie.stars.length} out of 5 stars" role="img">${movie.stars}</span></p>
             <p id='desc'>${movie.description}</p>
         </article>`
-movieList.innerHTML = html;
+movieList.innerHTML += html;
     
     });
