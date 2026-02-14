@@ -50,9 +50,9 @@ const movies = [
             <img src=${movie.imgSrc} alt=${movie.imgAlt}>
             <p><strong>Release Date:</strong> ${movie.date}</p>
             <p><strong>Recommended Age:</strong> ${movie.ages}</p>
-            <p><strong>Genre:</strong> Action/Adventure</p>
-            <p><strong>Rating:</strong> <span aria-label="5 out of 5 stars" role="img">⭐⭐⭐⭐⭐</span></p>
-            <p id='desc'>Miles Morales becomes the Spider-Man of his reality and crosses paths with others from the multiverse.</p>
+            <p><strong>Genre:</strong> ${movie.genre}</p>
+            <p><strong>Rating:</strong> <span aria-label="${movie.stars.length} out of 5 stars" role="img">${movies.stars}</span></p>
+            <p id='desc'>${movies.description}</p>
         </article>`
 movieList.innerHTML = html;
     
