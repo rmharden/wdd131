@@ -13,7 +13,7 @@
     <header><h1>Checkout</h1></header>
     <main>
       <section class="errors"></section>
-    <!--tutorial said that action doesn't go anywhere and to put a placeholder.-->
+    <!--tutorial said that action doesn't go anywhere and to put a placeholder. Some with method-->
       <form id="checkoutForm" action="#" method="get">
         <label for="fullName">Full Name:</label>
         <input type="text" id="fullName" name="fullName" required>
@@ -22,6 +22,7 @@
         <label for="address">Address:</label>
         <textarea id="address" name="address" rows="4" required></textarea>
         <label for="paymentMethod">Payment Method:</label>
+        <!--The aria will be complete in javascript because it needs to tell the user if the drop down menu is expanded-->
         <select id="paymentMethod" name="paymentMethod" required aria-expanded="false" aria-controls="creditCardnumberContainer paypalUsernameContainer">
             <option value="">Select Payment Method</option>
             <option value="creditCard">Credit Card</option>
