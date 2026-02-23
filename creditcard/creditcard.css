@@ -78,3 +78,9 @@
     border: 1px solid #999;
     letter-spacing: 0.80px;
 }
+.card-holder-container {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    right: 60px;
+}
