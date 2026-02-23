@@ -19,13 +19,13 @@
     /*position: relative;*/
     z-index: 1;
 }
-.card-front {
+/*.card-front {
     grid-column: 1 / 5;
     grid-row: 1 / 4;
     background: lightgray;
     border-radius: 10px;
     z-index: 3;
-}
+}*/
 .black-strip {
     grid-column: 2 / 6;
     grid-row: 2 / 3;
