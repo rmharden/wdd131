@@ -84,3 +84,18 @@
     left: 20px;
     right: 60px;
 }
+.card-holder-container label {
+    display: block;
+    font-size: 1rem;
+    margin-top: 5px;    
+    letter-spacing: 0.25px;    
+}
+.credit-holder-container input {
+    width: 100%;
+    padding: 8px 2px;
+    font-size: .75rem;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    letter-spacing: 0.80px;
+}
