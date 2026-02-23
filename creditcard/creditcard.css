@@ -50,3 +50,8 @@
     top: 20px;
     right: 20px;
 }
+.total {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
