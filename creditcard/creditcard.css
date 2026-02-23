@@ -55,9 +55,16 @@
     top: 30px;
     left: 20px;
 }
-.label {
+.credit-card-container {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    right: 20px;
+}
+.credit-card-container label {
     display: block;
-    margin-top: 8px;
+    font-size: 0.8rem;
+    margin-top: 5px;
 }
 input,
 select,
