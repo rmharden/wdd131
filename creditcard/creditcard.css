@@ -41,4 +41,12 @@
     grid-row: 1 / 4;
     background: lightgray;
     z-index: 2;
+    /*Adding this but it wasn't there before*/
+    position: relative;
+}
+.card-emoji {
+   font-size: xx-large;
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
