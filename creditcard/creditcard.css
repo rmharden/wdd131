@@ -54,26 +54,27 @@
     position: absolute;
     top: 30px;
     left: 20px;
+    font-size: 1rem;
+    letter-spacing: 0.5px
 }
 .credit-card-container {
     position: absolute;
     top: 60px;
     left: 20px;
-    right: 20px;
+    right: 60px;
 }
 .credit-card-container label {
     display: block;
-    font-size: 0.8rem;
-    margin-top: 5px;
-    color: #333;
-    letter-spacing: 0.5px;
+    font-size: 1rem;
+    margin-top: 5px;    
+    letter-spacing: 0.25px;
 }
 .credit-card-container input {
     width: 100%;
-    padding: 8px 10px;
-    font-size: 1rem;
-    border-radius: 8px;
+    padding: 8px 2px;
+    font-size: .75rem;
+    border-radius: 3px;
     box-sizing: border-box;
     border: 1px solid #999;
-    border-radius: 8px;
+    letter-spacing: 0.80px;
 }
