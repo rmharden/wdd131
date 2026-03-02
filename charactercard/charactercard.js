@@ -1,8 +1,8 @@
 const character = {
     name: "Snortleblat",
     class: "Swamp Beast Diplomat",
-    level: 0,
-    health: 0,
+    level: 8,
+    health: 100,
     attacked() {},
     levelUp() {}
 }
