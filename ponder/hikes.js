@@ -77,3 +77,38 @@ let button = document.querySelector('button');
 
 let randomNum = Math.floor(Math.random()* hikes.length);
 console.log(randomNum);
+
+function difficultyTemplate(rating) {
+		let html = `<span
+	class="rating"
+	role="img"
+	aria-label="Rating: ${rating} out of 5"
+>  Difficulty: `
+    for (let i = 1; i <= 5; i++) {
+      if (i <= rating) {
+        html += `<span aria-hidden="true" class="icon-boot"> 🥾</span>`
+      } else {
+        html += `<span aria-hidden="true" class="icon-empty">▫️</span>`
+      }			
+    }
+    html += `</span>`
+    return html
+  }
+
+function hikesTemplate(hike) {
+    return `<div class="hike-card">
+  <div class="hike-content">
+    <h2>${hike.name}</h2>
+    <div class="hike-tags">
+      ${tagTemplate(hike.tags)}
+    </div>
+    <p>${hike.description}</p>
+    <p>${difficultyTemplate(hike.difficulty)}</p>
+  </div>
+</div>`
+}
+
+function renderHike(hike) {
+    let html = hikesTemplate(hike);
+    hikeContainer.innerHTML += html
+}
