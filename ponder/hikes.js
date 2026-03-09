@@ -75,3 +75,5 @@ const hikes = [
 let hikeContainer = document.querySelector('#hike-container');
 let button = document.querySelector('button');
 
+let randomNum = Math.floor(Math.random()* hikes.length);
+console.log(randomNum);
