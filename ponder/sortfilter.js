@@ -11,4 +11,9 @@ function compareFn(a,b) {
   }
  return 0;
 }
+
+const simpleList = ["oranges", "grapes", "lemons", "apples", "Bananas", "watermelons", "coconuts", "broccoli", "mango"];
                 
+let simpleSort = simpleList.sort();
+
+console.log(simpleSort);
