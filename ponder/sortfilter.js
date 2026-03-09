@@ -25,7 +25,7 @@ let lowerList =simpleList.map(function(fruit) {
 let lowerSort = lowerList.sort();
 console.log(lowerSort);
 
-let searchTerm = 'an';
+let searchTerm = 'b';
 
 let filterFruit = lowerSort.filter(searchFruit);
 
