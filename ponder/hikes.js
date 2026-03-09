@@ -86,9 +86,21 @@ function search() {
             hike.description.toLowerCase().includes(hikeQuery.toLowerCase()) ||
             hike.tags.find(tag => tag.toLowerCase().includes(hikeQuery.toLowerCase()))
         );
-    })
+    }) 
 
     console.log(filterHikes);
+
+    let sortedHikes = filterHikes.sort(compareHikes)
+
+    function compareHikes(a,b) {
+    if (a.difficulty < b.difficulty) {
+        return -1;
+    } else if (a.difficulty > b.difficulty) {
+        return 1;
+    }
+    return 0;
+    }
+
 }
 
 let randomNum = Math.floor(Math.random()* hikes.length);
