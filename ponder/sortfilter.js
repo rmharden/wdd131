@@ -90,7 +90,7 @@ function searchList(item) {
 
 console.log(filteredList);
 
-let queryTrait = 'cuddly';
+let queryTrait = 'strong';
 
 let filteredTraits = animals.filter(searchTraits);
 
