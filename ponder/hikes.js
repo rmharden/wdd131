@@ -112,3 +112,9 @@ function renderHike(hike) {
     let html = hikesTemplate(hike);
     hikeContainer.innerHTML += html
 }
+
+function init() {
+    renderHike(hikes[randomNum]);
+}
+
+init();
