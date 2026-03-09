@@ -29,9 +29,9 @@ console.log(filterFruit);
 
 
  function compareFn(a,b) {
-  if (a.price < b.price) {
+  if (a.productName < b.productName) {
     return -1;
-  } else if (a.price > b.price) {
+  } else if (a.productName > b.productName) {
     return 1;
   }
  return 0;
