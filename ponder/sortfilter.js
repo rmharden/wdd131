@@ -80,10 +80,12 @@ const animals = [
   }
 ];
 
-let query = 'dog';
+let query = 'ox';
 
 let filteredList = animals.filter(searchList);
 
 function searchList(item) {
     return item.name.toLowerCase().includes(query.toLowerCase())
 }
+
+console.log(filteredList);
