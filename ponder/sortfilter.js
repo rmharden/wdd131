@@ -55,3 +55,35 @@ const products = [
 let productSort = products.sort(compareFn);
 
 console.log(productSort);
+
+
+const animals = [
+  {
+    name: "Lion",
+    traits: ["brave", "strong", "fierce", "wild"]
+  },
+  {
+    name: "Elephant",
+    traits: ["large", "gentle", "smart", "wild"]
+  },
+  {
+    name: "Fox",
+    traits: ["sly", "quick", "clever", "wild"]
+  },
+  {
+    name: "Dog",
+    traits: ["loyal", "friendly", "playful", "cuddly"]
+  },
+  {
+    name: "Cat",
+    traits: ["quiet", "independent", "curious", "cuddly"]
+  }
+];
+
+let query = 'dog';
+
+let filteredList = animals.filter(searchList);
+
+function searchList(item) {
+    return item.name.toLowerCase().includes(query.toLowerCase())
+}
