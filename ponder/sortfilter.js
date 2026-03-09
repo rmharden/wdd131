@@ -89,3 +89,13 @@ function searchList(item) {
 }
 
 console.log(filteredList);
+
+let queryTrait = 'wild';
+
+let filteredTraits = animals.filter(searchTraits);
+
+function searchTraits(item) {
+    return item.traits.find((trait) => trait.toLowerCase().includes(queryTtrait.toLowerCase()));
+}
+
+console.log(filteredTraits);
