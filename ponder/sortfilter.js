@@ -2,6 +2,8 @@ nums = [12, 10, 8, 3];
 
 console.log(nums.sort(compareFn));
 
+
+
 const simpleList = ["oranges", "grapes", "lemons", "apples", "Bananas", "watermelons", "coconuts", "broccoli", "mango"];
                 
 let simpleSort = simpleList.sort();
@@ -24,7 +26,8 @@ function searchFruit(item){
 }
 
 console.log(filterFruit);
-//sorting properties into an object array
+
+
  function compareFn(a,b) {
   if (a < b) {
     return -1;
@@ -33,3 +36,22 @@ console.log(filterFruit);
   }
  return 0;
 }
+
+const products = [
+  {
+    productName: "Wireless Mouse",
+    price: 29.99
+  },
+  {
+    productName: "Bluetooth Keyboard",
+    price: 49.99
+  },
+  {
+    productName: "Laptop Stand",
+    price: 39.99
+  }
+];
+
+let productSort = products.sort(compareFn);
+
+console.log(compareFn)
