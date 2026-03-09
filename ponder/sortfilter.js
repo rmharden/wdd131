@@ -54,4 +54,4 @@ const products = [
 
 let productSort = products.sort(compareFn);
 
-console.log(compareFn)
+console.log(productSort);
