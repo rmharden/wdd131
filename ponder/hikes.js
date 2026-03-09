@@ -71,4 +71,9 @@ const hikes = [
     trailhead: [43.78555, -111.98996]
   }
 ];
-                
+
+let hikeContainer = document.querySelector('#hike-container');
+let button = document.querySelector('button');
+
+let randomNum = Math.floor(Math.random()* hikes.length);
+console.log(randomNum);
