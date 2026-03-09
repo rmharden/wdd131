@@ -25,3 +25,12 @@ let lowerList =simpleList.map(function(fruit) {
 let lowerSort = lowerList.sort();
 console.log(lowerSort);
 
+let searchTerm = 'an';
+
+let filterFruit = lowerSort.filter(searchFruit);
+
+function searchFruit(item){
+    return item.includes(searchTerm);
+}
+
+console.log(filterFruit);
