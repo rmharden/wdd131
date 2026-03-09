@@ -87,6 +87,8 @@ function search() {
             hike.tags.find(tag => tag.toLowerCase().includes(hikeQuery.toLowerCase()))
         );
     })
+
+    console.log(filterHikes);
 }
 
 let randomNum = Math.floor(Math.random()* hikes.length);
