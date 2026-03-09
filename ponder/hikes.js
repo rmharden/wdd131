@@ -101,6 +101,11 @@ function search() {
     return 0;
     }
 
+    hikeContainer.innerHTML = '';
+    sortedHikes.forEach(function(hike) {
+        renderHike(hike);
+    })
+
 }
 
 let randomNum = Math.floor(Math.random()* hikes.length);
