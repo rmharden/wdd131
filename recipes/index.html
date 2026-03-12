@@ -14,6 +14,8 @@
 
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" defer href="recipes.css">
+    <script src="recipes.js" defer></script>
+
     <title>Recipebook</title>
 </head>
 <body>
@@ -23,9 +25,15 @@
     </header>
     <main>
         <nav>
-            <form>
-                <div class="recipe-search"></div>
-                <label for="recipe-search">Find a recipe</label>
+            <section class="errors"></section>
+        <!--tutorial said that action doesn't go anywhere and to put a placeholder. Some with method-->
+            <form id="checkoutForm" action="#" method="get">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Find a recipe" required>
+                </select>
+                </p>
+
+                <button type="submit">Place Order</button>
             </form>
         </nav>
     </main>
