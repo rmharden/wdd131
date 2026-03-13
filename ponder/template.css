@@ -47,10 +47,19 @@ header p {
 }
 
 nav ul {
-    list-style: none; /* This took the bulleted points off. Not sure why they were there to begin with. need to find out why */
+    list-style: none; /*ul is bulleted. nav links are in ul, so you have to take the bullets off*/
     display: flex;
     flex-direction: column; /* mobile-first: stacked links */
     gap: 10px;
     justify-content: center;
     align-items: center;
 }
+
+nav a {
+    text-decoration: none;
+    /*I don't like the background color. It looks bad. But I'll see how it ends up and then change it.*/
+    background-color: #0077cc;
+    color: #fff;
+    outline: none;
+}
+
