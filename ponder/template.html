@@ -13,7 +13,7 @@
 <meta property="og:url" content="rmharden.github.io/wdd131/template.html">
 
 <link rel="stylesheet" href="template.css">
-<link rel="icon" href="template-favicon.png">
+<link rel="icon" type="image/png" href="template-favicon.png">
 <!--To make favicons go to the link below:-->
 <!--pixlr.com/editor-->
 
@@ -22,12 +22,27 @@
 
 </head>
 <body>
+    <!-- this is recommended from ChatGPT. I don't know if we use it in our class. I couldn't find it in the provided curriculum. ChatGPT says that this is common for accessibility for keyboard users and screen readers.-->
+     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header>
         <h1>WDD 131 | Template</h1>
         <p>This is a basic template for my BYU-Idaho WDD 131: Dynamic Web Fundamentals Course</p>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <!--
+                "#" is a placeholder. If I want this to actually work, it would look something like:
+                <li><a href="home.html">Home</a></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                -->
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Assignments</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
     </header> 
     
-    <main>
+    <main id="main-content">
         <section>
             <h2>Section Title</h2>
             <p>Content goes here.</p>
@@ -35,7 +50,7 @@
     </main>
 
     <footer>
-        <p>Footer Text</p>
+        <p>&copy; 2026 Rebekah Harden</p>
     </footer>
 </body>
 </html>
