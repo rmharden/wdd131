@@ -63,3 +63,9 @@ nav a {
     outline: none;
 }
 
+nav a:hover,
+nav a:focus {
+    background-color: #0077cc;
+    color: #fff;
+    outline: none;
+}
