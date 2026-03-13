@@ -14,4 +14,13 @@ body {
     background-color: #fff;
 }
 
-
+/*I learned how to do this through ChatGPT. I don't know if it's in our lessons.*/
+.skip-link {
+    position: absolute;
+    top: -40px; /* hidden offscreen */
+    left: 0;
+    /*Why these colors? Is there a reason for accessibility?*/
+    background: #000;
+    color: #fff;
+    
+}
