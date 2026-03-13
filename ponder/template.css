@@ -69,3 +69,16 @@ nav a:focus {
     color: #fff;
     outline: none;
 }
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
