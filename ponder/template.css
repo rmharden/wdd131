@@ -17,7 +17,7 @@ body {
 /*I learned how to do this through ChatGPT. I don't know if it's in our lessons.*/
 .skip-link {
     position: absolute;
-    top: 40px; /* hidden offscreen */
+    top: -40px; /* hidden offscreen */
     left: 0;
     /*Why these colors? Is there a reason for accessibility?*/
     background: #000;
@@ -29,4 +29,14 @@ body {
 /* This is also learned from ChatGPT*/
 .skip-link:focus {
     top:0; /* visible when focused */
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    font-size: 1.rem;
+    margin-bottom: 10px;
 }
