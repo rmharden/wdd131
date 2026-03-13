@@ -45,3 +45,12 @@ header p {
     color: #555;
     margin-bottom: 15px;
 }
+
+nav ul {
+    list-style: none; /* This took the bulleted points off. Not sure why they were there to begin with. need to find out why */
+    display: flex;
+    flex-direction: column; /* mobile-first: stacked links */
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
