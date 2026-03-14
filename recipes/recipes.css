@@ -55,17 +55,19 @@ footer {
     color: rgb(29, 147, 206);
     font-size: 2rem;
     font-family: "Amatic SC", sans-serif;
-    text-align: left;
-    margin: 20px;
+    margin: 5px;
 }
 .recipe p {
-    padding-left: 20px;
-}
+    margin: 5px;
+  }
 .recipe img {
     max-width: 100%;
     display: block;
     border-radius: 8px;
     margin: 0 auto;
+}
+.recipe .rating {
+  margin: 5px;
 }
 
 @media (min-width: 600px) {
