@@ -29,11 +29,13 @@ header img {
 }
 
 footer {
-    background-color: white;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 footer img {
   max-width: 30px;
@@ -75,6 +77,7 @@ footer img {
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-content: center;
+      gap: .5rem;
     }
     .recipe img {
       grid-row: 1/7;
