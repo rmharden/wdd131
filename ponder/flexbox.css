@@ -57,6 +57,7 @@ margin-top: 50px;
     .media-card-image {
         flex: 0 1 250px;
     }
+    /*ch is characters as a measurement*/
     .media-card-content {
         flex: 0 1 60ch;
     }
