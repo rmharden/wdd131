@@ -27,10 +27,6 @@ flex-direction: column;
     gap: 1em;
 }
 
-hr{
-margin-top: 50px;
-}
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -38,6 +34,9 @@ margin-top: 50px;
     justify-content: center;
 }
 
+hr{
+margin-top: 50px;
+} 
   
 @media screen and (min-width: 550px) {
     .main-nav {
