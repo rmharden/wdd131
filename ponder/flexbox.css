@@ -34,7 +34,7 @@ flex-direction: column;
     justify-content: center;
 }
 .gallery > *  {
-    flex: 1 1 460px;
+    flex: 1 1 260px;
 }
 hr{
 margin-top: 50px;
