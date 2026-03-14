@@ -29,21 +29,18 @@ header img {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   padding: 10px 20px;
-  background-color: white;
-  color: black;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  box-sizing: border-box;
 }
-footer img {
-  max-width: 60px;
+
+.social img {
+  width: 30px;
   height: auto;
-}
-.social {
-  display: flex;
-  gap: 10px;
+  display: inline-block;
 }
 
 #recipe-list {
