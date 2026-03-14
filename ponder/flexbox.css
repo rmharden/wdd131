@@ -36,6 +36,11 @@ flex-direction: column;
 .gallery > *  {
     flex: 1 1 260px;
 }
+/*This makes it not fluid. Helpful if you want the cards to always be an exact set size.*/
+/*.media-card {
+    max-width: 460px;
+}*/
+
 hr{
 margin-top: 50px;
 } 
