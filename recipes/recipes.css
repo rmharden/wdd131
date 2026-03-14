@@ -80,6 +80,8 @@ footer img {
       grid-row: 1/7;
       grid-column: 1/2;
     }
+}
+@media (max-width: 599px) {
     #desc {
       display: none;
     }
