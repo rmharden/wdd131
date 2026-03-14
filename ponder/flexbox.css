@@ -33,6 +33,7 @@ flex-direction: column;
     gap: 1em;
     justify-content: center;
 }
+/*Try this one with the assingment*/
 .gallery > *  {
     flex: 1 1 260px;
 }
