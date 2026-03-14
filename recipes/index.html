@@ -2,29 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Recipe Book with Recipe cards and a search to find recipes.">
+    <meta name="author" content="Rebekah Harden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RecipeBook</title>
+    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Recipe Book">
+    <meta property="og:description" content="Recipe Book with Recipe cards and a search to find recipes.">
+    <meta property="og:url" content="rmharden.github.io/wdd131/recipes/index.html">
+
+    <link rel="icon" href="images/recipe-book.png">
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="recipes.css" rel="stylesheet">
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-</style>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+    </style>
 </head>
 <body>
     <header>
-        <img src="images/recipe-book.png" alt="A a closed black and white book with a chef's hat on the cover. It has two recipe cards sticking out of the side on the right.">
+        <img src="images/recipe-book.png" alt="A a closed black and white recipe book with a chef's hat on the cover. It has two recipe cards sticking out of the side on the right.">
         <h1>RecipeBook</h1>
     </header>
     <main id="main-content" role="main">
-    <section id="movie-list" aria-label="Movie Reviews">
-        <article class="movie">
-            <h2>Spider-Man: Into the Spider-Verse</h2>
-            <img src="https://wddbyui.github.io/wdd131/images/spiderman.png" alt="Miles Morales swinging through the city">
-            <p><strong>Release Date:</strong> Dec 14, 2018</p>
-            <p><strong>Recommended Age:</strong> 10+</p>
-            <p><strong>Genre:</strong> Action/Adventure</p>
-            <p><strong>Rating:</strong> <span aria-label="5 out of 5 stars" role="img">⭐⭐⭐⭐⭐</span></p>
-            <p id='desc'>Miles Morales becomes the Spider-Man of his reality and crosses paths with others from the multiverse.</p>
+    <section id="recipe-card"" aria-label="recipe card">
+        <article class="recipe">
+            <h2>Apple Crisp</h2>
+            <img src="images/apple-crisp.jpg" alt="Two bowls of apple crisp and vanilla ice cream next to two silver spoons on a table.">
+
+            <span
+            class="rating"
+            role="img"
+            aria-label="Rating: 4 out of 5 stars"
+            >
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+            </span>
+                
+            <p id='desc'>This apple crisp recipe is a simple yet delicious fall dessert that's great serviced warm with vanilla ice cream.</p>
         </article>
     </section>
     </main>
