@@ -26,6 +26,14 @@ flex-direction: column;
     flex-direction: column;
     gap: 1em;
 }
+
+.gallery {
+    display: flex;
+    flex: wrap;
+    gap: 1em;
+    justify-content: center;
+}
+
 hr{
 margin-top: 50px;
 }
