@@ -60,6 +60,14 @@ footer {
   margin: 5px;
 }
 
+/*@media (min-width: 600px)  {
+  .body {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+  }
+}*/
+
 @media (min-width: 600px) {
     .recipe {
       display: grid;
