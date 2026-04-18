@@ -33,3 +33,8 @@ img {
 div {
     text-align: center;
 }
+footer {
+    background-color: steelblue;
+    color: white;
+    font-size: x-small;
+}
