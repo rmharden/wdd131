@@ -1,6 +1,3 @@
-body {
-
-}
 #content {
     max-width: 60%;
     border: 1px solid darkblue;
@@ -36,7 +33,7 @@ p {
 img {
     width: 20%;
     margin: 50px auto;
-
+    display: block;
 }
 .list {
     list-style-type: number;
