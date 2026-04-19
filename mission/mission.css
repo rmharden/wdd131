@@ -25,6 +25,9 @@ hr {
 #italic-text {
     font-style: italic;
 }
+p {
+    line-height: 1.5em;
+}
 img {
     width: 20%;
     display: block;
