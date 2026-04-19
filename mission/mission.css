@@ -19,11 +19,12 @@ h2 {
     color: steelblue;
     font-size: smaller;
     font-weight: lighter;
-    margin-top: 0;
+    margin-bottom: 5px;
 }
 hr {
     width: 90%;
     margin: 0 auto 20px;
+    margin-top: 5px;
 }
 #italic-text {
     font-style: italic;
