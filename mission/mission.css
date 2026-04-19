@@ -4,6 +4,9 @@
     margin: 40px auto;
     padding: 50px;
 }
+h1, h2 {
+    text-align: center;
+}
 img {
     width: 10%;
     display: block;
