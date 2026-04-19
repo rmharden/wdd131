@@ -18,5 +18,11 @@ hr {
     width: 80%;
 }
 h1, h2, p {
-
+    text-align: center;
+}
+#logos {
+    text-align: center;
+}
+img {
+    width: 50%;
 }
