@@ -31,3 +31,10 @@ img {
     display: block;
     margin: 0 auto;
 }
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+.list {
+    list-style-type: none;
+}
