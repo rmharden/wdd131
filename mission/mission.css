@@ -44,3 +44,7 @@ img {
 .list li {
     margin-bottom: 12px;
 }
+p, .list {
+    width: 80%;
+    margin: 30px auto;
+}
