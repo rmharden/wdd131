@@ -30,6 +30,7 @@ p {
     margin-top: 30px;
     line-height: 1.5em;
     width: 80%;
+    margin: 30px auto;
 }
 img {
     width: 20%;
@@ -39,12 +40,9 @@ img {
 .list {
     list-style-type: decimal;
     line-height: 1.6em;
-    width: 80%;
+    width: 75%;
+    margin: 30px auto;
 }
 .list li {
     margin-bottom: 12px;
-}
-p, .list {
-    width: 80%;
-    margin: 30px auto;
 }
