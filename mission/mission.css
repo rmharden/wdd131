@@ -25,6 +25,9 @@ h2 {
 hr {
     width: 80%;
 }
+#italic-text {
+    font-style: italic;
+}
 img {
     width: 20%;
     display: block;
