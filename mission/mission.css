@@ -6,35 +6,37 @@
 }
 h1, h2 {
     text-align: center;
-    line-height: 1.6; 
+    line-height: 1.5em; 
     text-transform: uppercase;
 }
 h1 {
     letter-spacing: 6px;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 h2 {
     letter-spacing: 3px;
     color: steelblue;
     font-size: smaller;
     font-weight: lighter;
+    margin-top: 0;
 }
 hr {
     width: 90%;
-
+    margin: 0 auto 20px;
 }
 #italic-text {
     font-style: italic;
+    margin-top: 30px;
 }
 p {
-    margin-top: 30px;
     line-height: 1.5em;
     width: 80%;
     margin: 30px auto;
 }
 img {
     width: 20%;
-    margin: 50px auto;
+    margin: 50px auto 2px;
     display: block;
 }
 .list {
@@ -44,5 +46,5 @@ img {
     margin: 30px auto;
 }
 .list li {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
