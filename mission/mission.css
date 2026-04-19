@@ -9,11 +9,14 @@ body {
 }
 h1, h2 {
     text-align: center;
-    letter-spacing: 6.5px;
     line-height: 1.6;
     font-weight: lighter;
 }
+h1 {
+    letter-spacing: 6px;
+}
 h2 {
+    letter-spacing: 4px;
     margin-top: 0px;
     color: steelblue;
     font-size: smaller;
