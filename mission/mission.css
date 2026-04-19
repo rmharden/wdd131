@@ -33,3 +33,6 @@ img {
     display: block;
     margin: 50px auto;
 }
+.list {
+    list-style-type: number;
+}
