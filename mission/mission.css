@@ -1,26 +1,27 @@
 #content {
     max-width: 60%;
     border: 1px solid darkblue;
-    margin: 40px auto;
-    padding: 50px 90px;
+    margin: 30px auto;
+    padding: 50px 80px;
 }
 h1, h2 {
     text-align: center;
-    line-height: 1.6;
-    font-weight: lighter;
+    line-height: 1.6; 
     text-transform: uppercase;
 }
 h1 {
     letter-spacing: 6px;
+    font-weight: bold;
 }
 h2 {
     letter-spacing: 3px;
-    margin-top: -10px;
+    margin-top: -15px;
     color: steelblue;
     font-size: smaller;
+    font-weight: lighter;
 }
 hr {
-    width: 80%;
+    width: 90%;
     margin-top: -10px;
 }
 #italic-text {
@@ -38,8 +39,11 @@ img {
     display: block;
 }
 .list {
-    list-style-type: number;
+    list-style-type: decimal;
     line-height: 1.6em;
     width: 80%;
     margin-left: 40px
+}
+.list li {
+    margin-bottom: 12px;
 }
