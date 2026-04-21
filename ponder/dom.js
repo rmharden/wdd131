@@ -21,3 +21,6 @@ let para = document.querySelector('p');
 para.classList.add('background');
 
 //document.querySelector('body').classList.add('background');
+
+const image = document.querySelector('img');
+image.setAttribute('src', 'images/web.png')
