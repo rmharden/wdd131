@@ -1,8 +1,8 @@
 let selectElem = document.querySelector('select');
-let logo = document.querySelector('img');
+let logo = document.querySelector('#byui-logo');
 let border = document.querySelector('#content')
 let university = document.querySelector('h2');
-let background = document.querySelector()
+let background = document.body;
 
 selectElem.addEventListener('change', changeTheme);
 
