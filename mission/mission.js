@@ -10,7 +10,7 @@ function changeTheme() {
     let current = selectElem.value;
     if (current === 'dark') {
         document.body.style.backgroundColor = 'black'
-        logo.src ="images/byui-black.png";
+        logo.src ="images/byui-black2.png";
         border.style.border = '1px solid #cccccc';
         document.body.style.color = "#e0e0e0"
         university.style.color = '#4da3ff';
