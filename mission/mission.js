@@ -6,9 +6,9 @@ selectElem.addEventListener('change', changeTheme);
 function changeTheme() {
     let current = selectElem.value;
     if (current === 'dark') {
-        document.getElementById("byui-logo").src ="byui-black.png";
+        document.getElementById("images/byui-logo").src ="byui-black.png";
     }
     else {
-        document.getElementById("byui-logo").src ="byui-logo-blue.png";
+        document.getElementById("images/byui-logo").src ="byui-logo-blue.png";
     }
 }
