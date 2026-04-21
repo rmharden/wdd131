@@ -12,10 +12,12 @@ function changeTheme() {
         logo.src ="images/byui-black.png";
         border.style.border = '1px solid #cccccc';
         university.style.color = '#4da3ff';
+        document.body.style.backgroundColor = '#121212';
     }
     else {
         logo.src="images/byui-logo-blue.jpeg";
         border.style.border = '1px solid darkgray';
         university.style.color = 'steelblue';
+        document.body.style.backgroundColor = 'white';
     }
 }
