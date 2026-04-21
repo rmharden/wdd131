@@ -10,3 +10,14 @@ let topics = document.querySelector('#topics');
 
 document.getElementById('topics').style.color = "purple";
 
+let list = document.querySelector('.list');
+
+list.style.border = '3px solid black';
+
+let para = document.querySelector('p');
+
+//para.style.backgroundColor = 'lightblue';
+
+para.classList.add('background');
+
+//document.querySelector('body').classList.add('background');
