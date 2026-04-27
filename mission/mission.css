@@ -58,5 +58,8 @@ img {
 
 .dark {
     background-color: black;
-    
+    color: #e0e0e0;
+}
+.dark h2 {
+    color: #4da3ff;
 }
