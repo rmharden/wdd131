@@ -54,3 +54,9 @@ img {
 .list li {
     margin-bottom: 14px;
 }
+/*Read through the rubric. I think I need css to change the dark mode and then javascript activates it.*/
+
+.dark {
+    background-color: black;
+    
+}
