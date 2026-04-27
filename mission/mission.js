@@ -1,7 +1,5 @@
 let selectElem = document.querySelector('#theme-select');
 let logo = document.querySelector('#byui-logo');
-let border = document.querySelector('#content')
-let university = document.querySelector('h2');
 
 selectElem.addEventListener('change', changeTheme);
 
