@@ -4,32 +4,19 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    background-color: lightgray;
+    padding: 20px;
 }
-header,
-main,
-footer {
-  max-width: 1000px;
-  margin: 1rem auto;
-  border: 1px solid #ccc;
-  padding: 1rem;
-  background-color: lightblue;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
-h1 {
+h1, h2 {
     text-align: center;
 }
-section {
-  padding: 20px;
-  background-color: white;
-  margin: 1em;
-  border: 1px solid #ccc;
+header, footer {
+    color: white;
+    background-color: #006EB6;
+    padding: 20px;
 }
 nav a {
     padding: 20px;
-    color: black;
     display: none;
     /*display: block;*/
 }
@@ -47,9 +34,7 @@ img {
     height: 300px;
     object-fit: cover;
 }
-footer {
-    text-align: center;
-}
+
 
 @media screen and (min-width: 700px) {
     main {
@@ -62,7 +47,7 @@ footer {
         display: inline;
     }
     nav {
-        text-align: right;
+        text-align: center;
     }
 }
 @media screen and (min-width: 1000px) {
