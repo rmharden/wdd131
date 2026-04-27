@@ -67,5 +67,8 @@ footer {
         text-align: right;
     }
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
 }
