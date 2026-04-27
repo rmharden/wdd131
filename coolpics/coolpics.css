@@ -7,17 +7,18 @@ body {
     background-color: lightgray;
     padding: 20px;
 }
-h1, h2 {
+h1, h2, footer {
     text-align: center;
 }
 header, footer {
     color: white;
-    background-color: #006EB6;
+    background-color: #5088e0;
     padding: 20px;
 }
 nav a {
     padding: 20px;
     display: none;
+    color: white;
     /*display: block;*/
 }
 nav a:hover {
