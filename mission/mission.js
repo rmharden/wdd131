@@ -1,4 +1,5 @@
 let selectElem = document.querySelector('#theme-select');
+let logo = document.querySelector('#byui-logo');
 
 selectElem.addEventListener('change', changeTheme);
 
