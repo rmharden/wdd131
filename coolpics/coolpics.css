@@ -37,6 +37,7 @@ img {
     border: 5px solid white;
     margin: 20px;
     box-shadow: 5px 5px 20px black;
+    box-sizing: border-box;
 }
 
 
