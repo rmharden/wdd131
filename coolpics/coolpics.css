@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
 body {
     margin: 0;
     padding: 0;
@@ -26,6 +34,7 @@ nav a:hover {
     color: #616061;
 }
 .menu-btn {
+    color: white;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -35,7 +44,7 @@ img {
     height: 300px;
     object-fit: cover;
     border: 5px solid white;
-    margin: 20px;
+    margin: 0;
     box-shadow: 5px 5px 20px black;
     box-sizing: border-box;
 }
