@@ -35,7 +35,7 @@ img {
     height: 300px;
     object-fit: cover;
     border: 5px solid white;
-    margin: 5px;
+    margin: 20px;
     box-shadow: 5px 5px 20px black;
 }
 
