@@ -43,6 +43,12 @@ nav a:hover {
     cursor: pointer;
     border: none;
     background-color: transparent;
+    color: white;
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 footer {
     text-align: center;
