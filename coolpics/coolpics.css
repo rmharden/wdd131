@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    background: lightgrey;
 }
 header,
 main,
 footer {
-    max-width: 1000px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -19,7 +19,7 @@ footer {
     background-color: dodgerblue; 
 }
 main {
-    background-color: lightgrey;
+    max-width: 1000px;
 }
 h2 {
     text-align: center;
@@ -66,6 +66,7 @@ nav a:hover {
     .menu-btn {
         display: none;
     }
-    
-    
+    nav a {
+        display: inline;
+    }    
 }
