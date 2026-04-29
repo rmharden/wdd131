@@ -53,3 +53,19 @@ nav a:hover {
     background-color: transparent;
     color: white;
 }
+
+@media screen and (min-width: 700px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+@media screen and (min-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menu-btn {
+        display: none;
+    }
+    
+    
+}
