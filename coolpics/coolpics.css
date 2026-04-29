@@ -20,8 +20,9 @@ footer {
 }
 main {
     max-width: 1000px;
-    margin: 1rem auto;
+    margin: 0 auto;
     background-color: lightgrey;
+    padding: 1rem;
 }
 h2 {
     text-align: center;
