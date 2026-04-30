@@ -32,7 +32,6 @@ nav a {
     padding: 20px;
     color: black;
     display: block;
-    /*display: none;*/
     text-align: center;
     text-decoration: none;
     border-top: 1px solid gray;
@@ -86,5 +85,14 @@ footer {
 @media screen and (min-width: 1000px) {
     main {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+        .menu-btn {
+        display: none;
+    }
+    nav a {
+        display: inline;
+    }
+    nav {
+        text-align: right;
     }    
 }
