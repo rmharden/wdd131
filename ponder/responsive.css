@@ -86,13 +86,4 @@ footer {
     main {
         grid-template-columns: 1fr 1fr 1fr;
     }
-        .menu-btn {
-        display: none;
-    }
-    nav a {
-        display: inline;
-    }
-    nav {
-        text-align: right;
-    }    
 }
