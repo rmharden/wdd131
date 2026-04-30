@@ -38,7 +38,7 @@ nav a {
     border-top: 1px solid gray;
 }
 .hide {
-    /*display: none;*/
+    display: none;
 }
 nav a:hover {
     text-decoration: none;
@@ -55,6 +55,15 @@ nav a:hover {
     background-color: black;
     margin: 5px 0;
 }
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+          
 footer {
     text-align: center;
 }
