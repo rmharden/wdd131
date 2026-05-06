@@ -1,0 +1,74 @@
+/*Unit 02 | Prove: Cool Pics part 1*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background: lightgrey;
+    line-height: 1.5;
+}
+header,
+main,
+footer {
+    margin: 0 auto;
+    padding: 10px;
+}
+header, 
+footer {
+    font-weight: 500;
+    color: white;
+    background-color: dodgerblue; 
+}
+main {
+    max-width: 1080px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+.gallery-grid img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border: 10px solid white;
+  box-shadow: 5px 5px 10px black;
+}
+nav a {
+    padding: 20px;
+    color: white;
+    display: none;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #616061;
+}
+.menu-btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+@media screen and (min-width: 700px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+@media screen and (min-width: 1000px) {
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 50px;
+        row-gap: 40px;
+    }
+    .menu-btn {
+        display: none;
+    }
+    nav a {
+        display: inline;
+    }
+}
