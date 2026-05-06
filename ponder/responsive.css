@@ -77,7 +77,7 @@ footer {
     .menu-btn {
         display: none;
     }
-    .hide {
+    nav.hide {
         display: block;
     }
     nav a {
