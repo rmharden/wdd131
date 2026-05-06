@@ -15,6 +15,10 @@ footer {
   padding: 1rem;
   background-color: lightblue;
 }
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 h1 {
     text-align: center;
 }
@@ -28,6 +32,8 @@ nav a {
     padding: 20px;
     color: black;
     display: none;
+    /*display: inline;*/
+    /*display: block;*/
 }
 nav a:hover {
     text-decoration: none;
@@ -46,5 +52,13 @@ nav a:hover {
 }
 footer {
     text-align: center;
+}
+
+
+@media screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1 fr 1fr;
+    }
 }
           
