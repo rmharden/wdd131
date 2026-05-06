@@ -59,5 +59,20 @@ footer {
     main {
         grid-template-columns: 1fr 1fr;
     }
+    .menu-btn {
+        display: none;
+    }
+    nav a {
+        display: inline;
+    }
+    nav {
+        text-align: right;
+    }
 }
+@media screen and (min-width: 1000px) {
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
           
