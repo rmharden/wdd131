@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Quicksand:wght@300..700&display=swap');
 
 body {
     text-align: center;
@@ -19,6 +19,10 @@ header,
 footer {
     color: white;
     background-color: dodgerblue; 
+}
+h2 {
+    font-family: "Bellota Text", sans-serif;
+    font-weight: 700;
 }
 main {
     max-width: 1080px;
