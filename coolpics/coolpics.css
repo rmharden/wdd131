@@ -46,13 +46,11 @@ nav a {
     color: white;
     display: block;
     text-align: center;
-    text-decoration: none;
 }
 .hide {
     display: none;
 }
 nav a:hover {
-    text-decoration: none;
     color: #616061;
 }
 .menu-btn {
