@@ -41,6 +41,9 @@ main {
   border: 10px solid white;
   box-shadow: 5px 5px 10px black;
 }
+.gallery-grid figure {
+    margin: 0;
+}
 nav a {
     padding: 20px;
     color: white;
