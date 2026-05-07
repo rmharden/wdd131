@@ -44,6 +44,11 @@ main {
 nav a {
     padding: 20px;
     color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.hide {
     display: none;
 }
 nav a:hover {
@@ -60,7 +65,7 @@ nav a:hover {
 @media screen and (min-width: 700px) {
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
-    } 
+    }
 }
 @media screen and (min-width: 1000px) {
     .gallery-grid {
@@ -71,7 +76,14 @@ nav a:hover {
     .menu-btn {
         display: none;
     }
+    nav.hide {
+        display: block;
+    }
     nav a {
         display: inline;
+        border-top: none;
+    }
+    nav {
+        text-align: center;
     }
 }
