@@ -90,7 +90,7 @@ nav a:hover {
 @media screen and (min-width: 1000px) {
     .gallery-grid {
         grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 50px;
+        column-gap: 20px;
         row-gap: 40px;
     }
     .menu-btn {
