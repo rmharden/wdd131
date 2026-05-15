@@ -11,6 +11,9 @@ header, footer {
     padding: 1rem;
     text-align: center;
 }
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
 nav {
     border-top: 1px solid #ffc107;
     border-bottom: 1px solid #ffc107;
