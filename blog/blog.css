@@ -9,3 +9,17 @@ header, footer {
     padding: .5rem;
     text-align: center;
 }
+.main-nav {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+}
+.main-nav li {
+    padding: 8px;
+}
+.main-nav a {
+    color: #b30059;
+    text-decoration: none;
+}
