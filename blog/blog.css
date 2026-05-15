@@ -23,3 +23,8 @@ header, footer {
     color: #b30059;
     text-decoration: none;
 }
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ffc107;
+}
