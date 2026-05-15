@@ -5,6 +5,12 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+header {
+    border-bottom: 1px solid #ffc107;
+}
+h1 {
+   border-bottom: 1px solid #ffc107; 
+}
 header, footer {
     background-color: white;
     color: black;
@@ -14,19 +20,20 @@ header, footer {
 .main-nav {
     list-style: none;
     padding: 0;
+    text-align: right;
 }
 .main-nav li {
+    display: inline-block;
     padding: 8px;
 }
 .main-nav a {
-    color: #ffc107;
+    color: #b30059;
     text-decoration: none;
 }
 #book-list {
     padding: 0 2rem;
 }
 .book {
-    border: 2px solid #ccc;
     padding: 1rem;
     border-radius: 10px;
     max-width: 700px;
@@ -49,6 +56,9 @@ header, footer {
 }
 #desc {
     grid-column: 1/3;
+}
+footer {
+    border-top: 1px solid #ffc107;
 }
 
 /*@media (min-width: 600px) {
