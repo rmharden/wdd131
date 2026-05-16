@@ -44,7 +44,10 @@ h1, h2 {
 }
 .book-data {
     text-align: right;
-    margin: -50px 50px;
+    padding: 0px 50px 50px 50px;
+}
+.book-data p {
+    margin: 0;
 }
 .book img {
     max-width: 100%;
