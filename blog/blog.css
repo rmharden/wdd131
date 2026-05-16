@@ -46,3 +46,9 @@ h1, h2 {
     text-align: right;
     margin: -50px 50px;
 }
+.book img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+    margin: 0 auto;
+}
