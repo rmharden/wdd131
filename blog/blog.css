@@ -26,7 +26,7 @@ hr {
     justify-content: right;
 }
 .main-nav li {
-    padding: 8px;
+    padding: 1px;
 }
 .main-nav a {
     color: #b30059;
@@ -48,9 +48,6 @@ hr {
     font-size: 1.5rem;
     text-align: center;
     margin: 20px;
-}
-.book p {
-    padding-left: 20px;
 }
 .book img {
     max-width: 100%;
