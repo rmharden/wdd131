@@ -4,9 +4,17 @@ body {
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
 }
+h2, nav a {
+    color: #b30059;
+}
 nav ul {
     list-style: none;
 }
 nav a {
     text-decoration: none;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ffc107;
 }
