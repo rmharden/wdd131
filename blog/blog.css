@@ -40,7 +40,7 @@ hr {
 }
 .book-data {
     display: grid;
-    grid-template-rows: 25px 25px 25px 25px;
+    grid-template-rows: 30px 30px 30px 30px;
     justify-content: right;
     margin: auto 50px;
 }
