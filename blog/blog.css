@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+nav ul {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+}
