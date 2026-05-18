@@ -39,13 +39,14 @@ hr {
     margin: 20px auto;
 }
 .book-data {
+    font-weight:600; 
     display: grid;
     grid-template-rows: 30px 30px 30px 30px;
     justify-content: right;
     margin: auto 50px;
 }
 .book img {
-    max-width: 100%;
+    max-width: 30%;
     display: block;
     border-radius: 8px;
     margin: 0 auto;
