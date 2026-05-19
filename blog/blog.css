@@ -64,10 +64,13 @@ footer {
         grid-template-columns: 1fr 2fr;
         gap: 20px;
     }
+    .book-data {
+        grid-column: 1;
+
+    }
     .book img {
         max-width: 100%;
-        grid-row: 1/6;
-        grid-column: 1/2;
+
     }
     .extra-line {
         display: none;
