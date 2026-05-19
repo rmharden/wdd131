@@ -58,3 +58,18 @@ hr {
 footer {
     text-align: center;
 }
+@media (min-width: 600px) {
+    .book {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    .book img {
+        max-width: 100%;
+        grid-row: 1/6;
+        grid-column: 1/2;
+    }
+    .extra-line {
+        display: none;
+    }
+}
