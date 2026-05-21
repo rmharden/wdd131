@@ -26,7 +26,7 @@ myList.innerHTML = stepsHtml.join('');
 let grades = ['A', 'A', 'A'];
 let points;
 
-let gpsPoints = grades.map(convert);
+let gpaPoints = grades.map(convert);
 
 function convert(grade) {
     switch (grade) {
@@ -51,11 +51,11 @@ function convert(grade) {
     return points;
 }
 
-console.log(gpsPoints);
+console.log(gpaPoints);
 
 // .reduce
 
-let totalPoints = gpsPoints.reduce(getTotal);
+let totalPoints = gpaPoints.reduce(getTotal);
 
 function getTotal(total, item){
     return total + item;
