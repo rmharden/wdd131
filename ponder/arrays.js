@@ -80,3 +80,22 @@ const myArray = [12, 34, 21, 54];
 const luckyNumber = 21;
 let luckyIndex = myArray.indexOf(luckyNumber);
 console.log(luckyIndex);
+// ponder and prove assignmets array of objects and temporal literal
+// dynamic content
+
+let container = document.querySelector('#studentContainer');
+
+const students = [
+    {
+        last: 'Andrus', 
+        first: 'Aaron'
+    },
+    {
+        last: 'Masa', 
+        first: 'Manny'
+    },
+    {
+        last: 'Tanda', 
+        first: 'Tamanda'
+    }
+];
