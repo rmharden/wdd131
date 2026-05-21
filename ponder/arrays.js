@@ -22,12 +22,11 @@ function listTemplate(item) {
 };
 
 myList.innerHTML = stepsHtml.join('');
- 
-
-myList.innerHTML = stepsHtml.join('');
 
 let grades = ['A', 'B', 'C'];
-let point;
+let points;
+
+let gpsPoints = grades.map(convert);
 
 function convert(grade) {
     switch (grade) {
@@ -49,4 +48,5 @@ function convert(grade) {
         default:
             alert('not a valid grade');
     }
+    return points;
 }
