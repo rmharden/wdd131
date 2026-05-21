@@ -80,7 +80,7 @@ const myArray = [12, 34, 21, 54];
 const luckyNumber = 21;
 let luckyIndex = myArray.indexOf(luckyNumber);
 console.log(luckyIndex);
-// ponder and prove assignmets array of objects and temporal literal
+// ponder and prove assignmets array of objects and template literal
 // dynamic content
 
 let container = document.querySelector('#studentContainer');
@@ -101,3 +101,15 @@ const students = [
     }
 ];
 
+students.forEach(function(item){
+    let name = document.createElement('div');
+    name.className = 'format';
+// created the template literal with the back ticks
+    let html = `
+        <span>${item.first}</span>
+        <span>${item.last}</span>
+        <hr>
+    `;
+    name.innerHTML = html;
+    container.appendChild(name);
+})
