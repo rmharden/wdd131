@@ -50,3 +50,5 @@ function convert(grade) {
     }
     return points;
 }
+
+console.log(gpsPoints);
