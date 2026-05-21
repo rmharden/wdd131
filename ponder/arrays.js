@@ -85,6 +85,7 @@ console.log(luckyIndex);
 
 let container = document.querySelector('#studentContainer');
 
+
 const students = [
     {
         last: 'Andrus', 
@@ -99,3 +100,4 @@ const students = [
         first: 'Tamanda'
     }
 ];
+
