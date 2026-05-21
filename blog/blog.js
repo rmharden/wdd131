@@ -47,7 +47,7 @@ articles.forEach(book => {
 
     let html = `
         <div class="book-data">
-            <p><i>${book.date}/i></p>
+            <p><i>${book.date}</i></p>
             <p>${book.ages}</p>
             <p>${book.genre}</p>
             <p><span aria-label="${book.stars.length} out of 5 stars" role="img">${book.stars}</span></p>
