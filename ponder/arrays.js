@@ -23,7 +23,7 @@ function listTemplate(item) {
 
 myList.innerHTML = stepsHtml.join('');
 
-let grades = ['A', 'B', 'C'];
+let grades = ['A', 'A', 'A'];
 let points;
 
 let gpsPoints = grades.map(convert);
@@ -52,3 +52,15 @@ function convert(grade) {
 }
 
 console.log(gpsPoints);
+
+// .reduce
+
+let totalPoints = gpsPoints.reduce(getTotal);
+
+function getTotal(total, item){
+    return total + item;
+}
+console.log(totalPoints);
+
+let gpaAverage = totalPoints/gpaPoints.length;
+console.log(gpaAverage);
