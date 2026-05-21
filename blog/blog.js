@@ -49,14 +49,16 @@ articles.forEach(book => {
         <div class="book-data">
             <p><i>${book.date}/i></p>
             <p>${book.ages}</p>
-            <p>Fantasy</p>
-            <p><span aria-label="4 out of 5 stars" role="img">⭐⭐⭐⭐</span></p>
+            <p>${book.genre}</p>
+            <p><span aria-label="${book.stars.length} out of 5 stars" role="img">${book.stars}</span></p>
         </div>
         <div class="book-right">
-            <h2>Septimus Heap Book One: Magyk</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Magkycover2.jpg" alt="An image of the Magyk book designed with a gold lock and dragon ring.">
-            <p id='desc'>If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.</p>
+            <h2>${book.title}</h2>
+            <img src="${book.imgSrc}" alt="${book.imgAlt}">
+            <p id='desc'>${book.description}</p>
         </div>
     `
-})
+    article.innerHTML = html;
+    bookList.appendChild(article);
+});
                 
