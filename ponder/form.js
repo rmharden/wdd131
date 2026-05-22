@@ -1,4 +1,4 @@
-
+// The video tutorial for Part 1 talks about the JavaScript at around 16:13 minutes.
 const form = document.querySelector("#fsyForm");
 const travelRange = document.querySelector("#travelRange");
 const notesContainer = document.querySelector("#notesContainer");
