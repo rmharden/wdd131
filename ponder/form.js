@@ -45,7 +45,10 @@ form.addEventListener("submit", function (event) {
 
   // Validate the input
   // Let the user know to select at least one campus
-
+    if (selectedCampuses === 0) {
+        output.textContent = "Please choose at least one campus.";
+        return; // this stops the function so it doesn't keep running after the error.
+    }
   
   // Let the user know if they choose many campuses but didn't put a note that they need to add a note
 
