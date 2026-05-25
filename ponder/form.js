@@ -51,7 +51,10 @@ form.addEventListener("submit", function (event) {
     }
   
   // Let the user know if they choose many campuses but didn't put a note that they need to add a note
-
+    If (type === 'many' && !note) {
+        output.textContent = "Please add a travel note.";
+        return;
+    }
   
   //Let the user know if they choose many campus but only had one campus selected that they need to choose at least two campuses
   
