@@ -66,7 +66,7 @@ form.addEventListener("submit", function (event) {
   //Let the user know if they choose many campus but only had one campus selected that they need to choose at least two campuses
   if (type === 'many' && selectedCampuses.length < 2) {
     output.textContent = "Please select at least two campuses."
-    return; // does this go here? The video doesn't have it.
+    return;
   }
   
 
