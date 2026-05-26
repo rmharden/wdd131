@@ -29,7 +29,11 @@ form {
 }
 
 button {
-    background: #cfd9e0;
+    background: #9aaec0;
     transition: background 0.5s ease;
     margin-top: 10px;
+}
+
+button:hover {
+    background-color: #678ca7;
 }
