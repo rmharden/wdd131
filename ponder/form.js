@@ -10,7 +10,7 @@ function updateNotesField() {
   const value = travelRange.value;
 
   // Show the travel notes on the form if they are choosing many campuses and require it
-    if (value === 'many') {
+    if (value === 'needsId') {
         notesContainer.hidden = false;
         notes.required = true;
     }
