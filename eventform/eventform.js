@@ -42,4 +42,15 @@ const firstName = form.firstName.value.trim();
 const lastName = form.lastName.value.trim();
 const email = form.email.value.trim();
 
+const type = form.userType.value;
+const eventDate = form.eventDate.value()
+const studentId = form.studentId.trim();
+const accessCode = form.accessCode.trim();
 
+if (studentId.length < 9) {
+    output.textContent = "Student I# must be 9 digits"
+}
+
+if (accessCode.length !== "EVENT131") {
+    output.textContent = "Incorrect access code. Please try again."
+}
