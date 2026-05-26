@@ -32,3 +32,12 @@ function isPastDue(value) {
     const chosen = new Date(value);
     return chosen < today;
 }
+
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    output.textContent ="";
+})
+
+const firstName = form.firstName.value.trim();
+const lastName = form.lastName.value.trim();
+
