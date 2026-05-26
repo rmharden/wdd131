@@ -27,4 +27,8 @@ function updateUserTypeField() {
 userType.addEventListener("change", updateUserTypeField);
 updateUserTypeField();
 
-function isPastDue(value) {}
+function isPastDue(value) {
+    const today = new Date();
+    const chosen = new Date(value);
+    return chosen < today;
+}
