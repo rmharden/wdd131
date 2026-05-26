@@ -40,4 +40,6 @@ form.addEventListener("submit", function (event) {
 
 const firstName = form.firstName.value.trim();
 const lastName = form.lastName.value.trim();
+const email = form.email.value.trim();
+
 
