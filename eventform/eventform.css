@@ -11,3 +11,9 @@ body {
     background: white;
     border-radius: 12px;
 }
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
