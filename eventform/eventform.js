@@ -36,7 +36,6 @@ function isPastDue(value) {
 form.addEventListener("submit", function (event) {
     event.preventDefault();
     output.textContent ="";
-})
 
 const firstName = form.firstName.value.trim();
 const lastName = form.lastName.value.trim();
@@ -49,8 +48,26 @@ const accessCode = form.accessCode.trim();
 
 if (studentId.length < 9) {
     output.textContent = "Student I# must be 9 digits"
+    return;
 }
 
 if (accessCode.length !== "EVENT131") {
     output.textContent = "Incorrect access code. Please try again."
+    return;
 }
+
+if (isPastDue(eventDate)) {
+    output.textContent = "Please choose a later date.";
+    return;
+}
+
+output.innerHTML = `
+<h2>Ticket Created</h2>
+<p>${firstName} ${lastName}</p>
+<p>${userType}</p>
+<p>${eventDate}</p>
+`;
+
+form.reset();
+updateUserTypeField();
+});
