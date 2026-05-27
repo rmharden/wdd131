@@ -9,14 +9,14 @@ const output = document.querySelector("#output");
 function updateUserTypeField() {
     const value = userType.value;
 
-    if (value === 'student') {
+    if (value === "student") {
         studentContainer.hidden = false;
         guestContainer.required = true;
 
         studentId.required = true;
         accessCode.required = false;
     
-    } else  if (value === 'guest') {
+    } else  if (value === "guest") {
         studentContainer.hidden = true;
         guestContainer.hidden = false;
         
