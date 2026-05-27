@@ -45,7 +45,8 @@ button:hover {
   background: #678ca7;
 }
 
-#usertTypeContainer[hidden] {
+#studentContainer[hidden],
+#guestContainer[hidden] {
   display: none;
 }
 
