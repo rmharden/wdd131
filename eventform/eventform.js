@@ -73,7 +73,7 @@ if (isPastDue(eventDate)) {
 output.innerHTML = `
 <h2>Ticket Created</h2>
 <p>${firstName} ${lastName}</p>
-<p>${userType}</p>
+<p>${type}</p>
 <p>${eventDate}</p>
 `;
 
