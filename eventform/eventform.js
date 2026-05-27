@@ -54,9 +54,11 @@ const eventDate = form.eventDate.value;
 const studentIdValue = form.studentId.value.trim();
 const accessCodeValue = form.accessCode.value.trim();
 
-if (studentId.length < 9) {
-    output.textContent = "Student I# must be 9 digits"
-    return;
+if (type === "student") {
+    if (studentIdValue.length !== 9) {
+       output.textContent = "Student I# must be 9 digits"
+       return;
+    }
 }
 
 if (accessCode.length !== "EVENT131") {
