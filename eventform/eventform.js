@@ -11,7 +11,7 @@ function updateUserTypeField() {
 
     if (value === "student") {
         studentContainer.hidden = false;
-        guestContainer.required = true;
+        guestContainer.hidden = true;
 
         studentId.required = true;
         accessCode.required = false;
