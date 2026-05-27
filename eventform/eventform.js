@@ -1,3 +1,7 @@
+// W3schools link to how to do if, else if, and else statements
+// https://www.w3schools.com/js/js_if_else.asp?utm_source=chatgpt.com
+
+
 const form = document.querySelector("#eventForm");
 const userType = document.querySelector("#userType");
 const studentContainer = document.querySelector("#studentContainer");
