@@ -61,9 +61,10 @@ if (type === "student") {
     }
 }
 
-if (accessCode.length !== "EVENT131") {
-    output.textContent = "Incorrect access code. Please try again."
-    return;
+if (type === "guest") {
+    if (accessCodeValue !== "EVENT131") {
+        output.textContent = "Incorrect access code. Please try again."
+        return;
 }
 
 if (isPastDue(eventDate)) {
