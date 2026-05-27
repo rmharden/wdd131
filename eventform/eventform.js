@@ -63,8 +63,8 @@ if (type === "student") {
     if (accessCodeValue !== "EVENT131") {
         output.textContent = "Incorrect access code. Please try again."
         return;
+    }
 }
-
 if (isPastDue(eventDate)) {
     output.textContent = "Please choose a later date.";
     return;
