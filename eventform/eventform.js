@@ -24,7 +24,10 @@ function updateUserTypeField() {
         accessCode.required = true;
     
     } else {
-        userTypeContainer.hidden = true;
+        studentContainer.hidden = true;
+        guestContainer.hidden = true;
+        
+        studentId.required = false;
         accessCode.required = false;
     }
 }
