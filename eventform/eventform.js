@@ -50,7 +50,7 @@ const lastName = form.lastName.value.trim();
 const email = form.email.value.trim();
 
 const type = form.userType.value;
-const eventDate = form.eventDate.value()
+const eventDate = form.eventDate.value;
 const studentId = form.studentId.trim();
 const accessCode = form.accessCode.trim();
 
