@@ -59,9 +59,7 @@ if (type === "student") {
        output.textContent = "Student I# must be 9 digits"
        return;
     }
-}
-
-if (type === "guest") {
+} else if (type === "guest") {
     if (accessCodeValue !== "EVENT131") {
         output.textContent = "Incorrect access code. Please try again."
         return;
