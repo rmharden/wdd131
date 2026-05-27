@@ -51,8 +51,8 @@ const email = form.email.value.trim();
 
 const type = form.userType.value;
 const eventDate = form.eventDate.value;
-const studentId = form.studentId.trim();
-const accessCode = form.accessCode.trim();
+const studentIdValue = form.studentId.value.trim();
+const accessCodeValue = form.accessCode.value.trim();
 
 if (studentId.length < 9) {
     output.textContent = "Student I# must be 9 digits"
