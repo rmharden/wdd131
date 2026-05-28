@@ -7,8 +7,15 @@ const aCourse = {
         { sectionNum: 2, roomNum: 'STC 347', enrolled: 28, days: 'TTh', instructor: 'Sis A'}
         ],
         enrollStudent: function () {
-                console.log('student enrolled');
-            }           
+            // find the right section...Array.findIndex will work here
+            const sectionIndex = this.sections.findIndex(
+            (section) => section.sectionNum == sectionNum
+            );
+            if (sectionIndex >= 0) {
+            this.sections[sectionIndex].enrolled++;
+            renderSections(this.sections);
+            }
+        }           
   };
 
 console.log(aCourse.code);
