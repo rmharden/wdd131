@@ -18,4 +18,4 @@ document.querySelector('img').setAttribute('src', aCourse.logo);
 document.querySelector('img').setAttribute('alt', aCourse.name);
 document.querySelector('img').style.width='100px';
 
-console.log(aCourse.sections[1]);
+console.log(aCourse.sections[1].roomNum);
