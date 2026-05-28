@@ -3,4 +3,5 @@ const aCourse = {
     name: 'Javascript Language',
     logo: 'images/js-logo.png'
   };
-            
+
+console.log(aCourse.code);
