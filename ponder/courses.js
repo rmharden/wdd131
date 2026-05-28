@@ -9,11 +9,11 @@ const aCourse = {
         enrollStudent: function (sectionNum) {
             // find the right section...Array.findIndex will work here
             const sectionIndex = this.sections.findIndex(
-            (section) => section.sectionNum == sectionNum
+                (section) => section.sectionNum == sectionNum
             );
             if (sectionIndex >= 0) {
-            this.sections[sectionIndex].enrolled++;
-            renderSections(this.sections);
+                this.sections[sectionIndex].enrolled++;
+                renderSections(this.sections);
             }
         }           
   };
