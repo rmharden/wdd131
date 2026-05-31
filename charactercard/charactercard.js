@@ -1,4 +1,4 @@
-const characters = [
+const card = [
       {
         imgSrc: "images/snortleblat.jpeg",
         imgAlt: "lizard-lke man standing a swamp",
@@ -8,20 +8,18 @@ const characters = [
         health: 100
       }
     ];
-    const movieList = document.querySelector('#movie-list');
+    const characters = document.querySelector('#card');
 
-    movies.forEach(movie => {
+    cards.forEach(car => {
         const article = document.createElement('article');
-        article.className = 'movie';
+        article.className = 'card';
         
         let html = `
-            <h2>${movie.title}</h2>
-            <img src="${movie.imgSrc}" alt="${movie.imgAlt}">
-            <p><strong>Release Date:</strong> ${movie.date}</p>
-            <p><strong>Recommended Age:</strong> ${movie.ages}</p>
-            <p><strong>Genre:</strong> ${movie.genre}</p>
-            <p><strong>Rating:</strong> <span aria-label="${movie.stars.length} out of 5 stars" role="img">${movie.stars}</span></p>
-            <p id='desc'>${movie.description}</p>
+            <img src="${card.imgSrc}" alt="${card.imgAlt}">
+            <h1>${card.name}</h1>
+            <p><strong>Class:</strong> ${card.class}</p>
+            <p><strong>Level:</strong> ${card.level}</p>
+            <p><strong>Health:</strong> ${card.health}</p>
         `
 
     article.innerHTML = html;
