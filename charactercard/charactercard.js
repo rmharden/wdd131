@@ -1,4 +1,14 @@
-const card = [
+const aCharacter = {
+    name: 'Snortleblat',
+    class: 'Swamp Beast Diplomat',
+    level: 5,
+    health: 100
+};
+
+
+
+// This is what I had before with our lesson on objects:
+/*const cards = [
       {
         imgSrc: "images/snortleblat.jpeg",
         imgAlt: "lizard-lke man standing a swamp",
@@ -10,19 +20,79 @@ const card = [
     ];
     const characters = document.querySelector('#card');
 
-    cards.forEach(car => {
+    cards.forEach(card => {
         const article = document.createElement('article');
         article.className = 'card';
         
         let html = `
-            <img src="${card.imgSrc}" alt="${card.imgAlt}">
-            <h1>${card.name}</h1>
-            <p><strong>Class:</strong> ${card.class}</p>
-            <p><strong>Level:</strong> ${card.level}</p>
-            <p><strong>Health:</strong> ${card.health}</p>
+            <img class="image" src="${card.imgSrc}" alt="${card.imgAlt}">
+            <h1 class="name">${card.name}</h1>
+            <div class="stats">
+                <p><strong>Class:</strong> ${card.class}</p>
+                <p><strong>Level:</strong> ${card.level}</p>
+                <p><strong>Health:</strong> ${card.health}</p>
+            </div>
+            <div class="buttons">
+                <button>Attacked</button>
+                <button>Level Up</button>
+            </div>
         `
 
     article.innerHTML = html;
-    movieList.appendChild(article);
+    characters.appendChild(article);
 
     });
+
+
+    const aCourse = {
+    code: 'CSE121b',
+    name: 'Javascript Language',
+    logo: 'images/js-logo.png',
+    sections: [
+        { sectionNum: 1, roomNum: 'STC 353', enrolled: 26, days: 'TTh', instructor: 'Bro T'},
+        { sectionNum: 2, roomNum: 'STC 347', enrolled: 28, days: 'TTh', instructor: 'Sis A'}
+        ],
+        enrollStudent: function (sectionNum) {
+            // find the right section...Array.findIndex will work here
+            const sectionIndex = this.sections.findIndex(
+                (section) => section.sectionNum == sectionNum
+            );
+            if (sectionIndex >= 0) {
+                this.sections[sectionIndex].enrolled++;
+                renderSections(this.sections);
+            }
+        }           
+  };
+
+console.log(aCourse.code);
+console.log(aCourse.name);
+
+document.querySelector('#courseName').textContent = aCourse.name;
+document.querySelector('#courseCode').textContent = aCourse.code;
+
+document.querySelector('img').setAttribute('src', aCourse.logo);
+document.querySelector('img').setAttribute('alt', aCourse.name);
+document.querySelector('img').style.width='100px';
+
+console.log(aCourse.sections[1].roomNum);
+
+function sectionTemplate(section) {
+    return `<tr>
+      <td>${section.sectionNum}</td>
+      <td>${section.roomNum}</td>
+      <td>${section.enrolled}</td>
+      <td>${section.days}</td>
+      <td>${section.instructor}</td></tr>`
+}
+
+function renderSections(sections) {
+const html = sections.map(sectionTemplate);
+document.querySelector("#sections").innerHTML = html.join("");
+}
+
+renderSections(aCourse.sections);
+
+document.querySelector("#enrollStudent").addEventListener("click", function () {
+    const sectionNum = document.querySelector("#sectionNumber").value;
+    aCourse.enrollStudent(sectionNum);
+});*/
