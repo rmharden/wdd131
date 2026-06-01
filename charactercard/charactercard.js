@@ -8,6 +8,10 @@ const aCharacter = {
 
     levelUp: function () {
         this.level = this.level + 1 
+    },
+
+    attack: function () {
+        this.health = this.health - 20
     }
 };
 document.querySelector('.name').textContent = aCharacter.name;
