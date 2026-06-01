@@ -1,11 +1,11 @@
 const aCharacter = {
     name: 'Snortleblat',
-    class: 'Swamp Beast Diplomat',
+    class: 'Swamp Beast Diplomat', 
     level: 5,
     health: 100
 };
 document.querySelector('.name').textContent = aCharacter.name;
-document.querySelector('.class').textContent = aCharacter.class;
+
 
 
 
