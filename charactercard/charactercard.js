@@ -30,4 +30,7 @@ document.querySelector(".stats").innerHTML = characterTemplate(aCharacter);
 
 document.querySelector(".attack").addEventListener("click", function () {
     aCharacter.attack();
-})
+});
+document.querySelector(".levelUp").addEventListener("click", function () {
+    aCharacter.levelUp();
+});
