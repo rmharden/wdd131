@@ -13,7 +13,7 @@ document.querySelector('.image').setAttribute('alt', aCharacter.alt);
 
 function characterTemplate(character) {
     return `
-      <p>Class: ${character.class}<p>
+      <p>Class: ${character.class}</p>
       <p>Level: ${character.level}</p>
       <p>Health: ${character.health}</p>`
 }
