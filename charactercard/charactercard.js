@@ -12,6 +12,10 @@ const aCharacter = {
 
     attack: function () {
         this.health = this.health - 20
+        if (sectionIndex >= 0) {
+            this.sections[sectionIndex].enrolled++;
+            renderSections(this.sections);
+        }
     }
 };
 document.querySelector('.name').textContent = aCharacter.name;
