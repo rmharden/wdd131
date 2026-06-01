@@ -4,7 +4,11 @@ const aCharacter = {
     name: 'Snortleblat',
     class: 'Swamp Beast Diplomat', 
     level: 5,
-    health: 100
+    health: 100,
+
+    levelUp: function () {
+        this.level = this.level + 1 
+    }
 };
 document.querySelector('.name').textContent = aCharacter.name;
 document.querySelector('.image').setAttribute('src', aCharacter.image);
