@@ -11,6 +11,19 @@ document.querySelector('.image').setAttribute('src', aCharacter.image);
 document.querySelector('.image').setAttribute('alt', aCharacter.alt);
 
 
+function statsTemplate(stats) {
+    return `
+      <p>${aCharacter.class}<p>
+      <p>${aCharacter.level}</p>
+      <p>${aCharacter.health}</p>`
+}
+
+function renderStats(stats) {
+document.querySelector(".stats").innerHTML = html.join("");
+}
+
+renderStats(aCharacter.stats);
+
 
 // This is what I had before with our lesson on objects:
 /*const cards = [
