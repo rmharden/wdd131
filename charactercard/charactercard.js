@@ -13,16 +13,12 @@ document.querySelector('.image').setAttribute('alt', aCharacter.alt);
 
 function characterTemplate(character) {
     return `
-      <p>${aCharacter.class}<p>
-      <p>${aCharacter.level}</p>
-      <p>${aCharacter.health}</p>`
+      <p>Class: ${character.class}<p>
+      <p>Level: ${character.level}</p>
+      <p>Health: ${character.health}</p>`
 }
 
-function renderStats(stats) {
-document.querySelector(".stats").innerHTML = html.join("");
-}
-
-renderStats(aCharacter.stats);
+document.querySelector(".stats").innerHTML = characterTemplate(aCharacter);
 
 
 // This is what I had before with our lesson on objects:
