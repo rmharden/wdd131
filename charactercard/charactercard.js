@@ -15,7 +15,7 @@ const aCharacter = {
 
     attack: function () {
         this.health = this.health - 20
-        if (this.health >= 0) {
+        if (this.health <= 0) {
             alert("Character died");
         }
     }
