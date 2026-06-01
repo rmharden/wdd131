@@ -27,3 +27,7 @@ function characterTemplate(character) {
 }
 
 document.querySelector(".stats").innerHTML = characterTemplate(aCharacter);
+
+document.querySelector(".attack").addEventListener("click", function () {
+    aCharacter.attack();
+})
