@@ -7,8 +7,8 @@ const aCharacter = {
     health: 100
 };
 document.querySelector('.name').textContent = aCharacter.name;
-document.querySelector('img').setAttribute('src', aCharacter.image);
-document.querySelector('img').setAttribute('alt', aCharacter.alt);
+document.querySelector('.image').setAttribute('src', aCharacter.image);
+document.querySelector('.image').setAttribute('alt', aCharacter.alt);
 
 
 
