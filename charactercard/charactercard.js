@@ -1,3 +1,6 @@
+/*Found how to do an alert at W3schools*/
+/*https://www.w3schools.com/jsref/met_win_alert.asp?utm_source=chatgpt.com*/
+
 const aCharacter = {
     image: 'images/snortleblat.jpeg',
     alt: 'a lizard-like man standing in a foggy swamp',
@@ -12,9 +15,8 @@ const aCharacter = {
 
     attack: function () {
         this.health = this.health - 20
-        if (sectionIndex >= 0) {
-            this.sections[sectionIndex].enrolled++;
-            renderSections(this.sections);
+        if (this.health >= 0) {
+            ;
         }
     }
 };
