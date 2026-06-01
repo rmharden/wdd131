@@ -1,11 +1,14 @@
 const aCharacter = {
+    image: 'images/snortleblat.jpeg',
+    alt: 'a lizard-like man standing in a foggy swamp',
     name: 'Snortleblat',
     class: 'Swamp Beast Diplomat', 
     level: 5,
     health: 100
 };
 document.querySelector('.name').textContent = aCharacter.name;
-
+document.querySelector('img').setAttribute('src', aCharacter.image);
+document.querySelector('img').setAttribute('alt', aCharacter.alt);
 
 
 
