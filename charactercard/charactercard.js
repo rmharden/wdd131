@@ -26,11 +26,11 @@ function characterTemplate(character) {
       <p>Health: ${character.health}</p>`
 }
 
-renderCharacter(aCharacter);
-
 function renderCharacter(character) {
     document.querySelector(".stats").innerHTML = characterTemplate(character);
 }
+
+renderCharacter(aCharacter);
 
 document.querySelector(".attack").addEventListener("click", function () {
     aCharacter.attack();
