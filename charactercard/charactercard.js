@@ -11,7 +11,7 @@ document.querySelector('.image').setAttribute('src', aCharacter.image);
 document.querySelector('.image').setAttribute('alt', aCharacter.alt);
 
 
-function statsTemplate(stats) {
+function characterTemplate(stats) {
     return `
       <p>${aCharacter.class}<p>
       <p>${aCharacter.level}</p>
