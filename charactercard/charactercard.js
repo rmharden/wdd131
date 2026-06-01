@@ -1,5 +1,5 @@
 /*Found how to do an alert at W3schools*/
-/*https://www.w3schools.com/jsref/met_win_alert.asp?utm_source=chatgpt.com*/
+/*https://www.w3schools.com/jsreF/met_win_alert.asp*/
 
 const aCharacter = {
     image: 'images/snortleblat.jpeg',
