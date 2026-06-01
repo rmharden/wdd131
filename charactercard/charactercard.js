@@ -26,6 +26,8 @@ function characterTemplate(character) {
       <p>Health: ${character.health}</p>`
 }
 
+renderCharacter(aCharacter);
+
 function renderCharacter(character) {
     document.querySelector(".stats").innerHTML = characterTemplate(character);
 }
