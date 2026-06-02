@@ -21,6 +21,11 @@ gap: 1em;
 flex-direction: column;
 }
 
+.media-card {
+    display: flex;
+    gap: 1em;
+}
+
 hr{
 margin-top: 50px;
 }
