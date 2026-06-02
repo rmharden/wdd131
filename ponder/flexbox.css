@@ -17,6 +17,7 @@ max-width: 100%;
 .main-nav {
 list-style-type: none;
 display: flex;
+gap: 1em;
 }
 
 hr{
