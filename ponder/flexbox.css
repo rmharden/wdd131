@@ -30,4 +30,11 @@ flex-direction: column;
 hr{
 margin-top: 50px;
 }
+
+@media screen and (min-width: 500px) {
+    .media-card {
+         flex-direction: row ;
+    }
+    
+}
               
