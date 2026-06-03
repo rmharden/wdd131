@@ -1,5 +1,5 @@
 // W3schools link to how to do if, else if, and else statements
-// https://www.w3schools.com/js/js_if_else.asp?utm_source=chatgpt.com
+// https://www.w3schools.com/js/js_if_else.asp
 
 
 const form = document.querySelector("#eventForm");
