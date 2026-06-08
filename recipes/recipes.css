@@ -21,6 +21,11 @@ button img {
     width: 10px;
     height: auto;
 }
+.recipeCard {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
 .recipeImage {
     width: 250px;
     height: auto;
