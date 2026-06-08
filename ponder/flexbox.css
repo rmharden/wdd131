@@ -35,7 +35,7 @@ margin-top: 50px;
 @media screen and (min-width: 550px) {
     .main-nav {
         flex-direction: row;
-        
+        justify-content: flex-end;
     }
     .media-card {
         flex-direction: row;
