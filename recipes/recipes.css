@@ -3,6 +3,9 @@
 
 body {
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 .logo {
@@ -25,4 +28,13 @@ button img {
 #recipeTitle {
     font-family: "Amatic SC", cursive;
     color: rgb(0, 165, 231);
+}
+.socialMediaIcons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.socialMediaIcons img {
+    width: 30px;
+    height: auto;
 }
