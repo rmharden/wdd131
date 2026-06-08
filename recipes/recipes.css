@@ -24,11 +24,12 @@ button img {
 .recipeCard {
     border: 2px solid gray;
     border-radius: 5px;
-    margin: 10px;
+    gap: 50px;
 }
 .recipeImage {
     width: 250px;
     height: auto;
+    margin: 10px;
 }
 #recipeTitle {
     font-family: "Amatic SC", cursive;
