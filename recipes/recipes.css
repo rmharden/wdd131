@@ -39,6 +39,7 @@ button img {
     display: flex;
     justify-content: center;
     gap: 1em;
+    margin: 10px;
 }
 .socialMediaIcons img {
     width: 30px;
