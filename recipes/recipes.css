@@ -22,3 +22,7 @@ button img {
     width: 250px;
     height: auto;
 }
+h2 {
+    font-family: "Amatic SC", cursive;
+    color: rgb(0, 183, 255);
+}
