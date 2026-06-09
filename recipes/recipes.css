@@ -28,7 +28,7 @@ h1 {
 }
 .recipeSearch {
     display: flex;
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 5px;
 }
 .recipeSearch input {
@@ -46,14 +46,14 @@ h1 {
 .recipeSearch button .divider {
     width: 1px;
     height: 100%;
-    background-color: gray;
+    background-color: black;
     margin-right: 0.5rem;
 }
 .recipeSearch img {
     width: 15px;
 }
 .recipeCard {
-    border: 2px solid gray;
+    border: 2px solid black;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
