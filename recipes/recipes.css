@@ -25,11 +25,6 @@ h1 {
     font-size: 50px;
     margin-top: 15px;
 }
-
-.search-container img {
-    width: 10px;
-    height: auto;
-}
 .recipeCard {
     border: 2px solid gray;
     border-radius: 5px;
