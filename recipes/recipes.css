@@ -12,6 +12,7 @@ body {
     justify-content: center;
     gap: 5px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 .logo {
     width: 85px;
@@ -38,14 +39,13 @@ h1 {
     position: relative;
     display: flex;
     align-items: center;
-    border: none;
-    background: white;
+    background-color: white;
     border: none; 
     padding: 0.5rem 0.5rem;
 }
 .recipeSearch button .divider {
     width: 1px;
-    height: 60%;
+    height: 100%;
     background-color: gray;
     margin-right: 0.5rem;
 }
@@ -100,4 +100,8 @@ h1 {
 .social img {
     width: 30px;
     height: auto;
+}
+footer {
+    text-align: center;
+    font-size: small;
 }
