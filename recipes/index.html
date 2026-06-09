@@ -29,6 +29,7 @@
                 placeholder="Find a recipe "
             >
             <button type="submit">
+                <span class="divider"></span>
                 <img src="images/search.svg" alt="Submit">
             </button>
         </form>
@@ -39,15 +40,31 @@
                 <p>dessert</p>
             </div>
             <h2 class="recipeTitle">Apple Crisp</h2>
-            <p class="starRating">⭐️⭐️⭐️⭐️⭐︎</p>
+            
+            <span
+            class="rating"
+            role="img"
+            aria-label="Rating: 4 out of 5 stars"
+            >
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star">⭐</span>
+            <span aria-hidden="true" class="icon-star-empty">☆</span>
+            </span>
+                
             <p class="recipeDescription">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
         </section>
-        <div class="socialMediaIcons">
-            <img src="images/instagram_icon.svg">
-            <img src="images/youtube_icon.svg">
-            <img src="images/pinterest_icon.svg">
-        </div>
-    </div>
+
+        <div class="social">
+        <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+        <a href="#">
+            <img src="images/instagram_icon.svg" alt="instagram icon"></a>
+        <a href="#">
+            <img src="images/youtube_icon.svg" alt="youtube icon"></a>
+        <a href="#">
+            <img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+        </div>                  
     
 </body>
 </html>
