@@ -9,6 +9,10 @@ body {
     align-items: center;
     gap: 1em;
 }
+header, main, footer {
+    width: 100%;
+    max-width: 295px;
+}
 .logoTitle {
     display: flex;
     justify-content: center;
