@@ -1,5 +1,7 @@
 /*font site:*/
 /*https://fonts.google.com/share?selection.family=Amatic+SC:wght@400;700*/
+/*Learned out to change the width element with a calc:*/
+/*https://www.w3schools.com/cssref/func_calc.php*/
 
 body {
     font-family: sans-serif;
@@ -10,14 +12,15 @@ body {
 }
 header, main, footer {
     width: 100%;
-    max-width: 295px;
+    /*max-width: 295px;*/
+    max-width: 340px;
 }
 .logoTitle {
     display: flex;
     justify-content: center;
     gap: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 18px;
+    margin-top: 18px;
 }
 .logo {
     width: 85px;
@@ -63,11 +66,11 @@ h1 {
     flex-direction: column;
 }
 .recipeImage {
-    width: 250px;
+    width: calc(100% - 36px);
     height: auto;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-left: 18px;
+    margin-top: 18px;
+    margin-right: 18px;
     justify-content: center;
 }
 .recipeType {
@@ -77,7 +80,7 @@ h1 {
     background-color: rgb(231, 228, 228);
     width: fit-content;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 18px;
     margin-top: 2px;
 }
 .recipeType p {
@@ -87,11 +90,11 @@ h1 {
 .recipeTitle {
     font-family: "Amatic SC", cursive;
     color: rgb(0, 165, 231);
-    margin: 20px 0 0 20px;
+    margin: 18px 0 0 18px;
     font-size: 30px;
 }
 .rating {
-    margin: 0 0 20px 20px;
+    margin: 0 0 18px 18px;
 }
 .recipeDescription {
     display: none;
