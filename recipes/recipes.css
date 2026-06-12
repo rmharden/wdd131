@@ -106,6 +106,10 @@ h1 {
 .recipe-description {
     display: none;
 }
+footer {
+    text-align: center;
+    font-size: small;
+}
 .social {
     display: flex;
     justify-content: center;
@@ -116,10 +120,7 @@ h1 {
     width: 30px;
     height: auto;
 }
-footer {
-    text-align: center;
-    font-size: small;
-}
+
 
 @media screen and (min-width: 550px) {
     header,
