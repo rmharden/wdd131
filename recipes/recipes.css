@@ -132,6 +132,13 @@ footer {
         gap: 18px;
         align-items: flex-start;
     }
+    .recipe-image {
+        width: 250px;
+        height: auto;
+    }
+    .recipe-content {
+        display: flex;
+    }
     .recipe-description {
         display: block;
         margin: 18px;
