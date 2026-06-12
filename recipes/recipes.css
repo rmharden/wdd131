@@ -66,7 +66,7 @@ h1 {
 .recipe-search img {
     width: 28px;
 }
-.recipeCard {
+.recipe-card {
     border: 2px solid black;
     border-radius: 5px;
     display: flex;
