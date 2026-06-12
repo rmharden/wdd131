@@ -121,3 +121,20 @@ footer {
     font-size: small;
 }
 
+@media screen and (min-width: 550px) {
+    header,
+    main,
+    footer {
+        max-width: 700px;
+    }
+    .recipe-card {
+        flex-direction: row;
+        gap: 18px;
+        align-items: flex-start;
+    }
+    .recipe-description {
+        display: block;
+        margin: 18px;
+        font-size: smaller;
+    }
+}
