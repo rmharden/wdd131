@@ -108,7 +108,7 @@ h1 {
 }
 footer {
     text-align: center;
-    font-size: small;
+    font-size: x-small;
 }
 .social {
     display: flex;
@@ -156,8 +156,4 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-    .social-link {
-        font-size: x-small;
-    }
-
 }
