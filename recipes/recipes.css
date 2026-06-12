@@ -11,12 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*screen in mobile first touches the recipe card and teh search bar - trying padding here*/
     padding: 0 12px;
 }
 header, main, footer {
     width: 100%;
-    /*max-width: 295px;*/
     max-width: 340px;
 }
 .logoTitle {
@@ -27,7 +25,6 @@ header, main, footer {
     margin-top: 18px;
 }
 .logo {
-    /*width: 85px;*/
     width: 95px;
     height: auto;
 }
@@ -49,30 +46,24 @@ h1 {
     flex: 1;
     border: none;
     background: transparent;
-    /*trying the following*/
     height: 100%;
     padding-left: 0.5rem;
 }
 .recipeSearch button {
-    /*position: relative;*/
     display: flex;
     align-items: center;
     background: transparent;
     border: none; 
-    /*padding: 0.20rem 0.20rem;*/
-    /*added the following:*/
     height: 100%;
     padding: 0 0.5rem;
 }
 .recipeSearch button .divider {
     width: 1px;
-    /*height: 100%;*/
     height: 60%;
     background-color: black;
     margin-right: 0.5rem;
 }
 .recipeSearch img {
-    /*width: 30px;*/
     width: 28px;
 }
 .recipeCard {
