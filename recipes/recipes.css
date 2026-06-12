@@ -129,19 +129,34 @@ footer {
     }
     .recipe-card {
         flex-direction: row;
-        gap: 18px;
         align-items: flex-start;
-    }
+ }
     .recipe-image {
         width: 250px;
         height: auto;
+        margin-bottom: 18px;
     }
     .recipe-content {
         display: flex;
+        flex-direction: column;
+    }
+    .recipe-type {
+        margin-top: 18px;
+        font-size: smaller;
     }
     .recipe-description {
         display: block;
-        margin: 18px;
+        margin: 0 30px 0 18px;
         font-size: smaller;
+
     }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social-link {
+        font-size: x-small;
+    }
+
 }
