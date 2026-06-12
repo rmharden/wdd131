@@ -17,7 +17,7 @@ header, main, footer {
     width: 100%;
     max-width: 340px;
 }
-.logoTitle {
+.logo-title {
     display: flex;
     justify-content: center;
     gap: 5px;
