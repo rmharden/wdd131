@@ -40,28 +40,38 @@ h1 {
     display: flex;
     border: 2px solid black;
     border-radius: 5px;
+    /*added this to try*/
+    height: 42px;
 }
 .recipeSearch input {
     flex: 1;
     border: none;
     background: transparent;
+    /*trying the following*/
+    height: 100%;
+    padding-left: 0.5rem;
 }
 .recipeSearch button {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     align-items: center;
     background: transparent;
     border: none; 
-    padding: 0.20rem 0.20rem;
+    /*padding: 0.20rem 0.20rem;*/
+    /*added the following:*/
+    height: 100%;
+    padding: 0 0.5rem;
 }
 .recipeSearch button .divider {
     width: 1px;
-    height: 100%;
+    /*height: 100%;*/
+    height: 60%;
     background-color: black;
     margin-right: 0.5rem;
 }
 .recipeSearch img {
-    width: 30px;
+    /*width: 30px;*/
+    width: 28px;
 }
 .recipeCard {
     border: 2px solid black;
