@@ -44,15 +44,13 @@ h1 {
 .recipeSearch input {
     flex: 1;
     border: none;
-    width: 100%;
-    outline: none;
     background: transparent;
 }
 .recipeSearch button {
     position: relative;
     display: flex;
     align-items: center;
-    background-color: white;
+    background: transparent;
     border: none; 
     padding: 0.20rem 0.20rem;
 }
