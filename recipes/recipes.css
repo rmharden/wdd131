@@ -130,7 +130,7 @@ footer {
     header,
     main,
     footer {
-        max-width: 650px;
+        max-width: 680px;
     }
     .logo {
         width: 110px;
@@ -155,6 +155,9 @@ footer {
     .recipe-type {
         margin-top: 18px;
         font-size: smaller;
+    }
+    .recipe-title {
+        padding-top: 10px;
     }
     .rating {
         margin: 0 18px;
