@@ -29,3 +29,12 @@ let lowerList = simpleList.map(function(fruit) {
 
 let lowerSort = lowerList.sort();
 console.log(lowerSort);
+
+// in a search bar, the user can give the search term. In this case, we provided the search conditions, which will search the strings of fruit for any word containing the characters "an" together.
+let searchTerm = "an";
+
+let filterFruit = lowerSort.filter(searchFruit);
+
+function searchFruit(item) {
+    return item.includes(searchTerm);
+}
