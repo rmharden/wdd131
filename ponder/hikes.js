@@ -26,17 +26,17 @@ const hikes = [
         trailhead: [43.75561, -110.91521]
     },
     {
-        name: "",
-        stub: "",
+        name: "Denanda Falls",
+        stub: "denanda_falls",
         imgSrc:
-        "https://wdd131.netlify.app/examples/hikes/images",
-        imgAlt: "",
-        distance: "",
-        tags: ["",],
-        difficulty: ,
-        description: "",
-        directions: "",
-        trailhead: []
+        "https://wdd131.netlify.app/examples/hikes/images/denanda_falls.jpg",
+        imgAlt: "Image of Denanda Falls",
+        distance: "7 miles",
+        tags: ["Caves", "Yellowstone", "Waterfall"],
+        difficulty: 3,
+        description: "Beautiful hike through Denanda Bechler meadows to Denanda Falls.",
+        directions: "Take Highway 20 north to Ashton. Turn right into the town and continue through. Follow that road for a few miles then turn left again onto the Cave Falls road. Drive until you see the sign for Bechler Meadows on the left. Turn there. There is a parking area at the trailhead.",
+        trailhead: [44.14974, -111.04564]
     },
     {
         name: "",
