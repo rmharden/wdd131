@@ -1,3 +1,4 @@
+// detailed object arrays:
 const hikes = [
     {
         name: "Bechler Falls",
