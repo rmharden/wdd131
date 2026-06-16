@@ -65,4 +65,4 @@ const hikes = [
         directions: "Take Highway 33 West out of Rexburg for about 8 miles. Turn left onto E Butte Road. The Turn right onto Twin Butte road after about a mile. Follow that road for about 3 miles. You will see the parking lot/trailhead on the left.",
         trailhead: [43.78555, -111.98996]
     }
-]
+];
