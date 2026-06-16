@@ -6,14 +6,14 @@ console.log(nums.sort(compareFn));
 // console.log(nums.sort());
 
 //compare function because the sort above will sort based on the first digit of the number not based on its value.
-function compareFn(a,b) {
+/*function compareFn(a,b) {
     if (a < b) {
         return -1;
     } else if (a > b) {
         return 1;
     }
     return 0;
-}
+}*/
 
 // this is a string array:
 
@@ -40,3 +40,33 @@ function searchFruit(item) {
 }
 
 console.log(filterFruit);
+
+// sorting properties in an object array.
+
+
+// duplicated and pasted the function from above:
+function compareFn(a,b) {
+    if (a < b) {
+        return -1;
+    } else if (a > b) {
+        return 1;
+    }
+    return 0;
+}
+
+// This is a "simple products object array":
+
+const products = [
+    {
+    productName: "Wireless Mouse",
+    price: 29.99
+    },
+    {
+        productName: "Bluetooth Keyboard",
+        price: 49.99
+    },
+    {
+        productName: "Laptop Stand",
+        price: 39.99
+    }
+];
