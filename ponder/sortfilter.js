@@ -22,3 +22,10 @@ const simpleList = ["oranges", "grapes", "lemons", "Bananas", "watermelons", "co
 let simpleSort = simpleList.sort();
 
 console.log(simpleSort);
+
+let lowerList = simpleList.map(function(fruit) {
+    return fruit.toLowerCase();
+})
+
+let lowerSort = lowerList.sort();
+console.log(lowerSort);
