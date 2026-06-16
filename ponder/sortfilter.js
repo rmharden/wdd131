@@ -85,3 +85,28 @@ const products = [
 let productSort = products.sort(compareFn);
 
 console.log(productSort);
+
+// we are going to use for our Prove assignment an array inside each object of the array: This is an example?
+
+const animals = [
+    {
+    name: "Lion",
+    traits: ["brave", "strong", "fierce", "wild"]
+    },
+        {
+    name: "Elephant",
+    traits: ["large", "gentle", "smart", "wild"]
+    },
+        {
+    name: "Fox",
+    traits: ["sly", "quick", "clever", "wild"]
+    },
+        {
+    name: "Dog",
+    traits: ["loyal", "friendly", "playful", "cuddly"]
+    },
+        {
+    name: "Cat",
+    traits: ["quiet", "independent", "curious", "cuddly"]
+    }
+];
