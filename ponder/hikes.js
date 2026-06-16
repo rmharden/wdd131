@@ -13,17 +13,17 @@ const hikes = [
         trailhead: [44.14457, -110.99781]
     },
     {
-        name: "",
-        stub: "",
+        name: "Teton Canyon",
+        stub: "teton_canyon",
         imgSrc:
-        "https://wdd131.netlify.app/examples/hikes/images",
-        imgAlt: "",
-        distacne: "",
-        tags: ["",],
-        difficulty: ,
-        description: "",
-        directions: "",
-        trailhead: []
+        "https://wdd131.netlify.app/examples/hikes/images/teton-canyon.jpg",
+        imgAlt: "Image of Teton Canyon",
+        distacne: "3 miles",
+        tags: ["Canyon", "Tetons"],
+        difficulty: 1,
+        description: "Beautiful short (pr long) hike through Teton Canyon.",
+        directions: "Take Highway 33 East to Driggs. Turn left onto Teton Canyon Road. Follow that road for a few miles then turn right onto the Staline Road for a short distance. Then left onto Alta Road. Veer right after Alta back onto Teton Canyon Road. There is a parking area a the trailhead.",
+        trailhead: [43.75561, -110.91521]
     },
     {
         name: "",
