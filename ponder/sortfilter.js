@@ -38,3 +38,5 @@ let filterFruit = lowerSort.filter(searchFruit);
 function searchFruit(item) {
     return item.includes(searchTerm);
 }
+
+console.log(filterFruit);
