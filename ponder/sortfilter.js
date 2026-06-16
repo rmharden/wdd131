@@ -124,7 +124,7 @@ function searchList(item) {
 console.log(filteredList);
 
 
-let queryTrait = 'wild';
+let queryTrait = 'strong';
 
 let filteredTraits = animals.filter(searchTraits);
 
