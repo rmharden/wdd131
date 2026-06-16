@@ -14,3 +14,7 @@ function compareFn(a,b) {
     }
     return 0;
 }
+
+// this is a string array:
+
+const simpleList = ["oranges", "grapes", "lemons", "Bananas", "watermelons", "coconuts", "broccoli", "mango"];
