@@ -45,10 +45,21 @@ console.log(filterFruit);
 
 
 // duplicated and pasted the function from above:
-function compareFn(a,b) {
+/*function compareFn(a,b) {
     if (a.price < b.price) {
         return -1;
     } else if (a.price > b.price) {
+        return 1;
+    }
+    return 0;
+}*/
+
+// The one above brought the price property into the sort compare function.
+// The one below has the productName property brought into the compare function:
+function compareFn(a,b) {
+    if (a.productName < b.productName) {
+        return -1;
+    } else if (a.productName > b.productName) {
         return 1;
     }
     return 0;
