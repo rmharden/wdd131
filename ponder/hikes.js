@@ -73,6 +73,16 @@ let button = document.querySelector('button');
 // This is where I left off at 14:24 in the video.
 button.addEventListener('click', search);
 
+function search() {
+    let hikeQuery = document.querySelector('#search').value;
+
+    let filterHikes = hikes.filter(function(hike) {
+        return (
+            hike.name.toLowerCase().includes(hikeQuery.toLowerCase()) || hike.description.toLowerCase().includes(hikeQuery.toLowerCase()) || hike.tags.find(tag => tag.toLowerCase().includes(hikeQuery.toLowerCase()))
+        )
+    })
+}
+
 let randomNum = Math.floor(Math.random()* hikes.length);
 console.log(randomNum);
 
