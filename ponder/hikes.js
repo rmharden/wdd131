@@ -66,3 +66,7 @@ const hikes = [
         trailhead: [43.78555, -111.98996]
     }
 ];
+
+let hikeContainer = document.querySelector('#hike-container');
+let button = document.querySelector('button');
+
