@@ -18,3 +18,7 @@ function compareFn(a,b) {
 // this is a string array:
 
 const simpleList = ["oranges", "grapes", "lemons", "Bananas", "watermelons", "coconuts", "broccoli", "mango"];
+
+let simpleSort = simpleList.sort();
+
+console.log(simpleSort);
