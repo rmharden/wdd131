@@ -113,7 +113,7 @@ const animals = [
     }
 ];
 
-let query = 'dog';
+let query = 'ox';
 
 let filteredList = animals.filter(searchList);
 
@@ -122,3 +122,14 @@ function searchList(item) {
 }
 
 console.log(filteredList);
+
+
+let queryTrait = 'wild';
+
+let filteredTraits = animals.filter(searchTraits);
+
+function searchTraits(item) {
+    return item.traits.find((trait) => trait.toLowerCase().includes(queryTrait.toLocaleLowerCase()));
+}
+
+console.log(filteredTraits);
