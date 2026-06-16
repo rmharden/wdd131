@@ -46,9 +46,9 @@ console.log(filterFruit);
 
 // duplicated and pasted the function from above:
 function compareFn(a,b) {
-    if (a < b) {
+    if (a.price < b.price) {
         return -1;
-    } else if (a > b) {
+    } else if (a.price > b.price) {
         return 1;
     }
     return 0;
@@ -70,3 +70,7 @@ const products = [
         price: 39.99
     }
 ];
+
+let productSort = products.sort(compareFn);
+
+console.log(productSort);
