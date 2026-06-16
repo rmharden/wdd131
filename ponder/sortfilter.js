@@ -118,7 +118,7 @@ let query = 'dog';
 let filteredList = animals.filter(searchList);
 
 function searchList(item) {
-    return item.name.toLowerCase().includes.query.toLowerCase();
+    return item.name.toLowerCase().includes(query.toLowerCase());
 }
 
 console.log(filteredList);
