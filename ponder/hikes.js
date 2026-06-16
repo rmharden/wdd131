@@ -52,16 +52,16 @@ const hikes = [
         trailhead: [44.49035, -111.36619]
     },
     {
-        name: "",
-        stub: "",
+        name: "Menan Butte",
+        stub: "menan_butte",
         imgSrc:
-        "https://wdd131.netlify.app/examples/hikes/images",
-        imgAlt: "",
-        distance: "",
-        tags: ["",],
-        difficulty: ,
-        description: "",
-        directions: "",
-        trailhead: []
+        "https://wdd131.netlify.app/examples/hikes/images/menan-butte.jpg",
+        imgAlt: "Image of Menan Butte",
+        distance: "3.4 miles",
+        tags: ["Volcanic", "View"],
+        difficulty: 2,
+        description: "A steep climb to one of the largest volcanic tuff cones in the world. 3.4 miles is the full loop around the crater, can be shortened.",
+        directions: "Take Highway 33 West out of Rexburg for about 8 miles. Turn left onto E Butte Road. The Turn right onto Twin Butte road after about a mile. Follow that road for about 3 miles. You will see the parking lot/trailhead on the left.",
+        trailhead: [43.78555, -111.98996]
     }
 ]
