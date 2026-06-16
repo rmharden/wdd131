@@ -70,6 +70,9 @@ const hikes = [
 let hikeContainer = document.querySelector('#hike-container');
 let button = document.querySelector('button');
 
+// This is where I left off at 14:24 in the video.
+button.addEventListener('click', search);
+
 let randomNum = Math.floor(Math.random()* hikes.length);
 console.log(randomNum);
 
