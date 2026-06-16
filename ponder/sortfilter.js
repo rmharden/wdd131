@@ -88,6 +88,8 @@ console.log(productSort);
 
 // we are going to use for our Prove assignment an array inside each object of the array: This is an example?
 
+// in our prove assignment, we will use "tags" instead of "traits".
+
 const animals = [
     {
     name: "Lion",
@@ -110,3 +112,4 @@ const animals = [
     traits: ["quiet", "independent", "curious", "cuddly"]
     }
 ];
+
