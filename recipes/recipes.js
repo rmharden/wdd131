@@ -345,8 +345,8 @@ function recipesTemplate(recipe) {
       ${tagTemplate(recipe.tags)}
     </div>
     <h2 class="recipe-title">${recipe.name}</h2>
-    <p class="recipe-description">${recipe.description}</p>
     <p>${ratingTemplate(recipe.rating)}</p>
+    <p class="recipe-description">${recipe.description}</p>
   </div>
 </div>`
 }
