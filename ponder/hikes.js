@@ -83,6 +83,21 @@ function search() {
     })
 
     console.log(filterHikes);
+
+    let sortedHikes = filterHikes.sort(compareHikes);
+
+    function compareHikes(a,b) {
+        if (a.difficulty < b.difficulty) {
+            return -1;
+        } else if (a.difficulty > b.difficulty) {
+            return 1;
+        }
+        return 0;
+    }
+    hikeContainer.innerHTML = '';
+    sortedHikes.forEach(function(hike) {
+        renderHikes(hike);
+    })
 }
 
 let randomNum = Math.floor(Math.random()* hikes.length);
