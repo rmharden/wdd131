@@ -279,10 +279,9 @@ const recipes = [
 		recipeYield: '12 servings',
 		rating: 4
 	}
-]            
+];            
 
-
-let recipeCard = document.querySelector('.recipe-card');
+let recipeCard = document.querySelector('.recipeCard');
 let button = document.querySelector('button');
 
 button.addEventListener('click', search);
@@ -301,9 +300,9 @@ function search() {
     let sortedRecipes = filterRecipes.sort(compareRecipes);
 
     function compareRecipes(a,b) {
-        if (a.difficulty < b.difficulty) {
+        if (a.rating < b.rating) {
             return -1;
-        } else if (a.difficulty > b.difficulty) {
+        } else if (a.rating > b.rating) {
             return 1;
         }
         return 0;
@@ -321,12 +320,12 @@ function tagTemplate(tags) {
     return tags.map((tag)=> `<button>${tag}</button>`).join(' ');
 }
 
-function difficultyTemplate(rating) {
+function ratingTemplate(rating) {
 		let html = `<span
 	class="rating"
 	role="img"
 	aria-label="Rating: ${rating} out of 5"
->  Difficulty: `
+>  Rating: `
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
         html += `<span aria-hidden="true" class="icon-star"> ⭐</span>`
@@ -338,7 +337,7 @@ function difficultyTemplate(rating) {
     return html
   }
 // Template literal. This is 
-function recipesTemplate(hike) {
+function recipesTemplate(recipe) {
     return `<div class="recipe-card">
   <div class="recipe-content">
     <h2>${recipe.name}</h2>
@@ -346,7 +345,7 @@ function recipesTemplate(hike) {
       ${tagTemplate(recipe.tags)}
     </div>
     <p>${recipe.description}</p>
-    <p>${difficultyTemplate(recipe.difficulty)}</p>
+    <p>${difficultyTemplate(recipe.rating)}</p>
   </div>
 </div>`
 }
@@ -360,4 +359,3 @@ function init() {
 }
 
 init();
-          
