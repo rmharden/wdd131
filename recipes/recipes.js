@@ -282,25 +282,25 @@ const recipes = [
 ]            
 
 
-let hikeContainer = document.querySelector('#hike-container');
+let recipeCard = document.querySelector('.recipe-card');
 let button = document.querySelector('button');
 
 button.addEventListener('click', search);
 
 function search() {
-    let hikeQuery = document.querySelector('#search').value;
+    let recipeQuery = document.querySelector('#search').value;
 
-    let filterHikes = hikes.filter(function(hike) {
+    let filterRecipes = recipes.filter(function(recipe) {
         return (
-            hike.name.toLowerCase().includes(hikeQuery.toLowerCase()) || hike.description.toLowerCase().includes(hikeQuery.toLowerCase()) || hike.tags.find(tag => tag.toLowerCase().includes(hikeQuery.toLowerCase()))
+            recipe.name.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.description.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.tags.find(tag => tag.toLowerCase().includes(recipeQuery.toLowerCase()))
         );
     })
 
-    console.log(filterHikes);
+    console.log(filterRecipes);
 
-    let sortedHikes = filterHikes.sort(compareHikes);
+    let sortedRecipes = filterRecipes.sort(compareRecipes);
 
-    function compareHikes(a,b) {
+    function compareRecipes(a,b) {
         if (a.difficulty < b.difficulty) {
             return -1;
         } else if (a.difficulty > b.difficulty) {
@@ -308,13 +308,13 @@ function search() {
         }
         return 0;
     }
-    hikeContainer.innerHTML = '';
-    sortedHikes.forEach(function(hike) {
-        renderHikes(hike);
+    recipeCard.innerHTML = '';
+    sortedRecipes.forEach(function(recipe) {
+        renderRecipes(recipe);
     })
 }
 
-let randomNum = Math.floor(Math.random()* hikes.length);
+let randomNum = Math.floor(Math.random()* recipes.length);
 console.log(randomNum);
 
 function tagTemplate(tags) {
@@ -329,34 +329,34 @@ function difficultyTemplate(rating) {
 >  Difficulty: `
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
-        html += `<span aria-hidden="true" class="icon-boot"> 🥾</span>`
+        html += `<span aria-hidden="true" class="icon-star"> ⭐</span>`
       } else {
-        html += `<span aria-hidden="true" class="icon-empty">▫️</span>`
+        html += `<span aria-hidden="true" class="icon-star-empty">☆</span>`
       }			
     }
     html += `</span>`
     return html
   }
 // Template literal. This is 
-function hikesTemplate(hike) {
-    return `<div class="hike-card">
-  <div class="hike-content">
-    <h2>${hike.name}</h2>
-    <div class="hike-tags">
-      ${tagTemplate(hike.tags)}
+function recipesTemplate(hike) {
+    return `<div class="recipe-card">
+  <div class="recipe-content">
+    <h2>${recipe.name}</h2>
+    <div class="recipe-tags">
+      ${tagTemplate(recipe.tags)}
     </div>
-    <p>${hike.description}</p>
-    <p>${difficultyTemplate(hike.difficulty)}</p>
+    <p>${recipe.description}</p>
+    <p>${difficultyTemplate(recipe.difficulty)}</p>
   </div>
 </div>`
 }
 
-function renderHikes(hike) {
-    let html = hikesTemplate(hike);
-    hikeContainer.innerHTML += html
+function renderRecipes(recipe) {
+    let html = recipesTemplate(recipe);
+    recipeCard.innerHTML += html
 }
 function init() {
-    renderHikes(hikes[randomNum]);
+    renderRecipes(recipes[randomNum]);
 }
 
 init();
