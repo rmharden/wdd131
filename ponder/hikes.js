@@ -19,7 +19,7 @@ const hikes = [
         imgSrc:
         "https://wdd131.netlify.app/examples/hikes/images/teton-canyon.jpg",
         imgAlt: "Image of Teton Canyon",
-        distacne: "3 miles",
+        distance: "3 miles",
         tags: ["Canyon", "Tetons"],
         difficulty: 1,
         description: "Beautiful short (pr long) hike through Teton Canyon.",
