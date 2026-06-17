@@ -336,7 +336,7 @@ function ratingTemplate(rating) {
     html += `</span>`
     return html
   }
-// Template literal. This is 
+// Template literal. 
 function recipesTemplate(recipe) {
     return `<div class="recipe-card">
   <div class="recipe-content">
