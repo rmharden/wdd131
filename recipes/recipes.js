@@ -302,9 +302,9 @@ function search(event) {
     let sortedRecipes = filterRecipes.sort(compareRecipes);
 
     function compareRecipes(a,b) {
-        if (a.rating < b.rating) {
+        if (a.name < b.name) {
             return -1;
-        } else if (a.rating > b.rating) {
+        } else if (a.name > b.name) {
             return 1;
         }
         return 0;
