@@ -86,7 +86,7 @@ function search() {
 
     let sortedHikes = filterHikes.sort(compareHikes);
 
-    function compareHike(a,b) {
+    function compareHikes(a,b) {
         if (a.difficulty < b.difficulty) {
             return -1;
         } else if (a.difficulty > b.difficulty) {
@@ -137,12 +137,12 @@ function hikesTemplate(hike) {
 </div>`
 }
 
-function renderHike(hike) {
+function renderHikes(hike) {
     let html = hikesTemplate(hike);
     hikeContainer.innerHTML += html
 }
 function init() {
-    renderHike(hikes[randomNum]);
+    renderHikes(hikes[randomNum]);
 }
 
 init();
