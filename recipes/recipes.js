@@ -281,7 +281,7 @@ const recipes = [
 	}
 ];            
 
-let recipeCard = document.querySelector('.recipe-card');
+let recipeCard = document.querySelector('.recipe-container');
 let button = document.querySelector('button');
 
 button.addEventListener('click', search);
