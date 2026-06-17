@@ -281,7 +281,7 @@ const recipes = [
 	}
 ];            
 
-let recipeCard = document.querySelector('.recipeCard');
+let recipeCard = document.querySelector('.recipe-card');
 let button = document.querySelector('button');
 
 button.addEventListener('click', search);
@@ -345,7 +345,7 @@ function recipesTemplate(recipe) {
       ${tagTemplate(recipe.tags)}
     </div>
     <p>${recipe.description}</p>
-    <p>${difficultyTemplate(recipe.rating)}</p>
+    <p>${ratingTemplate(recipe.rating)}</p>
   </div>
 </div>`
 }
