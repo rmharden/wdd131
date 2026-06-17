@@ -46,7 +46,7 @@ const hikes = [
         "https://wdd131.netlify.app/examples/hikes/images/coffee-pot.jpg",
         imgAlt: "Image of Coffee Pot Rapids",
         distance: "2.2 Miles",
-        tags: ["Rafting",],
+        tags: ["Rafting"],
         difficulty: 1,
         description: "Beautiful hike along the Henry's Fork of the Snake River to a set of rapids.",
         directions: "Take Highway 20 norht to Island Park. Continue almost to Mack's Inn. From Highway 20, turn west on Flatrock Road for 1 mile then turn off on Coffee Pot Road and travel one-half mile to the campground entrance road. There is a parking lot right outside the campground.",
