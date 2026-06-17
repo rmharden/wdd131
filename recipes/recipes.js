@@ -339,7 +339,7 @@ function ratingTemplate(rating) {
 // Template literal. 
 function recipesTemplate(recipe) {
     return `<div class="recipe-card">
-  <div class="recipe-content">
+  <section class="recipe-content">
     <img src="${recipe.image}" alt="" class="recipe-image">
     <div class="recipe-type">
       ${tagTemplate(recipe.tags)}
@@ -348,7 +348,7 @@ function recipesTemplate(recipe) {
     <p>${ratingTemplate(recipe.rating)}</p>
     <p class="recipe-description">${recipe.description}</p>
   </div>
-</div>`
+</section>`
 }
 
 function renderRecipes(recipe) {
