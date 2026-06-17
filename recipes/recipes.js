@@ -1,4 +1,5 @@
-
+/*My search would result in refreshing the page and not showing the recipes. I found the event.preventDefault() on w3schools and that stopped the page refresh after the search.*/
+/*https://www.w3schools.com/jsref/event_preventDefault.asp*/
 const recipes = [
 	{
 		author: 'Provo High Culinary Students',
@@ -286,7 +287,8 @@ let button = document.querySelector('button');
 console.log(button);
 button.addEventListener('click', search);
 
-function search() {
+function search(event) {
+    event.preventDefault();
     let recipeQuery = document.querySelector('#search').value;
 
     let filterRecipes = recipes.filter(function(recipe) {
