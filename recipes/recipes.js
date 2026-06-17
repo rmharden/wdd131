@@ -338,16 +338,16 @@ function ratingTemplate(rating) {
   }
 // Template literal. 
 function recipesTemplate(recipe) {
-    return `<div class="recipe-card">
-  <section class="recipe-content">
-    <img src="${recipe.image}" alt="" class="recipe-image">
-    <div class="recipe-type">
-      ${tagTemplate(recipe.tags)}
-    </div>
-    <h2 class="recipe-title">${recipe.name}</h2>
-    <p>${ratingTemplate(recipe.rating)}</p>
-    <p class="recipe-description">${recipe.description}</p>
-  </div>
+    return `<section class="recipe-card">
+        <img src="${recipe.image}" alt="" class="recipe-image">
+        <div class="recipe-content">
+            <div class="recipe-type">
+            ${tagTemplate(recipe.tags)}
+            </div>
+            <h2 class="recipe-title">${recipe.name}</h2>
+            <p>${ratingTemplate(recipe.rating)}</p>
+            <p class="recipe-description">${recipe.description}</p>
+        </div>
 </section>`
 }
 
