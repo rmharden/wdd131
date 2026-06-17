@@ -288,6 +288,7 @@ button.addEventListener('click', search);
 
 function search() {
     let recipeQuery = document.querySelector('#search').value;
+    console.log(recipeQuery);
 
     let filterRecipes = recipes.filter(function(recipe) {
         return (
