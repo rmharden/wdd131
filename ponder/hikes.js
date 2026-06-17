@@ -86,7 +86,7 @@ function search() {
 
     let sortedHikes = filterHikes.sort(compareHikes);
 
-    function compareHikes(a,b) {
+    function compareHike(a,b) {
         if (a.difficulty < b.difficulty) {
             return -1;
         } else if (a.difficulty > b.difficulty) {
