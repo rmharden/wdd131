@@ -325,7 +325,7 @@ function ratingTemplate(rating) {
 	class="rating"
 	role="img"
 	aria-label="Rating: ${rating} out of 5"
->  Rating: `
+>  `
     for (let i = 1; i <= 5; i++) {
       if (i <= rating) {
         html += `<span aria-hidden="true" class="icon-star"> ⭐</span>`
@@ -345,7 +345,7 @@ function recipesTemplate(recipe) {
             ${tagTemplate(recipe.tags)}
             </div>
             <h2 class="recipe-title">${recipe.name}</h2>
-            <p>${ratingTemplate(recipe.rating)}</p>
+            ${ratingTemplate(recipe.rating)}
             <p class="recipe-description">${recipe.description}</p>
         </div>
 </section>`
