@@ -83,6 +83,13 @@ h1 {
 .recipe-type {
     margin-left: 18px;
 }
+.recipe-type button {
+    border: 1px solid gray;
+    background-color: rgb(233, 234, 234);
+    color: black;
+    border-radius: 2px;
+    padding: 5px;
+}
 .recipe-title {
     font-family: "Amatic SC", cursive;
     color: rgb(0, 165, 231);
