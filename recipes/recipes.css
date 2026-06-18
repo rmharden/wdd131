@@ -80,6 +80,9 @@ h1 {
     margin-right: 18px;
     justify-content: center;
 }
+.recipe-type button {
+    margin-left: 18px;
+}
 .recipe-title {
     font-family: "Amatic SC", cursive;
     color: rgb(0, 165, 231);
