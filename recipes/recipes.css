@@ -82,6 +82,7 @@ h1 {
 }
 .recipe-type {
     margin-left: 18px;
+    margin-top: 1px;
 }
 .recipe-type button {
     border: 1px solid gray;
