@@ -323,7 +323,7 @@ let randomNum = Math.floor(Math.random()* recipes.length);
 console.log(randomNum);
 
 function tagTemplate(tags) {
-    return tags.map((tag)=> `<button>${tag}</button>`).join(' ');
+    return tags.map((tag)=> `<button>${tag}</button>`).join('');
 }
 
 function ratingTemplate(rating) {
