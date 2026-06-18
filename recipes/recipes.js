@@ -284,13 +284,11 @@ const recipes = [
 
 let recipeCard = document.querySelector('.recipe-container');
 /*let button = document.querySelector('button');
-console.log(button);
 button.addEventListener('click', search);*/
 
 /*Switching to the form version of the querySelector for the button click. Choosing this method because I used a form search in Week 09 before I knew about the Hikes method. I also like that the forms can allow the enter key to search not just clicking on the button.*/
 
 let form = document.querySelector('.recipe-search');
-//console.log(form); // This is to test. I don't think I need for my site to work.
 form.addEventListener('submit', search);
 
 function search(event) {
