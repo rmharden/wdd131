@@ -291,7 +291,7 @@ button.addEventListener('click', search);*/
 
 let form = document.querySelector('.recipe-search');
 console.log(form); // This is to test. I don't think I need for my site to work.
-form.
+form.addEventListener('submit', search);
 
 function search(event) {
     event.preventDefault();
