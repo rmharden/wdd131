@@ -1,5 +1,8 @@
-/*My search would result in refreshing the page and not showing the recipes. I found the event.preventDefault() on w3schools and that stopped the page refresh after the search.*/
+/*My search would result in refreshing the page and not showing the recipes. I found the event.preventDefault() on w3schools and that stopped the page refresh after the search. Below are sites where I got help to do the submit button for the form instead of how it's done in the Hikes assignment. I used both our school lessons and the W3Shools lessons.*/
 /*https://www.w3schools.com/jsref/event_preventDefault.asp*/
+/*https://www.w3schools.com/jsref/event_onsubmit.asp*/
+/*https://www.w3schools.com/js/js_htmldom_eventlistener.asp*/
+
 const recipes = [
 	{
 		author: 'Provo High Culinary Students',
