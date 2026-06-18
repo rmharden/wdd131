@@ -262,7 +262,7 @@ const recipes = [
 			'1 Tbsp white flour',
 			'1 tsp ground cinnamon',
 			'3 Tbsp water',
-			'1 C rolled oats',
+			'1 C rolled oats/oatmeal',
 			'1 C Flour',
 			'1 C Brown sugar',
 			'1/4 tsp baking powder',
