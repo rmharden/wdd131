@@ -293,7 +293,7 @@ function search(event) {
 
     let filterRecipes = recipes.filter(function(recipe) {
         return (
-            recipe.name.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.description.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.tags.find(tag => tag.toLowerCase().includes(recipeQuery.toLowerCase()))
+            recipe.name.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.description.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.tags.find(tag => tag.toLowerCase().includes(recipeQuery.toLowerCase()) || recipe.recipeIngredient.find(ingredient => ingredient.toLowerCase().includes(recipeQuery.toLowerCase())))
         );
     })
 
