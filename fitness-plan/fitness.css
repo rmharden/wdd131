@@ -3,7 +3,9 @@ body {
   background:  #cfdae0;
   margin: 0;
 }
-
+header, footer {
+text-align: center;
+}
 .wrapper {
   max-width: 850px;
   margin: 50px auto;
@@ -84,5 +86,4 @@ button:hover {
 #output {
   margin-top: 1rem;
   font-weight: bold;
-}
-          
+}   
