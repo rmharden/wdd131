@@ -6,6 +6,24 @@ body {
 header, footer {
 text-align: center;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.logo img {
+    width: 95px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-family: "Amatic SC", cursive;
+    font-size: 60px;
+    margin-top: 15px;
+}
 .wrapper {
   max-width: 850px;
   margin: 50px auto;
