@@ -28,15 +28,15 @@
 			<hr />
 			<h2>Overview</h2>
 			<h3>Purpose</h3>
-			<p>[Your purpose here]</p>
+			<p>The purpose of this app is to help users create a simple daily workout based on their current fitness level. The user enters a number of repetitions they can currently complete. The application generates a progressive six-session plan for that day. The app also provides a library of exercises that the user can use to learn how to do the exercises. </p>
 			<!-- change this -->
 
 			<h3>Audience</h3>
-			<p>[Your audience here]</p>
+			<p>The site is designed for beginners, but it also works for any fitness level. The workout generator allows the user to start where they are and creates a plan they can implement throughout the day by gradually improving the number of repetitions they can do over time. This allows any person of any fitness level to improve progressively. </p>
 			<!-- change this -->
 
 			<h3>Dynamic elements</h3>
-			<p>[Describe dynamic elements provided by Javascript here]</p>
+			<p>JavaScript will be used to create the interactive generator of a personalized workout plan based on the user’s input value as the starting base. When the user submits the form, JavaScript will validate the input, create six sessions with progressively increasing repetitions, and it will calculate the daily totals for the three exercises. It then displays the sessions with progressive repetitions for each exercise. The application also includes a library stored in an object array. Users can search for the exercises using key terms and JavaScript will filter and display the results using DOM manipulation. The library will be stored in an object array and will be displayed using template literals, DOM manipulation, and array methods such as filter() and forEach(). Event listeners will listen for the user input and update the page.</p>
 			<!-- change this -->
 
 			<hr />
@@ -81,13 +81,21 @@
 			<h3>Pseudocode for your project</h3>
 
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-				veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-				commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-				velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-				occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-				mollit anim id est laborum.
+				When the page loads:
+				The welcome text is displayed.
+				When the user enters a number for the repetitions and click the submit button:
+				The site reads the user’s input.
+				It validates the value is between 1 and 100.
+				If the value is not in the correct range, an error message is displayed.
+				If the entered number is in the correct range:
+				Six sessions are created.
+				The user’s value is increased by 1 with each session up to six sessions.
+				The total repetitions for each exercise is calculated.
+				The workout plan is displayed with the totals.
+				When the user searches the exercise library:
+				It reads the user’s text.
+				The exercise array is filtered.
+				The matching exercises are displayed for the user.
 			</p>
 
 			<h3>Wireframes</h3>
