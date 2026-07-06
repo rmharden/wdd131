@@ -106,7 +106,8 @@ function tagTemplate(tags) {
     return tags.map((tag)=> `<button>${tag}</button>`).join('');
 }
 
-function ratingTemplate(rating) {
+/* This was for the recipes and I don't think I need it. Will delete if I don't need it.*/
+/*function ratingTemplate(rating) {
 		let html = `<span
 	class="rating"
 	role="img"
@@ -121,7 +122,8 @@ function ratingTemplate(rating) {
     }
     html += `</span>`
     return html
-  }
+  }*/
+
 // Template literal. 
 function exercisesTemplate(exercise) {
     return `<section class="exercise-card">
