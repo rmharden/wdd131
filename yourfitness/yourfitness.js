@@ -93,7 +93,8 @@ function search(event) {
         }
         return 0;
     }
-    exercise.CardinnerHTML = '';
+	//exercise is the variable and the innerHTML is the property of the element.
+    exerciseCard.innerHTML = '';
     sortedExercises.forEach(function(exercise) {
         renderExercises(exercise);
     })
