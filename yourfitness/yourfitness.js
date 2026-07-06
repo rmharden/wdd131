@@ -93,7 +93,7 @@ function search(event) {
         }
         return 0;
     }
-    exerciseCardinnerHTML = '';
+    exercise.CardinnerHTML = '';
     sortedExercises.forEach(function(exercise) {
         renderExercises(exercise);
     })
