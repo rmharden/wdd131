@@ -44,6 +44,23 @@
             <h1>Your Fitness</h1>
             <img src="images/running.png" alt="Your fitness logo" class="logo">
         </div>
+    </header>
+    <main>
+        <h2>Welcome to Your Fitness</h2>
+        <p>Generate a workout plan based on your current fitness level.</p>
+        <hr>
+        <form id="workoutGenerator">
+            <div class="generator">
+                <h2>Today's Workout Generator</h2>
+                <p>Enter your starting repetitions: </p>
+                <label for="repNumber">Starting Repetitions</label>
+                <input id="repNumber" name="repNumber" type="number" placeholder="1-100" required>
+                <div>
+                    <button type="submit">Generate Workout</button>
+                </div>
+            </div>
+        </form>
+        <hr>
         <form class="exercise-search">
             <input 
                 type="text"
@@ -56,10 +73,7 @@
                 <img src="images/search.svg" alt="Submit">
             </button>
         </form>
-    </header>
-    <main>
-        <hr>
-
+        <!--template literal?-->
         <div class="exercise-container">
 
         </div>
