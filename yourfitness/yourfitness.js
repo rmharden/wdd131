@@ -2,6 +2,8 @@
 /*https://www.w3schools.com/jsref/event_preventDefault.asp*/
 /*https://www.w3schools.com/jsref/event_onsubmit.asp*/
 /*https://www.w3schools.com/js/js_htmldom_eventlistener.asp*/
+/*The link below teaches how to do Nested Arrays and Objects. I used this for the exercise generator object arrays*/
+/*https://www.w3schools.com/js/js_arrays.asp*/
 
 const exercises = [
 	{
