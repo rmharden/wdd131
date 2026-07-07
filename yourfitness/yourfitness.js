@@ -17,7 +17,7 @@ const exercises = [
 		description:
 			'Stand and interlace your fingers behind your back. Lift your arms behind your back so they move outward and away from. your body, then lean forward from the waist. Bend your knees, lower your arms and return to the upright position',
 		image: './images/pexels-ketut-subiyanto-4909537.jpg',
-		name: 'Chest',
+		name: 'Chest'
 	},
 	{
 		tags: ['stretch', 'back', 'standing'],
@@ -59,6 +59,15 @@ const exercises = [
 			"Sit on the ground with the soles of your feet together and place your hands on or near your feet. Bend forward from the hips keeping the head up and hold this position.",
 		image: './images/pexels-jacky-xing-776569260-29132146.jpg',
 		name: 'Groin (Seated)'
+	},
+	{ 
+		order: 15,
+		name: 'Sit-ups', 
+		tags: ['calisthenics', 'abdominal', 'sitting', 'assisted'], image: './images/grok-imagine-sit-up-001.jpg',
+		description: "Begin by laying face-up on the ground. Cross arms over chest and place hands on opposite shoulders. Elbows must not touch your knees or thighs on the way up. Touch your shoulder blades on the ground. Keep your feet in contact with the floor. A partner may hold them if needed. Bend your knees at 90 degrees. Raise your upper torso until your elbows touch your knees or thighs. Return to the starting position. Do not use momentum or pull on your neck. Focus on core contraction as you sit-up.", 
+		count: 2, 
+		recommendedReps: 30, 
+		generator: true
 	}
 ];            
 
