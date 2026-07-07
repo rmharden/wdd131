@@ -5,6 +5,7 @@
 <!--https://www.w3schools.com/TAgs/att_input_type_number.asp-->
 <!--https://www.w3schools.com/js/js_arrays.asp-->
 <!--https://www.w3schools.com/js/tryit.asp?filename=tryjs_array_nested-->
+<!--https://www.w3schools.com/tags/tag_fieldset.asp-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -55,14 +56,65 @@
         <hr>
         <form id="workoutGenerator">
             <div class="generator">
-                <h2>Today's Workout Plan</h2>
+                <h2>Create Today's Workout</h2>
                 <p>How many repetitions can you do without stopping?</p>
                 <label for="repNumber">Starting Repetitions</label>
                 <input id="repNumber" name="repNumber" type="number" min="1" max="100" placeholder="0" required>
                 <div>
                     <button type="submit">Generate Workout</button>
                 </div>
-            </div>
+                <fieldset class="full session-group">
+                    <legend>Today's Workout</legend>
+
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session1" value="Session 1" /> Session One</label>
+                        <ul>
+                            <li>Sit-ups: 1</li>
+                            <li>Push-ups: 1</li>
+                            <li>Squats: 1</li>
+                        </ul>
+                    </div>
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session2" value="Session 2" /> Session Two</label>
+                        <ul>
+                            <li>Sit-ups: 2</li>
+                            <li>Push-ups: 2</li>
+                            <li>Squats: 2</li>
+                        </ul>
+                    </div>
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session3" value="Session 3" /> Session Three</label>
+                        <ul>
+                            <li>Sit-ups: 3</li>
+                            <li>Push-ups: 3</li>
+                            <li>Squats: 3</li>
+                        </ul>
+                    </div>
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session4" value="Session 4" /> Session Four</label>
+                        <ul>
+                            <li>Sit-ups: 4</li>
+                            <li>Push-ups: 4</li>
+                            <li>Squats: 4</li>
+                        </ul>
+                    </div>
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session5" value="Session 5" /> Session Five</label>
+                        <ul>
+                            <li>Sit-ups: 5</li>
+                            <li>Push-ups: 5</li>
+                            <li>Squats: 5</li>
+                        </ul>
+                    </div>
+                    <div class="session-grid">
+                        <label><input type="checkbox" name="session6" value="Session 6" /> Session Six</label>
+                        <ul>
+                            <li>Sit-ups: 6</li>
+                            <li>Push-ups: 6</li>
+                            <li>Squats: 6</li>
+                        </ul>
+                    </div>
+                </fieldset>
         </form>
         <hr>
         <h2>Exercise Library</h2>
