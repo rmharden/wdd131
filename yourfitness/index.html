@@ -2,6 +2,7 @@
 <!--I used this w3schools site to figure out how to do the search bar:-->
 <!--https://www.w3schools.com/howto/howto_css_searchbar.asp-->
 <!--https://www.w3schools.com/html/html_form_input_types.asp-->
+<!--https://www.w3schools.com/TAgs/att_input_type_number.asp-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -54,7 +55,7 @@
                 <h2>Today's Workout Plan</h2>
                 <p>How many repetitions can you do without stopping?</p>
                 <label for="repNumber">Starting Repetitions</label>
-                <input id="repNumber" name="repNumber" type="number" placeholder="1-100" required>
+                <input id="repNumber" name="repNumber" type="number" min="1" max="100" placeholder="0" required>
                 <div>
                     <button type="submit">Generate Workout</button>
                 </div>
