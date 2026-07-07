@@ -30,7 +30,7 @@ const exercises = [
 		tags: ['stretch', 'rear deltoid', 'deltoid', 'neck', 'shoulder', 'standing'],
 		description:
 			'Stand with your feet shoulder width apart and your arms behind your body. With your right hand, grasp your left wrist behind your body and pull down and to the right. Tilt your head to the right. Return to the starting position and repeat with opposite arm.',
-		image: './images/pexels-alesiakozik-8154202.jpg',
+		image: './images/grok-image-neck-stretch-001.jpg',
 		name: 'Rear Deltoid (Neck and Shoulder)'
 	},
 	{
