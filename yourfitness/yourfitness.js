@@ -10,7 +10,7 @@ const exercises = [
 		tags: ['stretch', 'abdominal', 'standing'],
 		description: 'Stand and extend the arms upward and over the head. Interlace your fingers with your plams up and stretch your arms up and slightly back',
 		image: './images/pexels-liliana-drew-8497911.jpg',
-		name: 'abdominal'
+		name: 'Abdominal'
 	},
 	{
 		tags: ['stretch', 'chest', 'standing'],
