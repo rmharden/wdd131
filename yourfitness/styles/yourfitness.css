@@ -40,6 +40,16 @@ h1 {
     font-size: 60px;
     margin-top: 15px;
 }
+.welcomeWrapper img {
+    max-width: 500px;
+    height: auto;
+   align-items: center;
+}
+.sessionTotals img {
+    max-width: 300px;
+    height: auto;
+   justify-content: center;
+}
 .uniqueGenCards img {
     width: 300px;
     height: auto;
