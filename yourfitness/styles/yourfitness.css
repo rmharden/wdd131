@@ -21,7 +21,7 @@ main {
     font-family: "Raleway", sans-serif;
 }
 .logoImage {
-    max-width: 10%;
+    max-width: 60px;
     height: auto;
     margin-top: 18px;
     margin-bottom: 18px;
