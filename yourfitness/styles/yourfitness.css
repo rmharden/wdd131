@@ -1,17 +1,32 @@
-.logo {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.logo-wrapper {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
     background-color: #31B8B3;
 }
-h1 {
+body {
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-wrapper h1 {
     margin-top: 30px;
     color: whitesmoke;
+    font-family: "Raleway", sans-serif;
 }
 .logoImage {
     max-width: 10%;
     height: auto;
     margin-top: 18px;
     margin-bottom: 18px;
+}
+.welcome-wrapper {
+    margin: 18px;
+}
+.welcome-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
