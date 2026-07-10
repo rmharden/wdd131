@@ -11,6 +11,9 @@ body {
     color: #1F2937;
     font-family: Arial, Helvetica, sans-serif;
 }
+main {
+    max-width: 340px;
+}
 .logo-wrapper h1 {
     margin-top: 30px;
     color: whitesmoke;
