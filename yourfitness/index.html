@@ -46,6 +46,22 @@
             <h2>Welcome!</h2>
             <p>Generate a workout plan based on your current fitness level.</p>
         </section>
+        <form id="repetition-generator">
+            <p>Enter a number 1-100 for your starting repetition.</p>
+            <fieldset class="repetitions">
+                <div class="generator-grid">
+                    <label>Starting Repetitions</label>
+                    <input
+                        type="number"
+                        id="repNumber"
+                        name="repetitions"
+                        placeholder="enter a number"
+                        required
+                    >
+                    <button type="submit">Generate Workout</button>
+                </div>
+            </fieldset>
+        </form>
     </main>
 </body>
 </html>
