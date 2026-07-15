@@ -30,14 +30,3 @@ const exercises = [
         order: 10
     }
 ];
-
-
-function renderWorkout(repetitions) {
-    let html = workoutTemplate(getRepetition);
-
-}
-
-document.querySelector(".generateWorkout").addEventListener("click", function () {
-    workoutReps.generateWorkout();
-    renderWorkout()
-})
