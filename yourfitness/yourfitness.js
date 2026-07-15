@@ -80,3 +80,8 @@ function exercisesTemplate(exercise) {
         </div>
     </section>`
 }
+
+function renderExercises(exercise) {
+    let html = exercisesTemplate(exercise);
+    exerciseCard.innerHTML += html
+}
