@@ -32,3 +32,4 @@ const exercises = [
 ];
 
 const form = document.querySelector("#repetition-generator");
+form.addEventListener("submit", generateWorkout);
