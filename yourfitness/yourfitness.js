@@ -23,7 +23,7 @@ const exercises = [
         name: 'Squats',
         repetitions: '10',
         count: '2',
-        description: 'Feet shoulder-width apart, chest up, core engaged. Lower until thighs are parallel, then stand by driving through your heels.',
+        description: 'Feet should be shoulder-width apart. Keep your chest up and core engaged. Lower until thighs are parallel then stand by driving through your heels.',
         image: 'images/pexels-kindelmedia-7935630.jpg',
         tags: ['squats', 'muscular fitness', 'calesthinics', 'assisted', 'glutes', 'legs', 'generator'],
         group: ['Muscular Fitness', 'Calesthincs', 'Generator'],
