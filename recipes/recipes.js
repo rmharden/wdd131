@@ -353,13 +353,13 @@ function recipesTemplate(recipe) {
             class="recipe-image">
         <div class="recipe-content">
             <div class="recipe-type">
-            ${tagTemplate(recipe.tags)}
-            </div>
-            <h2 class="recipe-title">${recipe.name}</h2>
-            ${ratingTemplate(recipe.rating)}
-            <p class="recipe-description">${recipe.description}</p>
+            	${tagTemplate(recipe.tags)}
+			</div>
+			<h2 class="recipe-title">${recipe.name}</h2>
+            	${ratingTemplate(recipe.rating)}
+			<p class="recipe-description">${recipe.description}</p>
         </div>
-</section>`
+	</section>`
 }
 
 function renderRecipes(recipe) {

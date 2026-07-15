@@ -64,3 +64,19 @@ function search(event) {
         renderExercises(exercise);
     })
 }
+
+// Template Literal:
+function exercisesTemplate(exercise) {
+    return `<section class="exercise-card">
+        <img src="${exercise.image}"
+            alt="Photo of ${exercise.name}"
+            class="exercise-image">
+        <div class="exercise-content>
+            <div class="exercise-type">
+                ${tagTemplate(exercise.tags)}
+            </div>
+            <h2. class="exercise-title">${exercise.name}</h2>
+             <p class="exercise-description">${exercise.description}</p>
+        </div>
+    </section>`
+}
