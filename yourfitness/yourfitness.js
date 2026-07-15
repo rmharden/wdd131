@@ -30,3 +30,5 @@ const exercises = [
         order: 10
     }
 ];
+
+const form = document.querySelector("#repetition-generator");
