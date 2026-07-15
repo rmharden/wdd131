@@ -31,59 +31,13 @@ const exercises = [
     }
 ];
 
-let exerciseCard = document.querySelector('.exercise-container');
 
-let form = document.querySelector('.exercise-search');
-form.addEventListener('submit', search);
+function renderWorkout(repetitions) {
+    let html = workoutTemplate(getRepetition);
 
-function search(event) {
-    event.preventDefault();
-    let exerciseQuery = document.querySelector('#search').ariaValueMax;
-
-    let filterExercises = exercises.filter(function(exercise) {
-        return (
-            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.group.find(group => group.toLocaleLowerCase().includes(exerciseQuery.toLowerCase())))
-        );
-    })
-    console.log(filterExercises);
-
-
-    let sortedExercises = filterExercises.sort(compareExercises);
-
-    function compareExercises(a,b) {
-        if (a.name < b.name) {
-            return -1;
-        } else if (a.name > b.name) {
-            return 1;
-        }
-        return 0;
-    }
-
-    exerciseCard.innerHTML = '';
-    sortedExercises.forEach(function(exercise) {
-        renderExercises(exercise);
-    })
 }
 
-// Template Literal:
-function exercisesTemplate(exercise) {
-    return `<section class="exercise-card">
-        <img src="${exercise.image}"
-            alt="Photo of ${exercise.name}"
-            class="exercise-image">
-        <div class="exercise-content>
-            <div class="exercise-type">
-                ${tagTemplate(exercise.tags)}
-            </div>
-            <h2. class="exercise-title">${exercise.name}</h2>
-            <p class="exercise-description">${exercise.description}</p>
-            <p class="exercise-repetitions">${exercise.repetitions}</p>
-            <p class="exercise-count">${exercise.count}</p>
-        </div>
-    </section>`
-}
-
-function renderExercises(exercise) {
-    let html = exercisesTemplate(exercise);
-    exerciseCard.innerHTML += html
-}
+document.querySelector(".generateWorkout").addEventListener("click", function () {
+    workoutReps.generateWorkout();
+    renderWorkout()
+})
