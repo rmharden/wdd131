@@ -30,3 +30,20 @@ const exercises = [
         order: 10
     }
 ];
+
+let exerciseCard = document.querySelector('.exercise-container');
+
+let form = document.querySelector('.exercise-search');
+form.addEventListener('submit', search);
+
+function search(event) {
+    event.preventDefault();
+    let exerciseQuery = document.querySelector('#search').ariaValueMax;
+
+    let filterExercises = exercises.filter(function(exercise) {
+        return (
+            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.group.find(group => group.toLocaleLowerCase().includes(exerciseQuery.toLowerCase())))
+        );
+    })
+    console.log(filterExercises);
+}
