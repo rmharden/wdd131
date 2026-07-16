@@ -54,4 +54,9 @@ function generateWorkout(event) {
         sessionArray.push(currentReps);
     }
     console.log(sessionArray);
+
+    const total = sessionArray.reduce((acc, n) => {
+        return acc + n;
+    });
+    console.log(total);
 }
