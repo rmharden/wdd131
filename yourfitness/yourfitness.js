@@ -1,6 +1,9 @@
 /*
 this site was used to learn how to convert the user input into a number:
 https://www.w3schools.com/js/js_type_conversion.asp
+
+This site was used to learn more about for loops:
+https://www.w3schools.com/js/js_loop_for.asp
 */
 
 const exercises = [
