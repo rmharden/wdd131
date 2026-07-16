@@ -47,4 +47,11 @@ function generateWorkout(event) {
     const startingReps = document.querySelector("#repNumber");
     const repInput = Number(startingReps.value);
     console.log(repInput);
+
+    const sessionArray = [];
+    for (let i = 0; i < 6; i++) {
+        const currentReps = repInput + i;
+        sessionArray.push(currentReps);
+    }
+    console.log(sessionArray);
 }
