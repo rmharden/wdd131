@@ -1,3 +1,8 @@
+/*
+this site was used to learn how to convert the user input into a number:
+https://www.w3schools.com/js/js_type_conversion.asp
+*/
+
 const exercises = [
     {
         name: 'Sit-ups',
@@ -35,5 +40,8 @@ const form = document.querySelector("#repetition-generator");
 form.addEventListener("submit", generateWorkout);
 function generateWorkout(event) {
     event.preventDefault();
-    console.log("Your number was: ");
+
+    const startingReps = document.querySelector("#repNumber");
+    const repInput = Number(startingReps.value);
+    console.log(repInput);
 }
