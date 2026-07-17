@@ -1,3 +1,7 @@
+/*Sites I used for help*/
+/*
+https://www.w3schools.com/css/css3_object-fit.asp
+*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .logo-wrapper {
@@ -36,20 +40,43 @@ main {
     display: block;
     margin: 0 auto;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
 li {
     list-style: none;
+}
+.list-totals {
+    margin-bottom: 20px;
 }
 .generator-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.rep-session-generator {
+/*#rep-session-generator {
     display: flex;
     background: #31B8B3;
-    gap: 10px;
+    flex-direction: column;
+    gap: 0.25rem;
+}*/
+#rep-session-generator p {
+margin-left: 20px;
 }
+.repetition-generator {
+    display: flex;
+    border: 2px solid #31B8B3;
+    border-radius: 12px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .repetitions {
+    display: felx;
+    justify-content: space-between;
     border: 2px solid white;
     border-radius: 8px;
 
