@@ -44,10 +44,10 @@ li {
     flex-direction: column;
     align-items: center;
 }
-#repetition-generator {
-    gap: 10px;
+.rep-session-generator {
+    display: flex;
     background: #31B8B3;
-
+    gap: 10px;
 }
 .repetitions {
     border: 2px solid white;
@@ -76,4 +76,16 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+.generator-end-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+} 
+.session {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
 }
