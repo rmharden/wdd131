@@ -73,7 +73,7 @@ margin-left: 20px;
 }
 
 .repetitions {
-    display: felx;
+    display: flex;
     justify-content: space-between;
     border: 2px solid white;
     border-radius: 8px;
