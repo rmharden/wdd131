@@ -65,7 +65,8 @@ margin-left: 20px;
 }
 .repetition-generator {
     display: flex;
-    border: 2px solid #31B8B3;
+/*    border: 2px solid #31B8B3;*/
+background-color: #31B8B3;
     border-radius: 12px;
     padding: 20px;
     flex-direction: column;
@@ -110,17 +111,12 @@ button {
     padding:10px;
     width: 290px;
 }
-.list-totals {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
 .image-frame {
     width: 300px;
     height: 200px;
     overflow: hidden;
+    box-shadow: 5px 5px 20px #28615F;
+    margin-top: 10px;
 }
 .generator-end-image {
     width: 100%;
@@ -139,7 +135,26 @@ button {
 table, th, td {
     border:1px solid #28615F;
     border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
 }
 th, td {
+    padding: 8px;
+}
+
+.session-totals {
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+.list-totals {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
     padding: 8px;
 }
