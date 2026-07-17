@@ -136,3 +136,10 @@ button {
     margin-bottom: 1rem;
     border-radius: 8px;
 }
+table, th, td {
+    border:1px solid #28615F;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+}
