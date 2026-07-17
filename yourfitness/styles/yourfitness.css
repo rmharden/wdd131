@@ -48,9 +48,6 @@ ul {
 li {
     list-style: none;
 }
-.list-totals {
-    margin-bottom: 20px;
-}
 .generator-grid {
     display: flex;
     flex-direction: column;
@@ -104,6 +101,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .image-frame {
     width: 300px;
