@@ -46,28 +46,113 @@
             <h2>Welcome!</h2>
             <p>Generate a workout plan based on your current fitness level.</p>
         </section>
-        <form id="repetition-generator">
-            <p>Enter a number 1-100 for your starting repetition.</p>
-            <fieldset class="repetitions">
-                <legend>Workout Generator</legend>
-                <div class="generator-grid">
-                    <label>Starting Repetitions</label>
-                    <input
-                        type="number"
-                        id="repNumber"
-                        name="repetitions"
-                        placeholder="enter a number"
-                        min="1"
-                        max="100"
-                        required
-                    >
-                    <button type="submit">Generate Workout</button>
-                </div>
-            </fieldset>
-        </form>
-        <div class="generator-results-container">
+        <section class="repetition-generator">
+            <form id="rep-session-generator">
+                <p>Enter a number 1-100 for your starting repetition.</p>
+                <fieldset class="repetitions">
+                    <legend>Workout Generator</legend>
+                    <div class="generator-grid">
+                        <label>Starting Repetitions</label>
+                        <input
+                            type="number"
+                            id="repNumber"
+                            name="repetitions"
+                            placeholder="enter a number"
+                            min="1"
+                            max="100"
+                            required
+                        >
+                        <button type="submit">Generate Workout</button>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="generator-results-container">
+                <section class="generator-results">
+                    <ul class="sessions-list">
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 1:
+                            </label>
+                            <ul>
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 2:
+                            </label>
 
-        </div>
+                            <ul>
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 3:
+                            </label>
+                            <ul>
+
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 4:
+                            </label>
+
+                            <ul>
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 5:
+                            </label>
+
+                            <ul>
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                Session 6:
+                            </label>
+
+                            <ul>
+                                <li>Push-ups: </li>
+                                <li>Sit-ups: </li>
+                                <li>Squats: </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="session-totals">
+                        <h3>Today's Totals:</h3>
+                        <ul class="list-totals">
+                            <li>Push-ups: </li>
+                            <li>Sit-ups: </li>
+                            <li>Squats: </li>
+                        </ul>
+                    </div>
+                    <img src="images/pexels-cristian-camilo-estrada-2152272341-38011338.jpg" alt="smiling female athlete creating a heart-shape with her hands">
+                </section>
+            </div>
+        </section>
     </main>
     <footer>
         
