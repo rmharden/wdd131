@@ -71,6 +71,19 @@ margin-left: 20px;
     justify-content: space-around;
     align-items: center;
 }
+.session-results th {
+    font-size: smaller;
+    padding: 10px;
+}
+.session-results {
+    display: block;
+    border: 2px solid #31B8B3;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
 
 .repetitions {
     display: flex;
