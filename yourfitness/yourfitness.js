@@ -39,7 +39,7 @@ const exercises = [
     }
 ];
 
-const form = document.querySelector("#repetition-generator");
+const form = document.querySelector("#rep-session-generator");
 form.addEventListener("submit", generateWorkout);
 function generateWorkout(event) {
     event.preventDefault();
