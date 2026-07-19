@@ -1,0 +1,28 @@
+body {
+    min-width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #31B8B3;
+    color: white;
+    padding: 1rem;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+header img {
+    width: 4rem;
+}
+.welcome-container {
+    text-align: center;
+}
+.welcome-container img {
+    width: 80%;
+    margin: 18px 0;
+}
+.exercise-generator p {
+    margin: 18px;
+}
