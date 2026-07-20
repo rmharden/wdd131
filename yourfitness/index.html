@@ -59,9 +59,25 @@
             <h2>Welcome!</h2>
             <p>Generate a workout plan based on your current fitness level. Submit a number for each starting repetition.</p>
         </div>
+        <div class="repetition-container">
+            <form class="repetition-generator">
+                <p>How many repetitions can you do today?</p>
+                <input 
+                    id="rep-number"
+                    name="rep-number"
+                    type="number"
+                    min="1"
+                    max="100"
+                    placeholder="1"
+                    required
+                />
+                <button>Generate Workout</button>
+            </form>
+            <p>Please use your discretion. Do not begin any workout without consulting a healthcare professional first.</p>
+        </div>
     </main>
     <footer>
-
+        
     </footer>
 
 </body>
