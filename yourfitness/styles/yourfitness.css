@@ -93,7 +93,12 @@ nav a:hover {
 
 .change .bar3 {
     transform: translate(0, -9px) rotate(45deg);
-}         
+}  
+.welcome-container {
+    color: #28615F;
+    border: 10px solid white;
+    border-radius: 8px;
+}       
 footer {
     text-align: center;
 }
