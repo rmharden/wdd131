@@ -1,27 +1,9 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-header {
-    background-color: #31B8B3;
-    color: white;
-    padding: 1rem;
-}
-.logo-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-header img {
-    width: 4rem;
-}
-.welcome-container {
-    text-align: center;
-}
-.welcome-container img {
-    width: 80%;
-    margin: 18px 0;
-}
-.exercise-generator p {
-    margin: 18px;
-}
+/*
+  --primary-color: #31B8B3;
+  --secondary-color: #28615F;
+  --accent1-color: #4CA450;
+  --accent2-color: #1F2937;
+
+  --heading-font:  "Raleway", sans-serif;
+  --paragraph-font: Arial, Helvetica, sans-serif;
+*/
