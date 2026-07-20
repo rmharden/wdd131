@@ -14,7 +14,23 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    font-family:"Raleway", sans-serif;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.header-logo h1 {
+    margin: 0;
+}
+.logo {
+    width: 4rem;
+    height: auto;
 }
 header,
 main,
@@ -23,14 +39,12 @@ footer {
   margin: 1rem auto;
   border: 1px solid #ccc;
   padding: 1rem;
-  background-color: lightblue;
+  background-color: #31B8B3;
+  color: white;
 }
 main {
     display: grid;
     grid-template-columns: 1fr;
-}
-h1 {
-    text-align: center;
 }
 section {
   padding: 20px;
@@ -40,13 +54,11 @@ section {
 }
 nav a {
     padding: 20px;
-    color: black;
+    color: white;
     display: block;
     text-align: center;
     text-decoration: none;
-    border-top: 1px solid gray;
-    /*display: inline;*/
-    /*display: block;*/
+    border-top: 1px solid white;
 }
 .hide {
     display: none;
@@ -63,7 +75,7 @@ nav a:hover {
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 4px;
-    background-color: black;
+    background-color: white;
     margin: 5px 0;
     transition: 0.4s;
 }  
