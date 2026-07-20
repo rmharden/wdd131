@@ -98,6 +98,7 @@ nav a:hover {
     color: #28615F;
     border: 10px solid white;
     border-radius: 8px;
+    text-align: center;
 }       
 footer {
     text-align: center;
