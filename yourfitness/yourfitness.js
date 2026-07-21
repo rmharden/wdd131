@@ -90,20 +90,20 @@ const exercises = [
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-anastasia-shuraeva-7663227.jpg',
         name: 'Cat Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Arch and lower your back while on hands and knees.',
+        description: 'Get on your hands and knees. Slowly arch your back upward. Bring your back down to the starting position.',
         order: 6,
         tags: ['stretch', 'back', 'kneeling']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-shvetsa-5068688.jpg',
         name: 'Hamstring Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Sit with legs straight and reach toward your feet.',
+        description: 'Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce',
         order: 7,
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
