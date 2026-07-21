@@ -35,4 +35,4 @@ const exercise = [
         order: '23',
         tags: ['muscular', 'legs', 'standing']
     }
-]
+];
