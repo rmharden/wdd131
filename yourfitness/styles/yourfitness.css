@@ -172,9 +172,9 @@ nav a:hover {
 .exercise-content {
     margin-bottom: 18px;
 }
-.exercise-description {
+/*.exercise-description {
     display: none;
-}
+}*/
 
 @media screen and (min-width: 700px) {
     main {
