@@ -318,7 +318,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'legs', 'hanging']
     }
 ];
-let exerciseCard = document.querySelector('.exercise-container');
+let exerciseCard = document.querySelector('.exercise-card-container');
 /*let button = document.querySelector('button');
 button.addEventListener('click', search);*/
 
