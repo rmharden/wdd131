@@ -182,7 +182,7 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'assisted', 'lying']
     },
     {
-        image: '',
+        image: 'images/grok-imagine-skier-20260721.jpg',
         name: 'Skier',
         reps: '10',
         count: '4',
