@@ -133,7 +133,7 @@ footer {
     width: 28px; 
 }         
 /*font site:*/
-/*https://fonts.google.com/share?selection.family=Amatic+SC:wght@400;700*/
+
 /*Learned how to change the width element with a calc:*/
 /*https://www.w3schools.com/cssref/func_calc.php*/
 /*flex: 1 lesson:*/
@@ -224,8 +224,7 @@ header, main, footer {
 }
 
 .exercise-title {
-    font-family: "Amatic SC", cursive;
-    color: rgb(0, 165, 231);
+    color: #28615F;
     margin: 18px 0 0 18px;
     font-size: 28px;
 }
@@ -291,6 +290,7 @@ footer {
         margin: 0 18px;
     }
     .exercise-description {
+        color: #28615F;
         display: block;
         margin: 18px;
         font-size: smaller;

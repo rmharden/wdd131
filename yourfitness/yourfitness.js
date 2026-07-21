@@ -186,7 +186,7 @@ const exercises = [
         name: 'Skier',
         reps: '10',
         count: '4',
-        description: 'Alternate arms and legs while jumping.',
+        description: 'Assume the starting position of the exercise with your left leg and right arm forward and your right leg and left arm back. Your feet should be approximately 12 inches apart from toe to heel. While jumping slightly in the air, alternate your feet each time you land and swing the arms with coordinated arm-swing.',
         order: '16',
         tags: ['cardio', 'full body', 'standing']
     },
