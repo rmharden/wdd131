@@ -7,41 +7,6 @@ function toggleMenu() {
     menu.classList.toggle('hide');
     btn.classList.toggle('change');
 }
-
-
-/*
-const exercises = [
-    {
-        image: 'images/pexels-rdne-8401799.jpg',
-        name: 'Sit-ups',
-        reps: '30',
-        count: '2',
-        description: 'Lie on your back with feet together (or up to 12 inches apart), knees bent at about 90 degrees, and a partner holding your ankles or your feet. Cross your arms over your chest with hands on your shoulders or upper chest. Curl your upper body forward until your elbows touch your knees or thighs, then lower until your shoulder blades to the ground. This completes one repetition. Maintain steady form without using momentum.',
-        order: 15,
-        tags: ['muscular', 'abdomen', 'sitting', 'assisted', 'core']
-    },
-    {
-        image: 'images/pexels-yankrukov-8436439.jpg',
-        name: 'Push-ups',
-        reps: '5-15',
-        count: '2',
-        description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking.',
-        order: 17,
-        tags: ['muscular', 'arms']
-    },
-    {
-        image: '',
-        name: 'Squats',
-        reps: '10-30',
-        count: '2',
-        description: '',
-        order: 23,
-        tags: ['muscular', 'legs', 'standing']
-    }
-];*/
-
-/*I gave AI my example above and I gave it my data from my exercise word document I wrote. I asked it to create my object array with my data and my example object array. Below is what ChatGPT created for me:*/
-
 const exercises = [
     // Stretching
     {
