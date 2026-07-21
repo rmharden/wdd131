@@ -63,7 +63,7 @@ const exercises = [
         tags: ['stretch', 'chest', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Upper Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -72,7 +72,7 @@ const exercises = [
         tags: ['stretch', 'back', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Rear Deltoid Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -81,7 +81,7 @@ const exercises = [
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Overhead Arm Pull',
         reps: '10-30 sec',
         count: 'hold',
@@ -90,7 +90,7 @@ const exercises = [
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Cat Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -99,7 +99,7 @@ const exercises = [
         tags: ['stretch', 'back', 'kneeling']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Hamstring Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -108,7 +108,7 @@ const exercises = [
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Groin Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -117,7 +117,7 @@ const exercises = [
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Hip and Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -126,7 +126,7 @@ const exercises = [
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Lying Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -135,7 +135,7 @@ const exercises = [
         tags: ['stretch', 'back', 'hips', 'lying']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Thigh Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -144,7 +144,7 @@ const exercises = [
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Calf Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -153,7 +153,7 @@ const exercises = [
         tags: ['stretch', 'calves', 'legs', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Side Bend',
         reps: '10-30 sec',
         count: 'hold',
@@ -164,7 +164,7 @@ const exercises = [
 
     // Muscular Fitness
     {
-        image: '',
+        image: 'images/',
         name: 'Jumping Jacks',
         reps: '20',
         count: '4',
@@ -173,7 +173,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -191,7 +191,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Push-ups',
         reps: '5',
         count: '2',
@@ -200,7 +200,7 @@ const exercises = [
         tags: ['muscular', 'chest', 'arms']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Reverse Lunge',
         reps: '10',
         count: '4',
@@ -209,7 +209,7 @@ const exercises = [
         tags: ['muscular', 'legs', 'balance', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Squat Thrusts',
         reps: '10',
         count: '4',
@@ -218,7 +218,7 @@ const exercises = [
         tags: ['cardio', 'full body']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Back Raises',
         reps: '5',
         count: '2',
@@ -227,7 +227,7 @@ const exercises = [
         tags: ['muscular', 'back', 'assisted']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Diamond Push-ups',
         reps: '5',
         count: '2',
@@ -236,7 +236,7 @@ const exercises = [
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Engine',
         reps: '10',
         count: '4',
@@ -245,7 +245,7 @@ const exercises = [
         tags: ['cardio', 'core', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Partial Squat',
         reps: '10',
         count: '2',
@@ -254,7 +254,7 @@ const exercises = [
         tags: ['muscular', 'legs', 'standing']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Cross-knee Crunch',
         reps: '30',
         count: '2',
@@ -263,7 +263,7 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'core']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Mountain Climber',
         reps: '15',
         count: '4',
@@ -272,7 +272,7 @@ const exercises = [
         tags: ['cardio', 'core', 'full body']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Reverse Push-ups',
         reps: '5',
         count: '2',
@@ -290,7 +290,7 @@ const exercises = [
         tags: ['muscular', 'shoulders', 'arms']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Cross-knee Sit-ups',
         reps: '30',
         count: '2',
@@ -299,7 +299,7 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'assisted']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Pull-ups',
         reps: 'Until failure',
         count: '1',
@@ -308,7 +308,7 @@ const exercises = [
         tags: ['muscular', 'back', 'arms', 'pull']
     },
     {
-        image: '',
+        image: 'images/',
         name: 'Hanging Leg Raises',
         reps: 'Until failure',
         count: '1',
