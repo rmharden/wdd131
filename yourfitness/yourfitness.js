@@ -332,8 +332,8 @@ function exercisesTemplate(exercise) {
             	${tagTemplate(exercise.tags)}
 			</div>
 			<h2 class="exercise-title">${exercise.name}</h2>
-            <p class="exercise-count">${exercise.count}<p>
-            <p class="exercise-rep">${exercise.rep}<p>
+            <p class="exercise-count">${exercise.count}</p>
+            <p class="exercise-rep">${exercise.reps}</p>
 			<p class="exercise-description">${exercise.description}</p>
         </div>
 	</section>`
