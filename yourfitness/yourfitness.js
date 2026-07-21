@@ -12,35 +12,35 @@ const exercises = [
     {
         image: 'images/grok-imagine-ab-stretch.jpg',
         name: 'Abdominal Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
-        description: 'Stand and extend the arms upward and over the head. Interlace your fingers with your palms up and stretch your arms up and slightly back.',
+        reps: '0',
+        count: '10-30',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand and extend the arms upward and over the head. Interlace your fingers with your palms up and stretch your arms up and slightly back.',
         order: 1,
         tags: ['stretch', 'abdomen', 'standing', 'core']
     },
     {
         image: 'images/pexels-cottonbro-6293250.jpg',
         name: 'Chest Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
-        description: 'Stand and interlace your fingers behind your back. Lift your arms behind your back so they move outward and away from your body, then lean forward from the waist. Bend your knees, lower your arms and return to the upright position.',
+        reps: '0',
+        count: '10-30',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand and interlace your fingers behind your back. Lift your arms behind your back so they move outward and away from your body, then lean forward from the waist. Bend your knees, lower your arms and return to the upright position.',
         order: 2,
         tags: ['stretch', 'chest', 'standing']
     },
     {
         image: 'images/pexels-eren-li-7241484.jpg',
         name: 'Upper Back Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
-        description: 'Stand with your arms extended to the front at shoulder height with your fingers interlaced, and your palms facing outward. Extend your arms and shoulders forward.',
+        reps: '0',
+        count: '10-30',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand with your arms extended to the front at shoulder height with your fingers interlaced, and your palms facing outward. Extend your arms and shoulders forward.',
         order: 3,
         tags: ['stretch', 'back', 'standing']
     },
     {
         image: 'images/grok-imagine-rear-deltoid-stretch.jpg',
         name: 'Rear Deltoid Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Stand with your feet shoulder width apart and your arms behind your body. With your right hand, grasp your left wrist behind your body and pull down and to the right. Tilt your head to the right. Return to the starting position and repeat with opposite arm.',
         order: 4,
         tags: ['stretch', 'shoulders', 'neck', 'standing']
@@ -48,8 +48,8 @@ const exercises = [
     {
         image: 'images/pexels-ketut-subiyanto-5037359-overhead-arm-pull.jpg',
         name: 'Overhead Arm Pull',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Stand with your feet shoulder width apart. Raise your left arm, bend your left elbow and place your left palm in the center of your back at the base of the neck. Gently pull your elbow with your right hand. Return to the starting position and repeat the procedures with the opposite arm.',
         order: 5,
         tags: ['stretch', 'triceps', 'arms', 'standing']
@@ -57,8 +57,8 @@ const exercises = [
     {
         image: 'images/pexels-anastasia-shuraeva-7663227.jpg',
         name: 'Cat Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Get on your hands and knees. Slowly arch your back upward. Bring your back down to the starting position.',
         order: 6,
         tags: ['stretch', 'back', 'kneeling']
@@ -66,8 +66,8 @@ const exercises = [
     {
         image: 'images/pexels-shvetsa-5068688.jpg',
         name: 'Hamstring Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce.',
         order: 7,
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
@@ -75,8 +75,8 @@ const exercises = [
     {
         image: 'images/pexels-ivan-s-4164755.jpg',
         name: 'Groin Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Sit on the ground with the soles of your feet together and place your hands on or near your feet. Bend forward from the hips keeping the head up and hold this position.',
         order: 8,
         tags: ['stretch', 'groin', 'hips', 'sitting']
@@ -84,8 +84,8 @@ const exercises = [
     {
         image: 'images/pexels-alexy-almond-3756514.jpg',
         name: 'Hip and Back Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Sit on the ground with your right leg forward and straight. Cross your left leg over your right. While sitting erect, place your left foot flat on the ground near your right knee. Keep the heels of both feet in contact with the ground. Slowly rotate your upper body to the left and look over you left shoulder. Reach across your left leg with your right arm and place your right elbow across your knee and gently push your left leg to the right with your elbow. Use your left hand to support your body by placing it on the ground. Repeat the stretch for the other side by crossing the opposite leg and turning in the opposite direction.',
         order: 9,
         tags: ['stretch', 'hips', 'back', 'sitting']
@@ -93,8 +93,8 @@ const exercises = [
     {
         image: 'images/grok-imagine-lying-back-stretch.jpg',
         name: 'Lying Back Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Lying on your back, bring both knees to your chest and grab your legs below the knee or over the knee. Pull both knees slowly toward your shoulders.',
         order: 10,
         tags: ['stretch', 'back', 'hips', 'lying']
@@ -102,8 +102,8 @@ const exercises = [
     {
         image: 'images/pexels-ketut-subiyanto-4909526.jpg',
         name: 'Thigh Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
         order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
@@ -111,8 +111,8 @@ const exercises = [
     {
         image: 'images/pexels-jacky-xing-776569260-29132146.jpg',
         name: 'Calf Stretch',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Stand and fully extend your left leg in front of you and place the heel of your left foot on the ground. Bend forward at the waist and slightly bend your right knee. Reach down and pull the toes of your left foot toward your shin. Slowly return to the starting position and repeat the same procedures with the opposite leg.',
         order: 12,
         tags: ['stretch', 'calves', 'legs', 'standing']
@@ -120,8 +120,8 @@ const exercises = [
     {
         image: 'images/pexels-nay-nyo-727253247-31480319.jpg',
         name: 'Side Bend',
-        reps: '10-30 sec',
-        count: 'hold',
+        reps: '0',
+        count: '10-30',
         description: 'Stand straight with your feet shoulder width apart. With your right hand extended overhead, place your left hand on your left hip. Bend at the waist to the left until the point of gentle tension. Return to the straight up position. With your left hand extended overhead and your right hand on your right hip, bend at the waist to the right until the point of gentle tension. Do not twist the body.',
         order: 13,
         tags: ['stretch', 'core', 'standing']
