@@ -41,7 +41,7 @@ const exercises = [
         name: 'Rear Deltoid Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Stand with your feet shoulder width apart and your arms behind your body. With your right hand, grasp your left wrist behind your body and pull down and to the right. Tilt your head to the right. Return to the starting position and repeat with opposite arm.',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand with your feet shoulder width apart and your arms behind your body. With your right hand, grasp your left wrist behind your body and pull down and to the right. Tilt your head to the right. Return to the starting position and repeat with opposite arm.',
         order: 4,
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
@@ -50,7 +50,7 @@ const exercises = [
         name: 'Overhead Arm Pull',
         reps: '0',
         count: '10-30',
-        description: 'Stand with your feet shoulder width apart. Raise your left arm, bend your left elbow and place your left palm in the center of your back at the base of the neck. Gently pull your elbow with your right hand. Return to the starting position and repeat the procedures with the opposite arm.',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand with your feet shoulder width apart. Raise your left arm, bend your left elbow and place your left palm in the center of your back at the base of the neck. Gently pull your elbow with your right hand. Return to the starting position and repeat the procedures with the opposite arm.',
         order: 5,
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
@@ -59,7 +59,7 @@ const exercises = [
         name: 'Cat Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Get on your hands and knees. Slowly arch your back upward. Bring your back down to the starting position.',
+        description: 'Hold each stretch for 10 to 30 seconds. Get on your hands and knees. Slowly arch your back upward. Bring your back down to the starting position.',
         order: 6,
         tags: ['stretch', 'back', 'kneeling']
     },
@@ -68,7 +68,7 @@ const exercises = [
         name: 'Hamstring Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce.',
+        description: 'Hold each stretch for 10 to 30 seconds. Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce.',
         order: 7,
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
@@ -77,7 +77,7 @@ const exercises = [
         name: 'Groin Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Sit on the ground with the soles of your feet together and place your hands on or near your feet. Bend forward from the hips keeping the head up and hold this position.',
+        description: 'Hold each stretch for 10 to 30 seconds. Sit on the ground with the soles of your feet together and place your hands on or near your feet. Bend forward from the hips keeping the head up and hold this position.',
         order: 8,
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
@@ -86,7 +86,7 @@ const exercises = [
         name: 'Hip and Back Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Sit on the ground with your right leg forward and straight. Cross your left leg over your right. While sitting erect, place your left foot flat on the ground near your right knee. Keep the heels of both feet in contact with the ground. Slowly rotate your upper body to the left and look over you left shoulder. Reach across your left leg with your right arm and place your right elbow across your knee and gently push your left leg to the right with your elbow. Use your left hand to support your body by placing it on the ground. Repeat the stretch for the other side by crossing the opposite leg and turning in the opposite direction.',
+        description: 'Hold each stretch for 10 to 30 seconds. Sit on the ground with your right leg forward and straight. Cross your left leg over your right. While sitting erect, place your left foot flat on the ground near your right knee. Keep the heels of both feet in contact with the ground. Slowly rotate your upper body to the left and look over you left shoulder. Reach across your left leg with your right arm and place your right elbow across your knee and gently push your left leg to the right with your elbow. Use your left hand to support your body by placing it on the ground. Repeat the stretch for the other side by crossing the opposite leg and turning in the opposite direction.',
         order: 9,
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
@@ -95,7 +95,7 @@ const exercises = [
         name: 'Lying Back Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Lying on your back, bring both knees to your chest and grab your legs below the knee or over the knee. Pull both knees slowly toward your shoulders.',
+        description: 'Hold each stretch for 10 to 30 seconds. Lying on your back, bring both knees to your chest and grab your legs below the knee or over the knee. Pull both knees slowly toward your shoulders.',
         order: 10,
         tags: ['stretch', 'back', 'hips', 'lying']
     },
@@ -104,7 +104,7 @@ const exercises = [
         name: 'Thigh Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
         order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
@@ -113,7 +113,7 @@ const exercises = [
         name: 'Calf Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Stand and fully extend your left leg in front of you and place the heel of your left foot on the ground. Bend forward at the waist and slightly bend your right knee. Reach down and pull the toes of your left foot toward your shin. Slowly return to the starting position and repeat the same procedures with the opposite leg.',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand and fully extend your left leg in front of you and place the heel of your left foot on the ground. Bend forward at the waist and slightly bend your right knee. Reach down and pull the toes of your left foot toward your shin. Slowly return to the starting position and repeat the same procedures with the opposite leg.',
         order: 12,
         tags: ['stretch', 'calves', 'legs', 'standing']
     },
@@ -122,7 +122,7 @@ const exercises = [
         name: 'Side Bend',
         reps: '0',
         count: '10-30',
-        description: 'Stand straight with your feet shoulder width apart. With your right hand extended overhead, place your left hand on your left hip. Bend at the waist to the left until the point of gentle tension. Return to the straight up position. With your left hand extended overhead and your right hand on your right hip, bend at the waist to the right until the point of gentle tension. Do not twist the body.',
+        description: 'Hold each stretch for 10 to 30 seconds. Stand straight with your feet shoulder width apart. With your right hand extended overhead, place your left hand on your left hip. Bend at the waist to the left until the point of gentle tension. Return to the straight up position. With your left hand extended overhead and your right hand on your right hip, bend at the waist to the right until the point of gentle tension. Do not twist the body.',
         order: 13,
         tags: ['stretch', 'core', 'standing']
     },
@@ -160,7 +160,7 @@ const exercises = [
         name: 'Push-ups',
         reps: '5',
         count: '2',
-        description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking.',
+        description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking. Alternate between Push-ups and Reverse Lunge for 3 sets.',
         order: 17,
         tags: ['muscular', 'chest', 'arms']
     },
@@ -169,7 +169,7 @@ const exercises = [
         name: 'Reverse Lunge',
         reps: '10',
         count: '4',
-        description: 'Stand with your hands on your waist and your feet spread approximately 6 inches apart. Step back with your left foot. Keeping your back straight, bend at the knees until your right thigh is parallel to the ground. Using your right leg, push your body to the starting position and then alternate legs.',
+        description: 'Stand with your hands on your waist and your feet spread approximately 6 inches apart. Step back with your left foot. Keeping your back straight, bend at the knees until your right thigh is parallel to the ground. Using your right leg, push your body to the starting position and then alternate legs.Alternate between Push-ups and Reverse Lunge for 3 sets.',
         order: 18,
         tags: ['muscular', 'legs', 'balance', 'standing']
     },
@@ -196,7 +196,7 @@ const exercises = [
         name: 'Diamond Push-ups',
         reps: '5',
         count: '2',
-        description: 'Start in the plank-like position but, place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form.',
+        description: 'Start in the plank-like position but, place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form. Alternate between Diamond Push-ups and Engine for 3 sets.  ',
         order: 21,
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
@@ -205,7 +205,7 @@ const exercises = [
         name: 'Engine',
         reps: '10',
         count: '4',
-        description: 'Stand with your arms straight in front of your body, your arms should be parallel to the ground with your palms facing downward. Bring your left knee upward to your elbow until your thigh is parallel to the ground. Return back to the starting position and then alternate legs.',
+        description: 'Stand with your arms straight in front of your body, your arms should be parallel to the ground with your palms facing downward. Bring your left knee upward to your elbow until your thigh is parallel to the ground. Return back to the starting position and then alternate legs. Alternate between Diamond Push-ups and Engine for 3 sets.  ',
         order: 22,
         tags: ['cardio', 'core', 'standing']
     },
@@ -241,7 +241,7 @@ const exercises = [
         name: 'Reverse Push-ups',
         reps: '5',
         count: '2',
-        description: 'Start in a reverse plank position: Sit on the ground with your legs extended straight in front of you, hands placed on the floor just behind your hips (fingers pointing forward or slightly outward), and lift your hips so your body forms a straight line from head to heels (facing upward). From there, bend your elbows to slowly lower your hips and upper body toward the ground without touching it. Press through your hands to push back up to the full reverse plank position. Keep your body straight, core tight, and elbows pointing back throughout the movement. This primarily targets the triceps, shoulders, and core.',
+        description: 'Start in a reverse plank position: Sit on the ground with your legs extended straight in front of you, hands placed on the floor just behind your hips (fingers pointing forward or slightly outward), and lift your hips so your body forms a straight line from head to heels (facing upward). From there, bend your elbows to slowly lower your hips and upper body toward the ground without touching it. Press through your hands to push back up to the full reverse plank position. Keep your body straight, core tight, and elbows pointing back throughout the movement. This primarily targets the triceps, shoulders, and core. Alternate between Reverse Push-ups and Shoulder Press for 3 sets. ',
         order: 26,
         tags: ['muscular', 'triceps', 'arms', 'shoulders', 'core']
     },
@@ -250,7 +250,7 @@ const exercises = [
         name: 'Shoulder Press',
         reps: '10',
         count: '2',
-        description: 'From the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Squeeze your shoulder blades together. Return to the starting position.',
+        description: 'From the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Squeeze your shoulder blades together. Return to the starting position. Alternate between Reverse Push-ups and Shoulder Press for 3 sets. ',
         order: 27,
         tags: ['muscular', 'shoulders', 'arms']
     },
