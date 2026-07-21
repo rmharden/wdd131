@@ -12,6 +12,7 @@ function toggleMenu() {
 /*
 const exercise = [
     {
+        image: '',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -20,6 +21,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'sitting', 'assisted']
     },
     {
+        image: '',
         name: 'Push-ups',
         reps: '5-15',
         count: '2',
@@ -28,6 +30,7 @@ const exercise = [
         tags: ['muscular', 'arms']
     },
     {
+        image: '',
         name: 'Squats',
         reps: '10-30',
         count: '2',
@@ -42,6 +45,7 @@ const exercise = [
 const exercise = [
     // Stretching
     {
+        image: '',
         name: 'Abdominal Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -50,6 +54,7 @@ const exercise = [
         tags: ['stretch', 'abdomen', 'standing']
     },
     {
+        image: '',
         name: 'Chest Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -58,6 +63,7 @@ const exercise = [
         tags: ['stretch', 'chest', 'standing']
     },
     {
+        image: '',
         name: 'Upper Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -66,6 +72,7 @@ const exercise = [
         tags: ['stretch', 'back', 'standing']
     },
     {
+        image: '',
         name: 'Rear Deltoid Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -74,6 +81,7 @@ const exercise = [
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
     {
+        image: '',
         name: 'Overhead Arm Pull',
         reps: '10-30 sec',
         count: 'hold',
@@ -82,6 +90,7 @@ const exercise = [
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
     {
+        image: '',
         name: 'Cat Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -90,6 +99,7 @@ const exercise = [
         tags: ['stretch', 'back', 'kneeling']
     },
     {
+        image: '',
         name: 'Hamstring Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -98,6 +108,7 @@ const exercise = [
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
     {
+        image: '',
         name: 'Groin Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -106,6 +117,7 @@ const exercise = [
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
+        image: '',
         name: 'Hip and Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -114,6 +126,7 @@ const exercise = [
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
+        image: '',
         name: 'Lying Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -122,6 +135,7 @@ const exercise = [
         tags: ['stretch', 'back', 'hips', 'lying']
     },
     {
+        image: '',
         name: 'Thigh Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -130,6 +144,7 @@ const exercise = [
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
     {
+        image: '',
         name: 'Calf Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -138,6 +153,7 @@ const exercise = [
         tags: ['stretch', 'calves', 'legs', 'standing']
     },
     {
+        image: '',
         name: 'Side Bend',
         reps: '10-30 sec',
         count: 'hold',
@@ -148,6 +164,7 @@ const exercise = [
 
     // Muscular Fitness
     {
+        image: '',
         name: 'Jumping Jacks',
         reps: '20',
         count: '4',
@@ -156,6 +173,7 @@ const exercise = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
+        image: '',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -164,6 +182,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'assisted', 'lying']
     },
     {
+        image: '',s
         name: 'Skier',
         reps: '10',
         count: '4',
@@ -172,6 +191,7 @@ const exercise = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
+        image: '',
         name: 'Push-ups',
         reps: '5',
         count: '2',
@@ -180,6 +200,7 @@ const exercise = [
         tags: ['muscular', 'chest', 'arms']
     },
     {
+        image: '',
         name: 'Reverse Lunge',
         reps: '10',
         count: '4',
@@ -188,6 +209,7 @@ const exercise = [
         tags: ['muscular', 'legs', 'balance', 'standing']
     },
     {
+        image: '',
         name: 'Squat Thrusts',
         reps: '10',
         count: '4',
@@ -196,6 +218,7 @@ const exercise = [
         tags: ['cardio', 'full body']
     },
     {
+        image: '',
         name: 'Back Raises',
         reps: '5',
         count: '2',
@@ -204,6 +227,7 @@ const exercise = [
         tags: ['muscular', 'back', 'assisted']
     },
     {
+        image: '',
         name: 'Diamond Push-ups',
         reps: '5',
         count: '2',
@@ -212,6 +236,7 @@ const exercise = [
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
     {
+        image: '',
         name: 'Engine',
         reps: '10',
         count: '4',
@@ -220,6 +245,7 @@ const exercise = [
         tags: ['cardio', 'core', 'standing']
     },
     {
+        image: '',
         name: 'Partial Squat',
         reps: '10',
         count: '2',
@@ -228,6 +254,7 @@ const exercise = [
         tags: ['muscular', 'legs', 'standing']
     },
     {
+        image: '',
         name: 'Cross-knee Crunch',
         reps: '30',
         count: '2',
@@ -236,6 +263,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'core']
     },
     {
+        image: '',
         name: 'Mountain Climber',
         reps: '15',
         count: '4',
@@ -244,6 +272,8 @@ const exercise = [
         tags: ['cardio', 'core', 'full body']
     },
     {
+        image: '',
+        image: '',
         name: 'Reverse Push-ups',
         reps: '5',
         count: '2',
@@ -252,6 +282,7 @@ const exercise = [
         tags: ['muscular', 'triceps', 'arms']
     },
     {
+        image: 'images/pexels-beniam-447198297-33650005.jpg',
         name: 'Shoulder Press',
         reps: '10',
         count: '2',
@@ -260,6 +291,7 @@ const exercise = [
         tags: ['muscular', 'shoulders', 'arms']
     },
     {
+        image: '',
         name: 'Cross-knee Sit-ups',
         reps: '30',
         count: '2',
@@ -268,6 +300,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'assisted']
     },
     {
+        image: '',
         name: 'Pull-ups',
         reps: 'Until failure',
         count: '1',
@@ -276,6 +309,7 @@ const exercise = [
         tags: ['muscular', 'back', 'arms', 'pull']
     },
     {
+        image: '',
         name: 'Hanging Leg Raises',
         reps: 'Until failure',
         count: '1',
@@ -284,3 +318,72 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'legs', 'hanging']
     }
 ];
+let exerciseCard = document.querySelector('.exercise-container');
+/*let button = document.querySelector('button');
+button.addEventListener('click', search);*/
+
+/*Switching to the form version of the querySelector for the button click. Choosing this method because I used a form search in Week 09 before I knew about the Hikes method. I also like that the forms can allow the enter key to search not just clicking on the button.*/
+
+let form = document.querySelector('.exercise-search');
+form.addEventListener('submit', search);
+
+function search(event) {
+    event.preventDefault();
+    let excerciseQuery = document.querySelector('#search').value;
+
+    let filterExercises = exercises.filter(function(exercise) {
+        return (
+            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.exerciseIngredient.find(ingredient => ingredient.toLowerCase().includes(exerciseQuery.toLowerCase())))
+        );
+    })
+
+    console.log(filterExercises);
+
+    let sortedExercises = filterExercises.sort(compareExercises);
+
+    function compareExercises(a,b) {
+        if (a.name < b.name) {
+            return -1;
+        } else if (a.name > b.name) {
+            return 1;
+        }
+        return 0;
+    }
+    exerciseCard.innerHTML = '';
+    sortedExercises.forEach(function(exercise) {
+        renderExercises(exercise);
+    })
+}
+
+let randomNum = Math.floor(Math.random()* exercises.length);
+console.log(randomNum);
+
+function tagTemplate(tags) {
+    return tags.map((tag)=> `<button>${tag}</button>`).join('');
+}
+// Template literal. 
+function exercisesTemplate(exercise) {
+    return `<section class="exercise-card">
+        <img src="${exercise.image}" 
+            alt="Photo of ${exercise.name}" 
+            class="exercise-image">
+        <div class="exercise-content">
+            <div class="exercise-type">
+            	${tagTemplate(exercise.tags)}
+			</div>
+			<h2 class="exercise-title">${exercise.name}</h2>
+            	${ratingTemplate(exercise.rating)}
+			<p class="exercise-description">${exercise.description}</p>
+        </div>
+	</section>`
+}
+
+function renderExercises(exercise) {
+    let html = exercisesTemplate(exercise);
+    exerciseCard.innerHTML += html
+}
+function init() {
+    renderExercises(exercises[randomNum]);
+}
+
+init();
