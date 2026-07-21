@@ -329,7 +329,7 @@ form.addEventListener('submit', search);
 
 function search(event) {
     event.preventDefault();
-    let excerciseQuery = document.querySelector('#search').value;
+    let exerciseQuery = document.querySelector('#search').value;
 
     let filterExercises = exercises.filter(function(exercise) {
         return (
