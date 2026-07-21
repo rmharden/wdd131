@@ -332,7 +332,7 @@ function search(event) {
 
     let filterExercises = exercises.filter(function(exercise) {
         return (
-            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.exerciseIngredient.find(ingredient => ingredient.toLowerCase().includes(exerciseQuery.toLowerCase())))
+            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()))
         );
     })
 
