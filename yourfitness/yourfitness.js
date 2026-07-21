@@ -21,7 +21,7 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'sitting', 'assisted']
     },
     {
-        image: '',
+        image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
         name: 'Push-ups',
         reps: '5-15',
         count: '2',
@@ -54,7 +54,7 @@ const exercises = [
         tags: ['stretch', 'abdomen', 'standing']
     },
     {
-        image: 'images/grok-imagine-chest-stretch.jpg',
+        image: 'images/pexels-cottonbro-6293250.jpg',
         name: 'Chest Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -63,7 +63,7 @@ const exercises = [
         tags: ['stretch', 'chest', 'standing']
     },
     {
-        image: 'images/grok-imagine-upper-back-stretch.jpg',
+        image: 'images/pexels-eren-li-7241484.jpg',
         name: 'Upper Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
@@ -126,49 +126,49 @@ const exercises = [
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-lying-back-stretch.jpg',
         name: 'Lying Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Pull both knees toward your chest while lying on your back.',
+        description: 'Lying on your back, bring both knees to your chest and grab your legs below the knee or over the knee. Pull both knees slowly toward your shoulders.',
         order: 10,
         tags: ['stretch', 'back', 'hips', 'lying']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-ketut-subiyanto-4909526.jpg',
         name: 'Thigh Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Pull one heel toward your buttocks while standing.',
+        description: 'Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
         order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-jacky-xing-776569260-29132146.jpg',
         name: 'Calf Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Extend one leg and pull your toes toward your shin.',
+        description: 'Stand and fully extend your left leg in front of you and place the heel of your left foot on the ground. Bend forward at the waist and slightly bend your right knee. Reach down and pull the toes of your left foot toward your shin. Slowly return to the starting position and repeat the same procedures with the opposite leg.',
         order: 12,
         tags: ['stretch', 'calves', 'legs', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-nay-nyo-727253247-31480319.jpg',
         name: 'Side Bend',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Reach overhead and bend sideways without twisting.',
+        description: 'Stand straight with your feet shoulder width apart. With your right hand extended overhead, place your left hand on your left hip. Bend at the waist to the left until the point of gentle tension. Return to the straight up position. With your left hand extended overhead and your right hand on your right hip, bend at the waist to the right until the point of gentle tension. Do not twist the body.',
         order: 13,
         tags: ['stretch', 'core', 'standing']
     },
 
     // Muscular Fitness
     {
-        image: 'images/',
+        image: 'images/pexels-adrianlimani-34219376.jpg',
         name: 'Jumping Jacks',
         reps: '20',
         count: '4',
-        description: '',
+        description: 'Stand with feet together and hands at your sides. On count 1, jump and land with your feet apart (shoulder-width) while raising your arms straight overhead. On count 2, return to the starting position. Repeat for the required repetitions, maintaining controlled form.',
         order: 14,
         tags: ['cardio', 'full body', 'standing']
     },
@@ -191,7 +191,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
         name: 'Push-ups',
         reps: '5',
         count: '2',
