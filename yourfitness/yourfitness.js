@@ -12,13 +12,13 @@ function toggleMenu() {
 /*
 const exercises = [
     {
-        image: 'images/pexels-ketut-subiyanto-4853726.jpg',
+        image: 'images/pexels-rdne-8401799.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
         description: 'Lie on your back with feet together (or up to 12 inches apart), knees bent at about 90 degrees, and a partner holding your ankles or your feet. Cross your arms over your chest with hands on your shoulders or upper chest. Curl your upper body forward until your elbows touch your knees or thighs, then lower until your shoulder blades to the ground. This completes one repetition. Maintain steady form without using momentum.',
         order: 15,
-        tags: ['muscular', 'abdomen', 'sitting', 'assisted']
+        tags: ['muscular', 'abdomen', 'sitting', 'assisted', 'core']
     },
     {
         image: 'images/pexels-yankrukov-8436439.jpg',
@@ -51,7 +51,7 @@ const exercises = [
         count: 'hold',
         description: 'Stand and extend the arms upward and over the head. Interlace your fingers with your palms up and stretch your arms up and slightly back.',
         order: 1,
-        tags: ['stretch', 'abdomen', 'standing']
+        tags: ['stretch', 'abdomen', 'standing', 'core']
     },
     {
         image: 'images/pexels-cottonbro-6293250.jpg',
@@ -173,7 +173,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: 'images/pexels-ketut-subiyanto-4853726.jpg',
+        image: 'images/pexels-rdne-8401799.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -272,56 +272,52 @@ const exercises = [
         tags: ['cardio', 'core', 'full body']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-gustavo-fring-6496123.jpg',
         name: 'Reverse Push-ups',
         reps: '5',
         count: '2',
-        description: '',
+        description: 'Start in a reverse plank position: Sit on the ground with your legs extended straight in front of you, hands placed on the floor just behind your hips (fingers pointing forward or slightly outward), and lift your hips so your body forms a straight line from head to heels (facing upward). From there, bend your elbows to slowly lower your hips and upper body toward the ground without touching it. Press through your hands to push back up to the full reverse plank position. Keep your body straight, core tight, and elbows pointing back throughout the movement. This primarily targets the triceps, shoulders, and core.',
         order: 26,
-        tags: ['muscular', 'triceps', 'arms']
+        tags: ['muscular', 'triceps', 'arms', 'shoulders', 'core']
     },
     {
         image: 'images/pexels-beniam-447198297-33650005.jpg',
         name: 'Shoulder Press',
         reps: '10',
         count: '2',
-        description: 'Raise arms overhead from shoulder level.',
+        description: 'Raise arms ovFrom the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Return to the starting position.erhead from shoulder level.',
         order: 27,
         tags: ['muscular', 'shoulders', 'arms']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-ketut-subiyanto-4853726.jpg',
         name: 'Cross-knee Sit-ups',
         reps: '30',
         count: '2',
-        description: '',
+        description: 'Lie on your back with knees bent and feet flat on the ground (or held by a partner). Place your hands behind your head or crossed over your chest. Curl your upper body off the ground into a full sit-up while bringing one knee toward your chest and rotating your opposite elbow across your body to meet or pass the knee. Lower back down under control, then repeat on the opposite side. Keep your lower back pressed to the ground during the lowering phase and avoid pulling on your neck. Each side counts as one repetition.',
         order: 28,
         tags: ['muscular', 'abdomen', 'assisted']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-tima-miroshnichenko-6389082.jpg',
         name: 'Pull-ups',
         reps: 'Until failure',
-        count: '1',
-        description: '',
+        count: '2',
+        description: "Start by hanging from a pull-up bar with palms facing away (overhand grip) and hands at about shoulder-width apart with arms fully extended and body straight. Pull your body upward in a controlled motion until your chin clears the bar. Then lower yourself back down until your arms are fully extended. Avoid swinging or kicking your legs for momentum—keep your core tight. Each full up-and-down movement counts as one repetition.",
         order: 29,
-        tags: ['muscular', 'back', 'arms', 'pull']
+        tags: ['muscular', 'back', 'arms', 'pull', 'shoulders', 'pull-up', 'bar']
     },
     {
         image: 'images/',
         name: 'Hanging Leg Raises',
         reps: 'Until failure',
-        count: '1',
-        description: '',
+        count: '2',
+        description: 'Hang from a pull-up bar with an overhand grip, arms fully extended, and body straight (or with a slight bend in the knees if needed). Keeping your legs together, raise them upward in a controlled motion and contracting your abs—aim to bring your knees or straight legs to a sitting position. Slowly lower your legs back to the starting position without swinging. Avoid using momentum; focus on core control throughout. Each full raise and lower counts as one repetition.',
         order: 30,
-        tags: ['muscular', 'abdomen', 'legs', 'hanging']
+        tags: ['muscular', 'abdomen', 'arms', 'hanging', 'core', 'bar']
     }
 ];
 let exerciseCard = document.querySelector('.exercise-card-container');
-/*let button = document.querySelector('button');
-button.addEventListener('click', search);*/
-
-/*Switching to the form version of the querySelector for the button click. Choosing this method because I used a form search in Week 09 before I knew about the Hikes method. I also like that the forms can allow the enter key to search not just clicking on the button.*/
 
 let form = document.querySelector('.exercise-search');
 form.addEventListener('submit', search);
