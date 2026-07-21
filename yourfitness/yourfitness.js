@@ -12,7 +12,7 @@ function toggleMenu() {
 /*
 const exercises = [
     {
-        image: '',
+        image: 'images/grok-imagine-sit-up-001.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -81,11 +81,11 @@ const exercises = [
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-ketut-subiyanto-5037359-overhead-arm-pull.jpg',
         name: 'Overhead Arm Pull',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Stretch the triceps by pulling one elbow overhead.',
+        description: 'Stand with your feet shoulder width apart. Raise your left arm, bend your left elbow and place your left palm in the center of your back at the base of the neck. Gently pull your elbow with your right hand. Return to the starting position and repeat the procedures with the opposite arm.',
         order: 5,
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
@@ -173,7 +173,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-sit-up-001.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
