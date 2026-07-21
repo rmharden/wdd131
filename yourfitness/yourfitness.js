@@ -72,7 +72,7 @@ const exercises = [
         tags: ['stretch', 'back', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-rear-deltoid-stretch.jpg',
         name: 'Rear Deltoid Stretch',
         reps: '10-30 sec',
         count: 'hold',
