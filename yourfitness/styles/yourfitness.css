@@ -133,26 +133,6 @@ footer {
     width: 28px; 
 }         
 
-
-.logo-title {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin-bottom: 18px;
-    margin-top: 18px;
-}
-.logo {
-    width: 95px;
-    height: auto;
-}
-
-.exercise-search {
-    display: flex;
-    border: 2px solid black;
-    border-radius: 5px;
-    /*added this to try*/
-    height: 42px;
-}
 .exercise-search input {
     flex: 1;
     border: none;
