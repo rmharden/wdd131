@@ -162,7 +162,7 @@ const exercises = [
         count: '2',
         description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking. Alternate between Push-ups and Reverse Lunge for 3 sets.',
         order: 17,
-        tags: ['muscular', 'chest', 'arms']
+        tags: ['muscular', 'chest', 'arms', 'alternate']
     },
     {
         image: 'images/pexels-shvetsa-5067670.jpg',
@@ -171,7 +171,7 @@ const exercises = [
         count: '4',
         description: 'Stand with your hands on your waist and your feet spread approximately 6 inches apart. Step back with your left foot. Keeping your back straight, bend at the knees until your right thigh is parallel to the ground. Using your right leg, push your body to the starting position and then alternate legs.Alternate between Push-ups and Reverse Lunge for 3 sets.',
         order: 18,
-        tags: ['muscular', 'legs', 'balance', 'standing']
+        tags: ['muscular', 'legs', 'balance', 'standing', 'alternate']
     },
     {
         image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
@@ -198,16 +198,16 @@ const exercises = [
         count: '2',
         description: 'Start in the plank-like position but, place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form. Alternate between Diamond Push-ups and Engine for 3 sets.  ',
         order: 21,
-        tags: ['muscular', 'chest', 'triceps', 'arms']
+        tags: ['muscular', 'chest', 'triceps', 'arms', 'alternate']
     },
     {
         image: 'images/pexels-roman-odintsov-8084797.jpg',
         name: 'Engine',
         reps: '10',
         count: '4',
-        description: 'Stand with your arms straight in front of your body, your arms should be parallel to the ground with your palms facing downward. Bring your left knee upward to your elbow until your thigh is parallel to the ground. Return back to the starting position and then alternate legs. Alternate between Diamond Push-ups and Engine for 3 sets.  ',
+        description: 'Stand with your arms straight in front of your body, your arms should be parallel to the ground with your palms facing downward. Bring your left knee upward to your elbow until your thigh is parallel to the ground. Return back to the starting position and then alternate legs. Alternate between Diamond Push-ups and Engine for 3 sets.',
         order: 22,
-        tags: ['cardio', 'core', 'standing']
+        tags: ['cardio', 'core', 'standing', 'alternate']
     },
     {
         image: 'images/pexels-kampus-8638042.jpg',
@@ -243,7 +243,7 @@ const exercises = [
         count: '2',
         description: 'Start in a reverse plank position: Sit on the ground with your legs extended straight in front of you, hands placed on the floor just behind your hips (fingers pointing forward or slightly outward), and lift your hips so your body forms a straight line from head to heels (facing upward). From there, bend your elbows to slowly lower your hips and upper body toward the ground without touching it. Press through your hands to push back up to the full reverse plank position. Keep your body straight, core tight, and elbows pointing back throughout the movement. This primarily targets the triceps, shoulders, and core. Alternate between Reverse Push-ups and Shoulder Press for 3 sets. ',
         order: 26,
-        tags: ['muscular', 'triceps', 'arms', 'shoulders', 'core']
+        tags: ['muscular', 'triceps', 'arms', 'shoulders', 'core', 'alternate']
     },
     {
         image: 'images/pexels-beniam-447198297-33650005.jpg',
@@ -252,7 +252,7 @@ const exercises = [
         count: '2',
         description: 'From the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Squeeze your shoulder blades together. Return to the starting position. Alternate between Reverse Push-ups and Shoulder Press for 3 sets. ',
         order: 27,
-        tags: ['muscular', 'shoulders', 'arms']
+        tags: ['muscular', 'shoulders', 'arms', 'alternate']
     },
     {
         image: 'images/pexels-ketut-subiyanto-4853726.jpg',
