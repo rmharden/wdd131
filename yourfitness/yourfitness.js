@@ -67,7 +67,7 @@ const exercises = [
         name: 'Upper Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Extend your arms forward at shoulder height with palms facing outward.',
+        description: 'Stand with your arms extended to the front at shoulder height with your fingers interlaced, and your palms facing outward. Extend your arms and shoulders forward.',
         order: '3',
         tags: ['stretch', 'back', 'standing']
     },
@@ -341,9 +341,9 @@ function search(event) {
     let sortedExercises = filterExercises.sort(compareExercises);
 
     function compareExercises(a,b) {
-        if (a.name < b.name) {
+        if (a.order < b.order) {
             return -1;
-        } else if (a.name > b.name) {
+        } else if (a.order > b.order) {
             return 1;
         }
         return 0;
