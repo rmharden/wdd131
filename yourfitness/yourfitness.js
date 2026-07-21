@@ -63,7 +63,7 @@ const exercises = [
         tags: ['stretch', 'chest', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-upper-back-stretch.jpg',
         name: 'Upper Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
