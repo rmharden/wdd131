@@ -45,20 +45,20 @@ const exercises = [
 const exercises = [
     // Stretching
     {
-        image: '',
+        image: 'images/grok-imagine-ab-stretch.jpg',
         name: 'Abdominal Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Stand and extend the arms upward and slightly back with fingers interlaced.',
+        description: 'Stand and extend the arms upward and over the head. Interlace your fingers with your palms up and stretch your arms up and slightly back.',
         order: '1',
         tags: ['stretch', 'abdomen', 'standing']
     },
     {
-        image: '',
+        image: 'images/grok-imagine-chest-stretch.jpg',
         name: 'Chest Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Interlace fingers behind your back, lift arms, and lean forward.',
+        description: 'Stand and interlace your fingers behind your back. Lift your arms behind your back so they move outward and away from your body, then lean forward from the waist. Bend your knees, lower your arms and return to the upright position.',
         order: '2',
         tags: ['stretch', 'chest', 'standing']
     },
