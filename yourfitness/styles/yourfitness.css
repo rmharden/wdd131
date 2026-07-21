@@ -6,7 +6,14 @@
 
   --heading-font:  "Raleway", sans-serif;
   --paragraph-font: Arial, Helvetica, sans-serif;
-*//*W03 Ponder: Responsive Design*/
+*/
+
+/*
+looked up how to keep the header up at the top:
+https://www.w3schools.com/howto/howto_js_sticky_header.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
+https://www.w3schools.com/css/css_z-index.asp
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -17,12 +24,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;;
 }
-/*
-looked up how to keep the header up at the top:
-https://www.w3schools.com/howto/howto_js_sticky_header.asp
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
-https://www.w3schools.com/css/css_z-index.asp
-*/
+
 header {
     font-family:"Raleway", sans-serif;
     background-color: #31B8B3;
