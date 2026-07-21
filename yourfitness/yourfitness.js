@@ -108,20 +108,20 @@ const exercises = [
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-ivan-s-4164755.jpg',
         name: 'Groin Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Sit with soles of feet together and lean forward.',
+        description: 'Sit on the ground with the soles of your feet together and place your hands on or near your feet. Bend forward from the hips keeping the head up and hold this position.',
         order: 8,
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-alexy-almond-3756514.jpg',
         name: 'Hip and Back Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Cross one leg over the other and rotate your upper body.',
+        description: 'Sit on the ground with your right leg forward and straight. Cross your left leg over your right. While sitting erect, place your left foot flat on the ground near your right knee. Keep the heels of both feet in contact with the ground. Slowly rotate your upper body to the left and look over you left shoulder. Reach across your left leg with your right arm and place your right elbow across your knee and gently push your left leg to the right with your elbow. Use your left hand to support your body by placing it on the ground. Repeat the stretch for the other side by crossing the opposite leg and turning in the opposite direction.',
         order: 9,
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
