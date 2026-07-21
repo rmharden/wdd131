@@ -16,16 +16,16 @@ const exercises = [
         name: 'Sit-ups',
         reps: '30',
         count: '2',
-        description: '',
+        description: 'Lie on your back with feet together (or up to 12 inches apart), knees bent at about 90 degrees, and a partner holding your ankles or your feet. Cross your arms over your chest with hands on your shoulders or upper chest. Curl your upper body forward until your elbows touch your knees or thighs, then lower until your shoulder blades to the ground. This completes one repetition. Maintain steady form without using momentum.',
         order: 15,
         tags: ['muscular', 'abdomen', 'sitting', 'assisted']
     },
     {
-        image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
+        image: 'images/pexels-yankrukov-8436439.jpg',
         name: 'Push-ups',
         reps: '5-15',
         count: '2',
-        description: '',
+        description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking.',
         order: 17,
         tags: ['muscular', 'arms']
     },
@@ -177,7 +177,7 @@ const exercises = [
         name: 'Sit-ups',
         reps: '30',
         count: '2',
-        description: '',
+        description: 'Lie on your back with feet together (or up to 12 inches apart), knees bent at about 90 degrees, and a partner holding your ankles or your feet. Cross your arms over your chest with hands on your shoulders or upper chest. Curl your upper body forward until your elbows touch your knees or thighs, then lower until your shoulder blades to the ground. This completes one repetition. Maintain steady form without using momentum.',
         order: 15,
         tags: ['muscular', 'abdomen', 'assisted', 'lying']
     },
@@ -191,29 +191,29 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
+        image: 'images/pexels-yankrukov-8436439.jpg',
         name: 'Push-ups',
         reps: '5',
         count: '2',
-        description: '',
+        description: 'Start in a plank-like position with arms shoulder-width apart and feet together or up to 12 inches apart. Keep your body in a straight line from head to heels. Lower your body until your upper arms are parallel to the ground (elbows bent at about 90 degrees) and then push back up until your arms are fully extended (but not locked). This completes one repetition—keep your body rigid and avoid sagging or piking.',
         order: 17,
         tags: ['muscular', 'chest', 'arms']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-shvetsa-5067670.jpg',
         name: 'Reverse Lunge',
         reps: '10',
         count: '4',
-        description: 'Step backward and lower until the front thigh is parallel.',
+        description: 'Stand with your hands on your waist and your feet spread approximately 6 inches apart. Step back with your left foot. Keeping your back straight, bend at the knees until your right thigh is parallel to the ground. Using your right leg, push your body to the starting position and then alternate legs.',
         order: 18,
         tags: ['muscular', 'legs', 'balance', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-fernando-capetillo-94107723-38167588.jpg',
         name: 'Squat Thrusts',
         reps: '10',
         count: '4',
-        description: 'Squat, kick feet back, then return to standing.',
+        description: 'Squat down until your hands are on the ground by your feet. Kick you feet back (push up position). Bring your feet back to the starting position so that you are standing straight up.',
         order: 19,
         tags: ['cardio', 'full body']
     },
@@ -222,16 +222,16 @@ const exercises = [
         name: 'Back Raises',
         reps: '5',
         count: '2',
-        description: 'Raise your torso while lying face down.',
+        description: 'Lie on your stomach. Place your hands behind your head and interlace your fingers. Have a spotter hold your feet. With a steady, controlled motion, raise your torso until your chest clears the ground. Do not tighten your leg muscles.',
         order: 20,
         tags: ['muscular', 'back', 'assisted']
     },
     {
-        image: 'images/',
+        image: 'images/grok-pexel-diamond-pushup.jpg',
         name: 'Diamond Push-ups',
         reps: '5',
         count: '2',
-        description: '',
+        description: 'Start in the plank-like position but, place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form.',
         order: 21,
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
