@@ -163,12 +163,6 @@ header, main, footer {
     height: auto;
 }
 
-h1 {
-    margin: 0;
-    font-family: "Amatic SC", cursive;
-    font-size: 60px;
-    margin-top: 15px;
-}
 .exercise-search {
     display: flex;
     border: 2px solid black;

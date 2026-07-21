@@ -182,7 +182,7 @@ const exercise = [
         tags: ['muscular', 'abdomen', 'assisted', 'lying']
     },
     {
-        image: '',s
+        image: '',
         name: 'Skier',
         reps: '10',
         count: '4',
