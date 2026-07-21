@@ -273,7 +273,7 @@ const exercises = [
         tags: ['muscular', 'back', 'arms', 'pull', 'shoulders', 'pull-up', 'bar']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-ketut-subiyanto-4803683.jpg',
         name: 'Hanging Leg Raises',
         reps: 'Until failure',
         count: '2',
