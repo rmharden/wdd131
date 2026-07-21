@@ -273,7 +273,6 @@ const exercises = [
     },
     {
         image: '',
-        image: '',
         name: 'Reverse Push-ups',
         reps: '5',
         count: '2',
@@ -372,7 +371,6 @@ function exercisesTemplate(exercise) {
             	${tagTemplate(exercise.tags)}
 			</div>
 			<h2 class="exercise-title">${exercise.name}</h2>
-            	${ratingTemplate(exercise.rating)}
 			<p class="exercise-description">${exercise.description}</p>
         </div>
 	</section>`
