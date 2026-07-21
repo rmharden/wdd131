@@ -17,7 +17,7 @@ const exercises = [
         reps: '30',
         count: '2',
         description: '',
-        order: '15',
+        order: 15,
         tags: ['muscular', 'abdomen', 'sitting', 'assisted']
     },
     {
@@ -26,7 +26,7 @@ const exercises = [
         reps: '5-15',
         count: '2',
         description: '',
-        order: '17',
+        order: 17,
         tags: ['muscular', 'arms']
     },
     {
@@ -35,7 +35,7 @@ const exercises = [
         reps: '10-30',
         count: '2',
         description: '',
-        order: '23',
+        order: 23,
         tags: ['muscular', 'legs', 'standing']
     }
 ];*/
@@ -50,7 +50,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Stand and extend the arms upward and over the head. Interlace your fingers with your palms up and stretch your arms up and slightly back.',
-        order: '1',
+        order: 1,
         tags: ['stretch', 'abdomen', 'standing']
     },
     {
@@ -59,7 +59,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Stand and interlace your fingers behind your back. Lift your arms behind your back so they move outward and away from your body, then lean forward from the waist. Bend your knees, lower your arms and return to the upright position.',
-        order: '2',
+        order: 2,
         tags: ['stretch', 'chest', 'standing']
     },
     {
@@ -68,7 +68,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Stand with your arms extended to the front at shoulder height with your fingers interlaced, and your palms facing outward. Extend your arms and shoulders forward.',
-        order: '3',
+        order: 3,
         tags: ['stretch', 'back', 'standing']
     },
     {
@@ -77,7 +77,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Pull one wrist behind your back while tilting your head.',
-        order: '4',
+        order: 4,
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
     {
@@ -86,7 +86,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Stretch the triceps by pulling one elbow overhead.',
-        order: '5',
+        order: 5,
         tags: ['stretch', 'triceps', 'arms', 'standing']
     },
     {
@@ -95,7 +95,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Arch and lower your back while on hands and knees.',
-        order: '6',
+        order: 6,
         tags: ['stretch', 'back', 'kneeling']
     },
     {
@@ -104,7 +104,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Sit with legs straight and reach toward your feet.',
-        order: '7',
+        order: 7,
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
     {
@@ -113,7 +113,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Sit with soles of feet together and lean forward.',
-        order: '8',
+        order: 8,
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
@@ -122,7 +122,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Cross one leg over the other and rotate your upper body.',
-        order: '9',
+        order: 9,
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
@@ -131,7 +131,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Pull both knees toward your chest while lying on your back.',
-        order: '10',
+        order: 10,
         tags: ['stretch', 'back', 'hips', 'lying']
     },
     {
@@ -140,7 +140,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Pull one heel toward your buttocks while standing.',
-        order: '11',
+        order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
     {
@@ -149,7 +149,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Extend one leg and pull your toes toward your shin.',
-        order: '12',
+        order: 12,
         tags: ['stretch', 'calves', 'legs', 'standing']
     },
     {
@@ -158,7 +158,7 @@ const exercises = [
         reps: '10-30 sec',
         count: 'hold',
         description: 'Reach overhead and bend sideways without twisting.',
-        order: '13',
+        order: 13,
         tags: ['stretch', 'core', 'standing']
     },
 
@@ -169,7 +169,7 @@ const exercises = [
         reps: '20',
         count: '4',
         description: '',
-        order: '14',
+        order: 14,
         tags: ['cardio', 'full body', 'standing']
     },
     {
@@ -178,7 +178,7 @@ const exercises = [
         reps: '30',
         count: '2',
         description: '',
-        order: '15',
+        order: 15,
         tags: ['muscular', 'abdomen', 'assisted', 'lying']
     },
     {
@@ -187,7 +187,7 @@ const exercises = [
         reps: '10',
         count: '4',
         description: 'Assume the starting position of the exercise with your left leg and right arm forward and your right leg and left arm back. Your feet should be approximately 12 inches apart from toe to heel. While jumping slightly in the air, alternate your feet each time you land and swing the arms with coordinated arm-swing.',
-        order: '16',
+        order: 16,
         tags: ['cardio', 'full body', 'standing']
     },
     {
@@ -196,7 +196,7 @@ const exercises = [
         reps: '5',
         count: '2',
         description: '',
-        order: '17',
+        order: 17,
         tags: ['muscular', 'chest', 'arms']
     },
     {
@@ -205,7 +205,7 @@ const exercises = [
         reps: '10',
         count: '4',
         description: 'Step backward and lower until the front thigh is parallel.',
-        order: '18',
+        order: 18,
         tags: ['muscular', 'legs', 'balance', 'standing']
     },
     {
@@ -214,7 +214,7 @@ const exercises = [
         reps: '10',
         count: '4',
         description: 'Squat, kick feet back, then return to standing.',
-        order: '19',
+        order: 19,
         tags: ['cardio', 'full body']
     },
     {
@@ -223,7 +223,7 @@ const exercises = [
         reps: '5',
         count: '2',
         description: 'Raise your torso while lying face down.',
-        order: '20',
+        order: 20,
         tags: ['muscular', 'back', 'assisted']
     },
     {
@@ -232,7 +232,7 @@ const exercises = [
         reps: '5',
         count: '2',
         description: '',
-        order: '21',
+        order: 21,
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
     {
@@ -241,7 +241,7 @@ const exercises = [
         reps: '10',
         count: '4',
         description: 'Raise alternating knees to opposite elbows.',
-        order: '22',
+        order: 22,
         tags: ['cardio', 'core', 'standing']
     },
     {
@@ -250,7 +250,7 @@ const exercises = [
         reps: '10',
         count: '2',
         description: '',
-        order: '23',
+        order: 23,
         tags: ['muscular', 'legs', 'standing']
     },
     {
@@ -259,7 +259,7 @@ const exercises = [
         reps: '30',
         count: '2',
         description: '',
-        order: '24',
+        order: 24,
         tags: ['muscular', 'abdomen', 'core']
     },
     {
@@ -268,7 +268,7 @@ const exercises = [
         reps: '15',
         count: '4',
         description: 'Alternate legs in a plank position.',
-        order: '25',
+        order: 25,
         tags: ['cardio', 'core', 'full body']
     },
     {
@@ -277,7 +277,7 @@ const exercises = [
         reps: '5',
         count: '2',
         description: '',
-        order: '26',
+        order: 26,
         tags: ['muscular', 'triceps', 'arms']
     },
     {
@@ -286,7 +286,7 @@ const exercises = [
         reps: '10',
         count: '2',
         description: 'Raise arms overhead from shoulder level.',
-        order: '27',
+        order: 27,
         tags: ['muscular', 'shoulders', 'arms']
     },
     {
@@ -295,7 +295,7 @@ const exercises = [
         reps: '30',
         count: '2',
         description: '',
-        order: '28',
+        order: 28,
         tags: ['muscular', 'abdomen', 'assisted']
     },
     {
@@ -304,7 +304,7 @@ const exercises = [
         reps: 'Until failure',
         count: '1',
         description: '',
-        order: '29',
+        order: 29,
         tags: ['muscular', 'back', 'arms', 'pull']
     },
     {
@@ -313,7 +313,7 @@ const exercises = [
         reps: 'Until failure',
         count: '1',
         description: '',
-        order: '30',
+        order: 30,
         tags: ['muscular', 'abdomen', 'legs', 'hanging']
     }
 ];
