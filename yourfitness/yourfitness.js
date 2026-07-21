@@ -10,7 +10,7 @@ function toggleMenu() {
 
 
 /*
-const exercise = [
+const exercises = [
     {
         image: '',
         name: 'Sit-ups',
@@ -42,7 +42,7 @@ const exercise = [
 
 /*I gave AI my example above and I gave it my data from my exercise word document I wrote. I asked it to create my object array with my data and my example object array. Below is what ChatGPT created for me:*/
 
-const exercise = [
+const exercises = [
     // Stretching
     {
         image: '',
