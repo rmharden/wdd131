@@ -12,7 +12,7 @@ function toggleMenu() {
 /*
 const exercises = [
     {
-        image: 'images/grok-imagine-sit-up-001.jpg',
+        image: 'images/pexels-ketut-subiyanto-4853726.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -103,7 +103,7 @@ const exercises = [
         name: 'Hamstring Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce',
+        description: 'Sit on the ground with both legs straight, toes pointing up and feet approximately six-inches apart. Bend forward at the hips and try to put your hands on your ankles or toes. Do not bounce.',
         order: 7,
         tags: ['stretch', 'hamstrings', 'legs', 'sitting']
     },
@@ -173,7 +173,7 @@ const exercises = [
         tags: ['cardio', 'full body', 'standing']
     },
     {
-        image: 'images/grok-imagine-sit-up-001.jpg',
+        image: 'images/pexels-ketut-subiyanto-4853726.jpg',
         name: 'Sit-ups',
         reps: '30',
         count: '2',
@@ -218,7 +218,7 @@ const exercises = [
         tags: ['cardio', 'full body']
     },
     {
-        image: 'images/',
+        image: 'images/grock-imagine-back-raise.jpg',
         name: 'Back Raises',
         reps: '5',
         count: '2',
@@ -236,38 +236,38 @@ const exercises = [
         tags: ['muscular', 'chest', 'triceps', 'arms']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-roman-odintsov-8084797.jpg',
         name: 'Engine',
         reps: '10',
         count: '4',
-        description: 'Raise alternating knees to opposite elbows.',
+        description: 'Stand with your arms straight in front of your body, your arms should be parallel to the ground with your palms facing downward. Bring your left knee upward to your elbow until your thigh is parallel to the ground. Return back to the starting position and then alternate legs.',
         order: 22,
         tags: ['cardio', 'core', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/pexels-kampus-8638042.jpg',
         name: 'Partial Squat',
         reps: '10',
         count: '2',
-        description: '',
+        description: 'Start with feet shoulder-width apart. Bend your knees and lower your hips into a partial squat (typically to about 45-90 degrees at the knees, or halfway down). Keep your chest up, back straight, and weight on your heels. Your thighs should not go below parallel in a true partial/half squat. Then drive through your heels to return to the starting position. Perform with controlled movement and maintain good posture throughout.',
         order: 23,
         tags: ['muscular', 'legs', 'standing']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-sit-up-001.jpg',
         name: 'Cross-knee Crunch',
         reps: '30',
         count: '2',
-        description: '',
+        description: 'Lie on your back with your hands behind your head or lightly touching your ears (do not pull on your neck). Raise your shoulders off the ground into a crunch position while bringing one knee toward your chest and rotating your opposite elbow across your body to meet it (or toward the knee). Alternate sides in a controlled, twisting motion. Keep your lower back pressed to the ground and avoid pulling on your head. Each side-to-side movement typically counts as one repetition.',
         order: 24,
-        tags: ['muscular', 'abdomen', 'core']
+        tags: ['muscular', 'abdomen', 'core', 'obliques']
     },
     {
-        image: 'images/',
+        image: 'images/grok-imagine-pexels-mountain-climber.jpg',
         name: 'Mountain Climber',
         reps: '15',
         count: '4',
-        description: 'Alternate legs in a plank position.',
+        description: 'Squat down until your hands are on the ground by your feet. Fully extend your left leg out keeping your right knee tucked near your chest. Bring your left knee into your chest while extending your right leg and continue alternating legs for the required count.',
         order: 25,
         tags: ['cardio', 'core', 'full body']
     },
