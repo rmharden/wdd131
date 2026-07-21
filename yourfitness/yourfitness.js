@@ -76,7 +76,7 @@ const exercises = [
         name: 'Rear Deltoid Stretch',
         reps: '10-30 sec',
         count: 'hold',
-        description: 'Pull one wrist behind your back while tilting your head.',
+        description: 'Stand with your feet shoulder width apart and your arms behind your body. With your right hand, grasp your left wrist behind your body and pull down and to the right. Tilt your head to the right. Return to the starting position and repeat with opposite arm.',
         order: 4,
         tags: ['stretch', 'shoulders', 'neck', 'standing']
     },
