@@ -285,7 +285,7 @@ const exercises = [
         name: 'Shoulder Press',
         reps: '10',
         count: '2',
-        description: 'Raise arms ovFrom the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Return to the starting position.erhead from shoulder level.',
+        description: 'From the starting position extend your arms overhead and legs straight in front. Lower your hands down to your shoulders. Squeeze your shoulder blades together. Return to the starting position.',
         order: 27,
         tags: ['muscular', 'shoulders', 'arms']
     },
