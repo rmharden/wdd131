@@ -318,19 +318,12 @@ function search(event) {
 let randomNum = Math.floor(Math.random()* exercises.length);
 console.log(randomNum);
 
-function tagTemplate(tags) {
-    return tags.map((tag)=> `<button>${tag}</button>`).join('');
-}
-// Template literal. 
 function exercisesTemplate(exercise) {
     return `<section class="exercise-card">
         <img src="${exercise.image}" 
             alt="Photo of ${exercise.name}" 
             class="exercise-image">
         <div class="exercise-content">
-            <div class="exercise-type">
-            	${tagTemplate(exercise.tags)}
-			</div>
 			<h2 class="exercise-title">${exercise.name}</h2>
             <p class="exercise-count">${exercise.count}</p>
             <p class="exercise-rep">${exercise.reps}</p>

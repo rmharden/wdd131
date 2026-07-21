@@ -140,6 +140,7 @@ nav a:hover {
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    padding: 25px;
 }
 .exercise-image {
     width: calc(100% - 36px);
