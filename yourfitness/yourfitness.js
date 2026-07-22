@@ -341,3 +341,8 @@ function init() {
 }
 
 init();
+
+const generatorForm = document.querySelector(".repetition-generator");
+const workoutResults = document.querySelector(".workout-generator-results");
+
+generatorForm.addEventListener("submit", generateWorkout);
