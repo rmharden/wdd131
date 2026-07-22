@@ -334,7 +334,7 @@ function calculateTotals(sets) {
     });
 }
 
-calculateTotals(sets);
+const total = calculateTotals(sets);
 
 
 document.querySelector('.sit-up-total').textContent = total;
