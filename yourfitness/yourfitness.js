@@ -296,6 +296,7 @@ function closeModal() {
 }
 
 closeButton.addEventListener('click', closeModal);
+
 const workoutForm = document.querySelector(".repetition-generator");
 
 workoutForm.addEventListener("submit", generateWorkout);
@@ -340,6 +341,7 @@ function calculateTotals(sets) {
     const total = sets.reduce((acc, reps) => {
         return acc + reps;
     });
+    return total;
 }
 
 let exerciseCard = document.querySelector('.exercise-card-container');
@@ -379,17 +381,19 @@ let randomNum = Math.floor(Math.random()* exercises.length);
 console.log(randomNum);
 
 function exercisesTemplate(exercise) {
-    return `<section class="exercise-card">
-        <img src="${exercise.image}" 
-            alt="Photo of ${exercise.name}" 
-            class="exercise-image">
-        <div class="exercise-content">
-			<h2 class="exercise-title">${exercise.name}</h2>
-            <p class="exercise-count">Count: ${exercise.count}</p>
-            <p class="exercise-rep">Repetition: ${exercise.reps}</p>
-			<p class="exercise-description">${exercise.description}</p>
-        </div>
-	</section>`
+    return `
+        <section class="exercise-card">
+            <img src="${exercise.image}" 
+                alt="Photo of ${exercise.name}" 
+                class="exercise-image">
+
+            <div class="exercise-content">
+                <h2 class="exercise-title">${exercise.name}</h2>
+                <p class="exercise-count">Count: ${exercise.count}</p>
+                <p class="exercise-rep">Repetition: ${exercise.reps}</p>
+                <p class="exercise-description">${exercise.description}</p>
+            </div>
+	    </section>`;
 }
 
 function renderExercises(exercise) {
