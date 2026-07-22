@@ -43,20 +43,7 @@ header {
     width: 4rem;
     height: auto;
 }
-header,
-main,
-footer {
-    max-width: 1000px;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    background-color: #31B8B3;
-    color: aliceblue;
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-}
+
 .welcome-image {
     max-width: 100%;
 }
@@ -97,12 +84,7 @@ nav a:hover {
 .change .bar3 {
     transform: translate(0, -9px) rotate(45deg);
 }  
-.welcome-container {
-    color: #28615F;
-    border: 10px solid aliceblue;
-    border-radius: 8px;
-    text-align: center;
-}       
+     
 .exercise-search { 
     display: flex; 
     border: 2px solid black; 
@@ -135,46 +117,6 @@ nav a:hover {
     height: 100%;
     padding: 0 0.5rem;
 }
-.exercise-card {
-    border: 2px solid black;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    padding: 25px;
-}
-.exercise-image {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: 5px;
-    display: block;   
-}
-.exercise-type {
-    border: 1.5px solid rgb(182, 179, 179);
-    border-radius: 2.5px;
-    text-align: center;
-    background-color: rgb(231, 228, 228);
-    width: fit-content;
-    padding: 5px;
-    margin-left: 18px;
-    margin-top: 2px;
-    font-size: smaller;
-}
-.exercise-type p {
-    margin: 0;
-}
-
-.exercise-title {
-    color: #28615F;
-    margin: 18px 0 0 18px;
-    font-size: 28px;
-}
-.exercise-content {
-    margin-bottom: 18px;
-}
-/*.exercise-description {
-    display: none;
-}*/
 
 .workout-generator-results {
     display: none;
@@ -196,12 +138,5 @@ nav a:hover {
     }
     nav {
         text-align: right;
-    }
-    
-}
-@media screen and (min-width: 1000px) 
-    {
-        main {
-            grid-template-columns: 1fr 1fr 1fr;
-        }
+    } 
 }
