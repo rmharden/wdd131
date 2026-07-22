@@ -277,7 +277,7 @@ const exercises = [
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
-
+const workoutBody = document.querySelector('.workout-body');
 
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
