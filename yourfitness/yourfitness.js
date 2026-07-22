@@ -301,9 +301,26 @@ const workoutForm = document.querySelector(".repetition-generator");
 workoutForm.addEventListener("submit", generateWorkout);
 
 function generateWorkout(event) {
+    
     event.preventDefault();
     
     const startingReps = Number(document.querySelector('#rep-number').value);
+
+    const sessions=[]
+
+    workoutBody.innerHTML = "";
+    for (let i = 0; i < 6; i++) {
+        const reps = startingReps + i;
+
+        workoutBody.innerHTML += `
+        <tr>
+            <td>Set ${i + 1}</td>
+            <td>${reps}</td>
+            <td>${reps}</td>
+            <td>${reps}</td>
+        </tr?
+        `;
+    }
 
     document.querySelector(".workout-generator-results").classList.remove("hide");
 
