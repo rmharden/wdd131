@@ -285,6 +285,18 @@ modal.addEventListener('click', (event) => {
     }
 });
 
+function openModal() {
+    modal.showModal();
+}
+
+instructionsBtn.addEventListener('click', openModal);
+
+function closeModal() {
+    modal.close();
+}
+
+closeButton.addEventListener('click', closeModal);
+
 
 let exerciseCard = document.querySelector('.exercise-card-container');
 
@@ -352,6 +364,8 @@ function generateWorkout(event) {
     event.preventDefault();
     
     document.querySelector(".workout-generator-results").classList.remove("hide");
+
+    instructionsBtn.classList.remove("hide");
 }
 
 init();
