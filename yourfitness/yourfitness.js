@@ -1,13 +1,3 @@
-
-
-
-modal.addEventListener('click', (event) => {
-    if (event.target === modal) {
-        modal.close();
-    }
-});
-
-
 const exercises = [
     // Stretching
     {
@@ -283,6 +273,19 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'arms', 'hanging', 'core', 'bar', 'calisthenics']
     }
 ];
+
+const modal = document.querySelector('.instructions-modal');
+const instructionsBtn = document.querySelector('.instructions-button');
+const closeButton = document.querySelector('.close-viewer');
+
+
+modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.close();
+    }
+});
+
+
 let exerciseCard = document.querySelector('.exercise-card-container');
 
 let form = document.querySelector('.exercise-search');
