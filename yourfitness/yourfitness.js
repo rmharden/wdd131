@@ -334,6 +334,9 @@ function calculateTotals(sets) {
     });
 }
 
+calculateTotals(sets);
+
+
 document.querySelector('.sit-up-total').textContent = total;
 document.querySelector('.push-up-total').textContent = total;
 document.querySelector('.squat-total').textContent = total;
