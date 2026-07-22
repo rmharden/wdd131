@@ -318,7 +318,7 @@ function generateWorkout(event) {
             <td>${reps}</td>
             <td>${reps}</td>
             <td>${reps}</td>
-        </tr?
+        </tr>
         `;
     }
 
