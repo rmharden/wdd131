@@ -196,7 +196,7 @@ const exercises = [
         name: 'Diamond Push-ups',
         reps: '5',
         count: '2',
-        description: 'Start in the plank-like position but, place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form. Alternate between Diamond Push-ups and Engine for 3 sets.',
+        description: 'Start in the plank-like position and place your hands close together on the ground directly under your chest so your thumbs and index fingers form a diamond (or triangle) shape. Keep your body in a straight line from head to heels. Lower your chest toward the diamond until your upper arms are approximately parallel to the ground. Push back up until your arms are fully extended. Maintain a rigid body position. No sagging hips or piking. Perform with controlled form. Alternate between Diamond Push-ups and Engine for 3 sets.',
         order: 21,
         tags: ['muscular', 'chest', 'triceps', 'arms', 'alternate', 'calisthenics']
     },
