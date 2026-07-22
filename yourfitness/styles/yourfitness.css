@@ -123,6 +123,15 @@ nav a:hover {
     display: none;
 }
 
+.exercise-card {
+    margin: 18px;
+}
+
+.exercise-card img {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
 @media screen and (min-width: 700px) {
     .menu-btn {
         display: none;
