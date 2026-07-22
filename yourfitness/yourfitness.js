@@ -346,3 +346,8 @@ const generatorForm = document.querySelector(".repetition-generator");
 const workoutResults = document.querySelector(".workout-generator-results");
 
 generatorForm.addEventListener("submit", generateWorkout);
+
+function generateWorkout(event) {
+    event.preventDefault();
+    workoutResults.style.display = "block";
+}
