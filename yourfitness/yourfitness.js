@@ -306,12 +306,13 @@ function generateWorkout(event) {
     
     const startingReps = Number(document.querySelector('#rep-number').value);
 
-    const sessions=[]
+    const sets=[];
 
-    workoutBody.innerHTML = "";
     for (let i = 0; i < 6; i++) {
         const reps = startingReps + i;
 
+        sets.push(reps);
+    
         workoutBody.innerHTML += `
         <tr>
             <td>Set ${i + 1}</td>
