@@ -328,6 +328,14 @@ function generateWorkout(event) {
     instructionsBtn.classList.remove("hide");
 }
 
+function calculateTotals(sets) {
+    const total = sets.reduce((acc, reps) {
+        return acc + reps;
+    });
+}
+
+document.querySelector('.sit-up-total')
+
 let exerciseCard = document.querySelector('.exercise-card-container');
 
 let form = document.querySelector('.exercise-search');
