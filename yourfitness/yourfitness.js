@@ -296,7 +296,19 @@ function closeModal() {
 }
 
 closeButton.addEventListener('click', closeModal);
+const workoutForm = document.querySelector(".repetition-generator");
 
+workoutForm.addEventListener("submit", generateWorkout);
+
+function generateWorkout(event) {
+    event.preventDefault();
+    
+    const startingReps = Number(document.querySelector('#rep-number').value);
+
+    document.querySelector(".workout-generator-results").classList.remove("hide");
+
+    instructionsBtn.classList.remove("hide");
+}
 
 let exerciseCard = document.querySelector('.exercise-card-container');
 
@@ -355,18 +367,5 @@ function renderExercises(exercise) {
 function init() {
     renderExercises(exercises[randomNum]);
 }
-
-const workoutForm = document.querySelector(".repetition-generator");
-
-workoutForm.addEventListener("submit", generateWorkout);
-
-function generateWorkout(event) {
-    event.preventDefault();
-    
-    document.querySelector(".workout-generator-results").classList.remove("hide");
-
-    instructionsBtn.classList.remove("hide");
-}
-
 init();
 
