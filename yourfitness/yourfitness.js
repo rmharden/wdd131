@@ -1,25 +1,6 @@
-const generatorCards = document.querySelector('.generator-cards');
-const modal = document.querySelector('dialog');
-const modalImage = modal.querySelector('.modal-images');
-const closeButton = modal.querySelector('.close-viewer');
 
-generatorCards.addEventListener('click', openModal);
 
-function openModal(e) {
-    console.log(e.target);
 
-    const modalImage = e.target;
-    const src = modalImage.getAttribute('src');
-    const alt = modalImage.getAttribute('alt');
-    const full = src.replace('sm', 'full');
-    modalImage.src = full;
-    modalImage.alt = alt;
-
-    modal.showModal();
-}
-closeButton.addEventListener('click', (event) => {
-    modal.close();
-})
 modal.addEventListener('click', (event) => {
     if (event.target === modal) {
         modal.close();
