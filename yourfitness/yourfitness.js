@@ -334,7 +334,9 @@ function calculateTotals(sets) {
     });
 }
 
-document.querySelector('.sit-up-total')
+document.querySelector('.sit-up-total').textContent = total;
+document.querySelector('.push-up-total').textContent = total;
+document.querySelector('.squat-total').textContent = total;
 
 let exerciseCard = document.querySelector('.exercise-card-container');
 
