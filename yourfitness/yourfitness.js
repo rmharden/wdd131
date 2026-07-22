@@ -304,6 +304,8 @@ function generateWorkout(event) {
     
     event.preventDefault();
     
+    workoutBody.innerHTML = "";
+
     const startingReps = Number(document.querySelector('#rep-number').value);
 
     const sets=[];
@@ -323,6 +325,12 @@ function generateWorkout(event) {
         `;
     }
 
+    const total = calculateTotals(sets);
+
+    document.querySelector('.sit-up-total').textContent = total;
+    document.querySelector('.push-up-total').textContent = total;
+    document.querySelector('.squat-total').textContent = total;
+
     document.querySelector(".workout-generator-results").classList.remove("hide");
 
     instructionsBtn.classList.remove("hide");
@@ -333,13 +341,6 @@ function calculateTotals(sets) {
         return acc + reps;
     });
 }
-
-const total = calculateTotals(sets);
-
-
-document.querySelector('.sit-up-total').textContent = total;
-document.querySelector('.push-up-total').textContent = total;
-document.querySelector('.squat-total').textContent = total;
 
 let exerciseCard = document.querySelector('.exercise-card-container');
 
