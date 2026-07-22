@@ -144,9 +144,10 @@ nav a:hover {
 }
 .exercise-image {
     width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 1rem;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 5px;
+    display: block;   
 }
 .exercise-type {
     border: 1.5px solid rgb(182, 179, 179);
