@@ -329,7 +329,7 @@ function generateWorkout(event) {
 }
 
 function calculateTotals(sets) {
-    const total = sets.reduce((acc, reps) {
+    const total = sets.reduce((acc, reps) => {
         return acc + reps;
     });
 }
