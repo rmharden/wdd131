@@ -123,10 +123,6 @@ nav a:hover {
     padding: 0 0.5rem;
 }
 
-.workout-generator-results {
-    display: none;
-}
-
 .exercise-card {
     margin: 18px;
 }
