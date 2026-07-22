@@ -340,14 +340,15 @@ function init() {
     renderExercises(exercises[randomNum]);
 }
 
-init();
+const workoutForm = document.querySelector(".repetition-generator");
 
-const generatorForm = document.querySelector(".repetition-generator");
-const workoutResults = document.querySelector(".workout-generator-results");
-
-generatorForm.addEventListener("submit", generateWorkout);
+workoutForm.addEventListener("submit", generateWorkout);
 
 function generateWorkout(event) {
     event.preventDefault();
-    workoutResults.style.display = "block";
+    
+    document.querySelector(".workout-generator-results").classList.remove("hide");
 }
+
+init();
+
