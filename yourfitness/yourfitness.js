@@ -82,7 +82,7 @@ const exercises = [
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
-        image: 'images/grok-imagine-lying-back-stretch.jpg',
+        image: 'images/pexels-karola-g-4498188.jpg',
         name: 'Lying Back Stretch',
         reps: '0',
         count: '10-30',
