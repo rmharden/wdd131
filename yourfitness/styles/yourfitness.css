@@ -97,13 +97,15 @@ main {
     border-color: #31B8B3;
     text-align: center;
 }
-.repetition-container button
-{
+
+.repetition-generator button,
+.instructions-button {
+    display: block;
+    margin: 1rem auto;
     border-radius: 5px;
     background-color: #31B8B3;
     border: none;
     text-align: center;
-    margin: 20px;
     padding: 8px;
     color: aliceblue;
 }
