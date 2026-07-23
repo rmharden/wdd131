@@ -83,7 +83,7 @@ main {
     border-radius: 8px;
     background-color: white;
     padding: 15px;
-    box-shadow: 0 5px 10px #1F2937;
+    box-shadow: 0 2px 10px #1F2937;
     margin: 20px;
 }
 .repetition-container input {
@@ -131,6 +131,10 @@ main {
     padding: 1rem;
     border-radius: 12px;
     box-shadow: 0 2px 10px rgba(0,0,0,0,0.15);
+}
+.workout-table th,
+.workout-table td {
+    text-align: center;
 }
 .total-reps {
 
