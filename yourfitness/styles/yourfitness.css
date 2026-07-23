@@ -13,6 +13,9 @@ looked up how to keep the header up at the top:
 https://www.w3schools.com/howto/howto_js_sticky_header.asp
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
 https://www.w3schools.com/css/css_z-index.asp
+
+I learned that the overflow can be set to have a scrollbar if needed. With it hidden, it hides the information in the box or table.
+https://www.w3schools.com/css/css_overflow.asp
 */
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -101,6 +104,7 @@ main {
     padding: 8px;
     color: aliceblue;
 }
+/*I didn't know how to style the table. I asked ChatGPT AI how to get the different colors of the rows. This was workout-table style was the suggestion. I altered it where I needed to. */
 .workout-table {
     width: 90%;
     margin: 1rem auto;
