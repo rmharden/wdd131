@@ -57,7 +57,7 @@ header {
 main {
     max-width: ;
 }
-.welcome-container {
+.welcome-container{
     display: block;
     margin: 2rem;
     text-align: center;
@@ -68,6 +68,27 @@ main {
 }
 .hide {
     display: none;
+}
+.repetition-container {
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 10px 15px 20px #1F2937;
+    margin: 20px;
+}
+.repetition-container input {
+    border-radius: 5px;
+    border-color: #31B8B3;
+    text-align: center;
+}
+.repetition-container button {
+    border-radius: 5px;
+    background-color: #31B8B3;
+    border: none;
+    text-align: center;
+    margin: 20px;
+    padding: 8px;
+    color: aliceblue;
 }
 .workout-table {
 
