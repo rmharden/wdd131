@@ -22,6 +22,12 @@ body {
 img {
     max-width: 100%;
 }
+a:link {
+    color: #28615f;
+}
+a:hover {
+    color: #1F2937;
+}
 header,
 footer {
     color: aliceblue;
@@ -69,11 +75,15 @@ main {
 .hide {
     display: none;
 }
-.repetition-container {
+.repetition-container,
+.exercise-card,
+.workout-generator-results,
+.workout-container,
+.exercise-search-container {
     border-radius: 8px;
     background-color: white;
     padding: 15px;
-    box-shadow: 10px 15px 20px #1F2937;
+    box-shadow: 0 5px 10px #1F2937;
     margin: 20px;
 }
 .repetition-container input {
@@ -81,7 +91,8 @@ main {
     border-color: #31B8B3;
     text-align: center;
 }
-.repetition-container button {
+.repetition-container button
+{
     border-radius: 5px;
     background-color: #31B8B3;
     border: none;
@@ -176,22 +187,16 @@ dialog {
     height: 100%;
     padding: 0 0.5rem;
 }
-.exercise-card {
+/*.exercise-card {
     margin: 18px;
 }
 .exercise-card img {
     max-width: 100%;
     width: 250px;
     height: auto;
-}
+}*/
 footer {
     font-size: small;
-    margin: 0
-}
-@media screen and (min-width: 768px) {
-    max-width: 768px;
-}
-@media screen and (min-width: 1024px) {
-    max-width: 1024px;
-    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
 }
