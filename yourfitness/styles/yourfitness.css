@@ -113,10 +113,8 @@ main {
 .workout-table th {
     background-color: #31B8B3;
     color: aliceblue;
-    padding: 0.75rem;
 }
 .workout-table td {
-    padding: 0.75;
     border-bottom: 1px solid #ddd;
 }
 .workout-table tr:last-child td {
@@ -135,6 +133,8 @@ main {
 .workout-table th,
 .workout-table td {
     text-align: center;
+    padding: 0.75rem;
+    width: 20%;
 }
 .total-reps {
 
