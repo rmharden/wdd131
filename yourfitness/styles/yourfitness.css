@@ -91,7 +91,9 @@ main {
 .exercise-card,
 .workout-generator-results,
 .workout-container,
-.exercise-search-container {
+.exercise-search-container,
+.generator-cards,
+.card {
     border-radius: 8px;
     background-color: white;
     padding: 15px;
@@ -152,29 +154,36 @@ main {
     padding: 0.75rem;
     width: 20%;
 }
-.total-reps {
-
-}
 .total-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 1rem;
 
 }
 .total-card {
-
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0,0.15);
+    text-align: center;
+    border: 1.5px solid #4CA450;
+    background-color: #f1fdf2;;
 }
-.generator-motivation {
+.total-card p {
+    margin: 0;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    color: #4CA450;
+}
 
+.generator-motivation {
+    text-align: center;
 }
 .generator-motivation img {
-
-}
-.instructions-modal {
-
-}
-.modal-content {
-
-}
-.generator-cards {
-
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
 }
 .dialog img {
     width: 80%;
