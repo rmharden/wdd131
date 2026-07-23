@@ -97,7 +97,7 @@ header {
     border-radius: 8px;
     background-color: white;
     padding: 15px;
-    box-shadow: 0 2px 10px #1F2937;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
     margin: 20px;
 }
 .repetition-container input {
@@ -128,7 +128,7 @@ button:hover {
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
 }
 .workout-table th {
     background-color: #31B8B3;
@@ -148,7 +148,7 @@ button:hover {
     margin: 1rem;
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
     text-align: center;
 }
 .workout-table th,
@@ -168,7 +168,7 @@ button:hover {
     background-color: white;
     border-radius: 12px;
     padding: 1rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
     text-align: center;
     border: 1.5px solid #4CA450;
     background-color: #f1fdf2;;
