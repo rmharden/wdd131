@@ -256,11 +256,16 @@ footer {
         max-width: 900px;
         margin: 0 auto;
     }
+    .welcome-container p,
+    .workout-generator-results ,
+    .repetition-container{
+        max-width: 500px;
+        margin: 2rem auto;
+    }
     .exercise-card {
         display: flex;
         gap: 1.5rem;
         align-items: flex-start;
-
     }
     .exercise-image {
         width: 280px;
@@ -273,10 +278,9 @@ footer {
     }
     .exercise-count,
     .exercise-rep {
-        margin-top: 18px;
-        font-size: smaller;
+        margin-top: .25rem 0;
     }
-    .exercise-name {
+    .exercise-title {
         padding-top: 10px;
     }
     .exercise {
@@ -284,7 +288,7 @@ footer {
     }
     .exercise-description {
         display: block;
-        margin: 18px;
-        font-size: smaller;
+        margin: 0;
+        font-size: .9rem;
     }
 }
