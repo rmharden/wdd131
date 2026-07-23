@@ -58,10 +58,13 @@ main {
     max-width: ;
 }
 .welcome-container {
-
+    display: block;
+    margin: 2rem;
+    text-align: center;
 }
 .welcome-container img {
     width: 50%;
+
 }
 .hide {
     display: none;
