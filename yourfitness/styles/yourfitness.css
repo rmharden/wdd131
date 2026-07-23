@@ -249,3 +249,42 @@ footer {
     padding: 8px;
     text-align: center;
 }
+@media screen and (min-width: 550px) {
+    header,
+    main,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .exercise-card {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+
+    }
+    .exercise-image {
+        width: 280px;
+        height: auto;
+        margin-bottom: 18px;
+    }
+    .exercise-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .exercise-count,
+    .exercise-rep {
+        margin-top: 18px;
+        font-size: smaller;
+    }
+    .exercise-name {
+        padding-top: 10px;
+    }
+    .exercise {
+        margin: 0 18px;
+    }
+    .exercise-description {
+        display: block;
+        margin: 18px;
+        font-size: smaller;
+    }
+}
