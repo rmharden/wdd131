@@ -75,7 +75,16 @@ dialog {
     padding: 3px 6px;
     font-size: 1.5em;
 }
-.exercise-search { 
+.exercise-search {
+    display: block;
+    border: none;
+    height: auto;
+}
+.exercise-search label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.search-box { 
     display: flex; 
     border: 2px solid black; 
     border-radius: 5px; 
@@ -86,7 +95,7 @@ dialog {
     height: 60%; 
     background-color: black;
     margin-right: 0.5rem; 
-} 
+}
 .exercise-search img { 
     width: 28px; 
 }         
