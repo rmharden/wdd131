@@ -59,6 +59,9 @@ header {
 .welcome-container {
 
 }
+.welcome-container img {
+    width: 50%;
+}
 .hide {
     display: none;
 }
@@ -157,5 +160,14 @@ dialog {
     height: auto;
 }
 footer {
+
+}
+@media screen and (min-width: 375px) {
+    
+}
+@media screen and (min-width: 768px) {
+
+}
+@media screen and (min-width: 1024px) {
 
 }
