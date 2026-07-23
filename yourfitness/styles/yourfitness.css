@@ -63,8 +63,8 @@ main {
     text-align: center;
 }
 .welcome-container img {
-    width: 50%;
-
+    width: 90%;
+    max-width: 500px;
 }
 .hide {
     display: none;
