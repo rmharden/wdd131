@@ -198,14 +198,14 @@ dialog {
 }
 .search-box { 
     display: flex; 
-    border: 2px solid black; 
+    border: 2px solid #31B8B3;; 
     border-radius: 5px; 
     height: 42px; 
 }
 .exercise-search button .divider { 
     width: 1px; 
     height: 60%; 
-    background-color: black;
+    background-color: #31B8B3;;
     margin-right: 0.5rem; 
 }
 .exercise-search img { 
