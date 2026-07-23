@@ -125,7 +125,7 @@ main {
     background-color: white;
     border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0, 0.15);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
 }
 .workout-table th {
     background-color: #31B8B3;
@@ -145,7 +145,7 @@ main {
     margin: 1rem;
     padding: 1rem;
     border-radius: 12px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0,0.15);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     text-align: center;
 }
 .workout-table th,
@@ -165,7 +165,7 @@ main {
     background-color: white;
     border-radius: 12px;
     padding: 1rem;
-    box-shadow: 0 2px 10px rgba(0,0,0,0,0.15);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     text-align: center;
     border: 1.5px solid #4CA450;
     background-color: #f1fdf2;;
