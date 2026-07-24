@@ -95,7 +95,7 @@ const exercises = [
         name: 'Thigh Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
+        description: 'Stand and bend your left leg back. Grasp the toes of your left foot with your hand and pull your heel toward you. Return to the standing position and repeat the procedures with your right foot.',
         order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
