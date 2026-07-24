@@ -162,7 +162,7 @@ button:hover {
     justify-content: space-around;
     gap: 1rem;
     flex-wrap: wrap;    
-
+    margin: 1rem;
 }
 .total-card {
     background-color: white;
