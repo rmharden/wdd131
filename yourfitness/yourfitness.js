@@ -73,7 +73,8 @@ const exercises = [
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
-        image: 'images/pexels-alexy-almond-3756514.jpg',
+        /*image: 'images/pexels-alexy-almond-3756514.jpg',*/
+        image: 'images/pexels-kampus-8173420.jpg',
         name: 'Hip and Back Stretch',
         reps: '0',
         count: '10-30',
