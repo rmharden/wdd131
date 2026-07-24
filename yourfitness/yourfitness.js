@@ -28,7 +28,7 @@ const exercises = [
         tags: ['stretch', 'back', 'standing']
     },
     {
-        image: 'images/pexels-kampus-8173421.jpg',
+        image: 'images/pexels-ketut-subiyanto-4909461.jpg',
         name: 'Rear Deltoid Stretch',
         reps: '0',
         count: '10-30',
