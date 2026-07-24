@@ -249,7 +249,7 @@ footer {
     padding: 8px;
     text-align: center;
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 650px) {
     header,
     main,
     footer {
