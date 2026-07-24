@@ -272,6 +272,15 @@ const exercises = [
         description: 'Hang from a pull-up bar with an overhand grip, arms fully extended, and body straight (or with a slight bend in the knees if needed). Keeping your legs together, raise them upward in a controlled motion and contracting your abs—aim to bring your knees or straight legs to a sitting position. Slowly lower your legs back to the starting position without swinging. Avoid using momentum; focus on core control throughout. Each full raise and lower counts as one repetition.',
         order: 30,
         tags: ['muscular', 'abdomen', 'arms', 'hanging', 'core', 'bar', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Run or Walk',
+        reps: 'n/a',
+        count: 'n/a',
+        description: 'Walk or run for at least 30 minutes every other day. Begin at a comfortable pace and gradually increase your time, distance, or speed as your fitness improves.',
+        order: 31,
+        tags: ['run', 'walk', 'full-body']
     }
 ];
 
