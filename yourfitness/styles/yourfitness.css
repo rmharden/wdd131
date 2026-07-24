@@ -193,11 +193,42 @@ button:hover {
     display: block;
     margin: 20vh auto;
 }
-dialog {
+/*dialog {
     width: 100%;
     height: 100%;
     background-color: #31B8B3;
+}*/
+
+/*Change made after class was over*/
+dialog {
+    width: min(90vw, 700px);
+    max-height: 90vh;
+    padding: 1rem;
+    border: none;
+    border-radius: 12px;
+    overflow-y: auto;
+    background: #31B8B3;
 }
+
+.modal-images {
+    margin: 0;
+}
+
+.modal-images img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.generator-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+ 
 .close-viewer {
     position: absolute;
     top: 10vh;
