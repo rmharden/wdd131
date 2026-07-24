@@ -161,7 +161,7 @@ button:hover {
     display: flex;
     justify-content: space-around;
     gap: 1rem;
-    margin: 1rem;
+    flex-wrap: wrap;    
 
 }
 .total-card {
@@ -172,6 +172,7 @@ button:hover {
     text-align: center;
     border: 1.5px solid #4CA450;
     background-color: #f1fdf2;;
+    flex: 1 1 100px;
 }
 .total-card p {
     margin: 0;
