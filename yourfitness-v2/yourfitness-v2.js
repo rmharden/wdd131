@@ -422,4 +422,26 @@ function renderExercises(exercise) {
 function init() {
     renderExercises(exercises[randomNum]);
 }
-init();
+function checkListTemplate(exercise) {
+    return `
+        <li class="checklist-item">
+            <input type="checkbox">
+            <span>${exercise.name}</span>
+            <span>${exercise.count}</span>
+            <span>${exercise.reps}</span>
+        </li>
+    `
+}
+
+function renderChecklist(exercise) {
+    const checklist = document.querySelector(".workout-checklist");
+
+    let html = "";
+    exercise.forEach((exercise) => {
+        html += checkListTemplate(exercise);
+    });
+    checklist.innerHTML = html;
+}
+renderChecklist(exercises);
+
+    init();
