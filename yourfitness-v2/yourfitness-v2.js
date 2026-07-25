@@ -444,4 +444,4 @@ function renderChecklist(exercise) {
 }
 renderChecklist(exercises);
 
-    init();
+init();
