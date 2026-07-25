@@ -314,6 +314,34 @@ dialog {
     height: 100%;
     padding: 0 0.5rem;
 }
+/* Workout Checklist */
+
+.workout-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.checklist-item {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+
+.checklist-item input {
+    width: 22px;
+    height: 22px;
+}
+
+.checklist-item span {
+    font-size: 1rem;
+}
 footer {
     font-size: small;
     padding: 8px;
