@@ -420,8 +420,10 @@ function exercisesTemplate(exercise) {
 }
 
 function renderExercises(exercise) {
-    let html = exercisesTemplate(exercise);
-    exerciseCard.innerHTML += html
+    if (exerciseCard) {
+        let html = exercisesTemplate(exercise);
+        exerciseCard.innerHTML += html
+    }
 }
 function init() {
     renderExercises(exercises[randomNum]);
