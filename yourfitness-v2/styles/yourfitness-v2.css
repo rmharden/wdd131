@@ -320,7 +320,7 @@ dialog {
     list-style: none;
     padding: 0;
     margin: 20px auto;
-    max-width: 500px;
+    max-width: 375px;
 }
 
 .checklist-item {
@@ -410,5 +410,8 @@ footer {
         display: block;
         margin: 0;
         font-size: .9rem;
+    }
+    .workout-checklist {
+        max-width: 500px;
     }
 }
