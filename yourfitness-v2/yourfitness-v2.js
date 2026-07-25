@@ -37,7 +37,7 @@ const exercises = [
         tags: ['stretch', 'back', 'standing']
     },
     {
-        image: 'images/grok-imagine-rear-deltoid-stretch.jpg',
+        image: 'images/pexels-ketut-subiyanto-4909461.jpg',
         name: 'Rear Deltoid Stretch',
         reps: '0',
         count: '10-30',
@@ -82,7 +82,8 @@ const exercises = [
         tags: ['stretch', 'groin', 'hips', 'sitting']
     },
     {
-        image: 'images/pexels-alexy-almond-3756514.jpg',
+        /*image: 'images/pexels-alexy-almond-3756514.jpg',*/
+        image: 'images/pexels-kampus-8173420.jpg',
         name: 'Hip and Back Stretch',
         reps: '0',
         count: '10-30',
@@ -91,7 +92,7 @@ const exercises = [
         tags: ['stretch', 'hips', 'back', 'sitting']
     },
     {
-        image: 'images/grok-imagine-lying-back-stretch.jpg',
+        image: 'images/pexels-karola-g-4498188.jpg',
         name: 'Lying Back Stretch',
         reps: '0',
         count: '10-30',
@@ -104,7 +105,7 @@ const exercises = [
         name: 'Thigh Stretch',
         reps: '0',
         count: '10-30',
-        description: 'Stand and bend your left leg up toward your buttocks. Grasp the toes of your left foot with your hand and pull your heel to your left buttock. Return to the standing position and repeat the procedures with your right foot.',
+        description: 'Stand and bend your left leg back. Grasp the toes of your left foot with your hand and pull your heel toward you. Return to the standing position and repeat the procedures with your right foot.',
         order: 11,
         tags: ['stretch', 'quadriceps', 'legs', 'standing']
     },
@@ -280,8 +281,88 @@ const exercises = [
         description: 'Hang from a pull-up bar with an overhand grip, arms fully extended, and body straight (or with a slight bend in the knees if needed). Keeping your legs together, raise them upward in a controlled motion and contracting your abs—aim to bring your knees or straight legs to a sitting position. Slowly lower your legs back to the starting position without swinging. Avoid using momentum; focus on core control throughout. Each full raise and lower counts as one repetition.',
         order: 30,
         tags: ['muscular', 'abdomen', 'arms', 'hanging', 'core', 'bar', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Run or Walk',
+        reps: 'n/a',
+        count: 'n/a',
+        description: 'Walk or run for at least 30 minutes every other day. Begin at a comfortable pace and gradually increase your time, distance, or speed as your fitness improves.',
+        order: 31,
+        tags: ['run', 'walk', 'full-body']
     }
 ];
+
+const modal = document.querySelector('.instructions-modal');
+const instructionsBtn = document.querySelector('.instructions-button');
+const closeButton = document.querySelector('.close-viewer');
+const workoutBody = document.querySelector('.workout-body');
+
+modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+        modal.close();
+    }
+});
+
+function openModal() {
+    modal.showModal();
+}
+
+instructionsBtn.addEventListener('click', openModal);
+
+function closeModal() {
+    modal.close();
+}
+
+closeButton.addEventListener('click', closeModal);
+
+const workoutForm = document.querySelector(".repetition-generator");
+
+workoutForm.addEventListener("submit", generateWorkout);
+
+function generateWorkout(event) {
+    
+    event.preventDefault();
+    
+    workoutBody.innerHTML = "";
+
+    const startingReps = Number(document.querySelector('#rep-number').value);
+
+    const sets=[];
+
+    for (let i = 0; i < 6; i++) {
+        const reps = startingReps + i;
+
+        sets.push(reps);
+    
+        workoutBody.innerHTML += `
+        <tr>
+            <td>Set ${i + 1}</td>
+            <td>${reps}</td>
+            <td>${reps}</td>
+            <td>${reps}</td>
+        </tr>
+        `;
+    }
+
+    const total = calculateTotals(sets);
+
+    document.querySelector('.sit-up-total').textContent = total;
+    document.querySelector('.push-up-total').textContent = total;
+    document.querySelector('.squat-total').textContent = total;
+
+    document.querySelector(".workout-generator-results").classList.remove("hide");
+
+    instructionsBtn.classList.remove("hide");
+}
+
+function calculateTotals(sets) {
+    const total = sets.reduce((acc, reps) => {
+        return acc + reps;
+    });
+    return total;
+}
+
 let exerciseCard = document.querySelector('.exercise-card-container');
 
 let form = document.querySelector('.exercise-search');
@@ -319,17 +400,19 @@ let randomNum = Math.floor(Math.random()* exercises.length);
 console.log(randomNum);
 
 function exercisesTemplate(exercise) {
-    return `<section class="exercise-card">
-        <img src="${exercise.image}" 
-            alt="Photo of ${exercise.name}" 
-            class="exercise-image">
-        <div class="exercise-content">
-			<h2 class="exercise-title">${exercise.name}</h2>
-            <p class="exercise-count">Count: ${exercise.count}</p>
-            <p class="exercise-rep">Repetition: ${exercise.reps}</p>
-			<p class="exercise-description">${exercise.description}</p>
-        </div>
-	</section>`
+    return `
+        <section class="exercise-card">
+            <img src="${exercise.image}" 
+                alt="Photo of ${exercise.name}" 
+                class="exercise-image">
+
+            <div class="exercise-content">
+                <h2 class="exercise-title">${exercise.name}</h2>
+                <p class="exercise-count">Count: ${exercise.count}</p>
+                <p class="exercise-rep">Repetition: ${exercise.reps}</p>
+                <p class="exercise-description">${exercise.description}</p>
+            </div>
+	    </section>`;
 }
 
 function renderExercises(exercise) {
@@ -339,16 +422,4 @@ function renderExercises(exercise) {
 function init() {
     renderExercises(exercises[randomNum]);
 }
-
-const workoutForm = document.querySelector(".repetition-generator");
-
-workoutForm.addEventListener("submit", generateWorkout);
-
-function generateWorkout(event) {
-    event.preventDefault();
-    
-    document.querySelector(".workout-generator-results").classList.remove("hide");
-}
-
 init();
-
