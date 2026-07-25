@@ -1,0 +1,108 @@
+  <!--https://rmharden.github.io/wdd131/yourfitness/site-plan.html-->
+</body>
+</html><!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<title>Your Fitness</title>
+		<link type="text/css" rel="stylesheet" href="styles/site-plan.css" />
+	</head>
+
+	<body>
+		<header>
+			<h1>Your Fitness Project Plan</h1>
+			<h2>Rebekah Harden</h2>
+			<h2>WDD 131-A4</h2>
+			<!-- In the header above, add the name or your site, your name and class number. For example if you are in section 3 you would put WDD 131.03 -->
+		</header>
+		<main>
+			
+			<hr />
+			<h2>Overview</h2>
+			<h3>Purpose</h3>
+			<p>The purpose of this app is to help users create a simple daily workout based on their current fitness level. The user enters a number of repetitions they can currently complete. The application generates a progressive six-session plan for that day. The app also provides a library of exercises that the user can use to learn how to do the exercises. </p>
+			<!-- change this -->
+
+			<h3>Audience</h3>
+			<p>The site is designed for beginners, but it also works for any fitness level. The workout generator allows the user to start where they are and creates a plan they can implement throughout the day by gradually improving the number of repetitions they can do over time. This allows any person of any fitness level to improve progressively. </p>
+			<!-- change this -->
+
+			<h3>Dynamic elements</h3>
+			<p>JavaScript will be used to create the interactive generator of a personalized workout plan based on the user’s input value as the starting base. When the user submits the form, JavaScript will validate the input, create six sessions with progressively increasing repetitions, and it will calculate the daily totals for the three exercises. It then displays the sessions with progressive repetitions for each exercise. The application also includes a library stored in an object array. Users can search for the exercises using key terms and JavaScript will filter and display the results using DOM manipulation. The library will be stored in an object array and will be displayed using template literals, DOM manipulation, and array methods such as filter() and forEach(). Event listeners will listen for the user input and update the page.</p>
+			<!-- change this -->
+
+			<hr />
+			<h2>Branding</h2>
+			<h3>Website Logo</h3>
+			<!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
+			<img src="images/logo.png" alt="Logo image" />
+			<hr />
+			<h2>Style Guide</h2>
+
+			<h3>Color Palette</h3>
+			<!--  The colors you choose for a website are one of the most important decisions you will make. Follow the instructions on the activity in iLearn then return and replace the color codes below with the hex color codes (the 6 digit numbers that show at the bottom of each color) for the colors you have chosen below.  You should have at least 2 colors but do not have to fill in all 4 if you do not need them.  -->
+
+			<!-- Copy and paste the URL to your finished palette below Make sure to paste it into both spots -->
+			Palette URL:
+			<a
+				href="https://coolors.co/31b8b3-28615f-4ca450-1f2937"
+				target="_blank"
+				>https://coolors.co/31b8b3-28615f-4ca450-1f2937</a
+			>
+
+			<table class="colors">
+				<tbody>
+					<tr>
+						<th>Primary</th>
+						<th>Secondary</th>
+						<th>Accent 1</th>
+						<th>Accent 2</th>
+					</tr>
+					<!-- Replace the numbers in the boxes below with your hex color codes. Then switch to the site-plan.css file and change your colors there as well. -->
+					<tr>
+						<td class="primary">#31B8B3</td>
+						<td class="secondary">#28615F</td>
+						<td class="accent1">#4CA450</td>
+						<td class="accent2">#1F2937</td>
+					</tr>
+				</tbody>
+			</table>
+
+			
+
+			<h3>Pseudocode for your project</h3>
+
+			<p>
+				When the page loads:
+				The welcome text is displayed.
+				When the user enters a number for the repetitions and click the submit button:
+				The site reads the user’s input.
+				It validates the value is between 1 and 100.
+				If the value is not in the correct range, an error message is displayed.
+				If the entered number is in the correct range:
+				Six sessions are created.
+				Increase the repetition count by 1 for each of the six sessions.
+				The total repetitions for each exercise is calculated.
+				The workout plan is displayed with the totals.
+				When the user searches the exercise library:
+				It reads the user’s text.
+				The exercise array is filtered.
+				The matching exercises are displayed for the user.
+			</p>
+
+			<h3>Wireframes</h3>
+			<p>
+				Create wireframes for your project page(s). One for each page and list them
+				here. 
+			</p>
+
+			<h3>Landing page</h3>
+			<p>
+				The wireframe is made for mobile first and will be adjusted to fit larger screens. The exercise cards will show an image, the name of the exercise, the recommended repetition range, and a description. This is shown one after another when the user searches for a key term.
+			</p>
+			<img src="images/wireframe.png" alt="home page wireframe" />
+			<h3>Exercise Library Section (Same page)</h3>
+
+		</main>
+	</body>
+</html>
