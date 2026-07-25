@@ -293,28 +293,32 @@ const exercises = [
     }
 ];
 
+const workoutBody = document.querySelector('.workout-body');
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
-const workoutBody = document.querySelector('.workout-body');
 
-modal.addEventListener('click', (event) => {
-    if (event.target === modal) {
+if (modal && instructionsBtn && closeButton) {
+
+    modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.close();
+        }
+    });
+
+    function openModal() {
+        modal.showModal();
+    }
+
+    instructionsBtn.addEventListener('click', openModal);
+
+    function closeModal() {
         modal.close();
     }
-});
 
-function openModal() {
-    modal.showModal();
+    closeButton.addEventListener('click', closeModal);
+
 }
-
-instructionsBtn.addEventListener('click', openModal);
-
-function closeModal() {
-    modal.close();
-}
-
-closeButton.addEventListener('click', closeModal);
 
 const workoutForm = document.querySelector(".repetition-generator");
 
