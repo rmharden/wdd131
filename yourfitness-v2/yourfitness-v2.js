@@ -321,9 +321,9 @@ if (modal && instructionsBtn && closeButton) {
 }
 
 const workoutForm = document.querySelector(".repetition-generator");
-
-workoutForm.addEventListener("submit", generateWorkout);
-
+if (workoutForm) {
+    workoutForm.addEventListener("submit", generateWorkout);
+}
 function generateWorkout(event) {
     
     event.preventDefault();
@@ -370,8 +370,9 @@ function calculateTotals(sets) {
 let exerciseCard = document.querySelector('.exercise-card-container');
 
 let form = document.querySelector('.exercise-search');
-form.addEventListener('submit', search);
-
+if (form) {
+    form.addEventListener('submit', search);
+}
 function search(event) {
     event.preventDefault();
     let exerciseQuery = document.querySelector('#search').value;
