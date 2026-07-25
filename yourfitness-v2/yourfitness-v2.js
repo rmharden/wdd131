@@ -436,7 +436,7 @@ function checkListTemplate(exercise) {
             <div class="exercise-info">
                 <span><strong>${exercise.name}</strong> |</span>
                 <span>Count: ${exercise.count} |</span>
-                <span>Rep: ${exercise.reps}</span>
+                <span>Reps: ${exercise.reps}</span>
             </div>
         </li>
     `
