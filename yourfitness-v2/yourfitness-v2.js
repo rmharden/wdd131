@@ -433,9 +433,11 @@ function checkListTemplate(exercise) {
     return `
         <li class="checklist-item">
             <input type="checkbox">
-            <span><strong>${exercise.name}</strong> |</span>
-            <span>Count: ${exercise.count} |</span>
-            <span>Rep: ${exercise.reps}</span>
+            <div class="exercise-info">
+                <span><strong>${exercise.name}</strong> |</span>
+                <span>Count: ${exercise.count} |</span>
+                <span>Rep: ${exercise.reps}</span>
+            </div>
         </li>
     `
 }

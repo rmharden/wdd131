@@ -342,6 +342,14 @@ dialog {
 .checklist-item span {
     font-size: 1rem;
 }
+.exercise-info h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.exercise-info p {
+    margin: 5px 0;
+}
 footer {
     font-size: small;
     padding: 8px;
