@@ -286,7 +286,7 @@ const exercises = [
         image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
         name: 'Run or Walk',
         reps: 'n/a',
-        count: 'n/a',
+        count: '30+ Min',
         description: 'Walk or run for at least 30 minutes every other day. Begin at a comfortable pace and gradually increase your time, distance, or speed as your fitness improves.',
         order: 31,
         tags: ['run', 'walk', 'full-body']
