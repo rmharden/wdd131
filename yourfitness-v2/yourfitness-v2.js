@@ -441,12 +441,13 @@ function checkListTemplate(exercise) {
 
 function renderChecklist(exercise) {
     const checklist = document.querySelector(".workout-checklist");
-
-    let html = "";
-    exercise.forEach((exercise) => {
-        html += checkListTemplate(exercise);
-    });
-    checklist.innerHTML = html;
+    if (checklist) {
+        let html = "";
+        exercise.forEach((exercise) => {
+            html += checkListTemplate(exercise);
+        });
+        checklist.innerHTML = html;
+    }
 }
 renderChecklist(exercises);
 
