@@ -429,6 +429,20 @@ function renderExercises(exercise) {
 function init() {
     renderExercises(exercises[randomNum]);
 }
+
+
+const stretchList = document.querySelector(".stretch-checklist");
+const calisthenicsList = document.querySelector(".calisthenics-checklist");
+
+if (stretchList) {
+    renderChecklist(stretches, stretchList);
+}
+
+if (calisthenicsList) {
+    renderChecklist(calisthenics, calisthenicsList);
+}
+
+
 function checkListTemplate(exercise) {
     return `
         <li class="checklist-item">
@@ -442,15 +456,15 @@ function checkListTemplate(exercise) {
     `
 }
 
-function renderChecklist(exercise) {
-    const checklist = document.querySelector(".workout-checklist");
-    if (checklist) {
-        let html = "";
-        exercise.forEach((exercise) => {
-            html += checkListTemplate(exercise);
-        });
-        checklist.innerHTML = html;
-    }
+function renderChecklist(exercises, list) {
+
+    let html = "";
+
+    exercises.forEach((exercise) => {
+        html += checkListTemplate(exercise);
+    });
+
+    list.innerHTML = html;
 }
 renderChecklist(exercises);
 
