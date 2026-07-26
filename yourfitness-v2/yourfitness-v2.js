@@ -292,32 +292,25 @@ const exercises = [
         tags: ['run', 'walk', 'full-body']
     }
 ];
-
 const workoutBody = document.querySelector('.workout-body');
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
 
 if (modal && instructionsBtn && closeButton) {
-
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {
             modal.close();
         }
     });
-
     function openModal() {
         modal.showModal();
     }
-
     instructionsBtn.addEventListener('click', openModal);
-
     function closeModal() {
         modal.close();
     }
-
     closeButton.addEventListener('click', closeModal);
-
 }
 
 const workoutForm = document.querySelector(".repetition-generator");
@@ -325,20 +318,13 @@ if (workoutForm) {
     workoutForm.addEventListener("submit", generateWorkout);
 }
 function generateWorkout(event) {
-    
     event.preventDefault();
-    
     workoutBody.innerHTML = "";
-
     const startingReps = Number(document.querySelector('#rep-number').value);
-
-    const sets=[];
-
+    const sets = [];
     for (let i = 0; i < 6; i++) {
         const reps = startingReps + i;
-
         sets.push(reps);
-    
         workoutBody.innerHTML += `
         <tr>
             <td>Set ${i + 1}</td>
@@ -348,124 +334,120 @@ function generateWorkout(event) {
         </tr>
         `;
     }
-
     const total = calculateTotals(sets);
-
     document.querySelector('.sit-up-total').textContent = total;
     document.querySelector('.push-up-total').textContent = total;
     document.querySelector('.squat-total').textContent = total;
-
-    document.querySelector(".workout-generator-results").classList.remove("hide");
-
+    document.querySelector(".workout-generator-results")
+        .classList.remove("hide");
     instructionsBtn.classList.remove("hide");
 }
-
 function calculateTotals(sets) {
-    const total = sets.reduce((acc, reps) => {
+    return sets.reduce((acc, reps) => {
         return acc + reps;
     });
-    return total;
 }
-
-let exerciseCard = document.querySelector('.exercise-card-container');
-
-let form = document.querySelector('.exercise-search');
+const exerciseCard = document.querySelector('.exercise-card-container');
+const form = document.querySelector('.exercise-search');
 if (form) {
     form.addEventListener('submit', search);
 }
 function search(event) {
     event.preventDefault();
     let exerciseQuery = document.querySelector('#search').value;
-
-    let filterExercises = exercises.filter(function(exercise) {
+    let filteredExercises = exercises.filter(function(exercise) {
         return (
-            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) || exercise.tags.find(tag => tag.toLowerCase().includes(exerciseQuery.toLowerCase()))
+            exercise.name.toLowerCase().includes(exerciseQuery.toLowerCase()) ||
+            exercise.description.toLowerCase().includes(exerciseQuery.toLowerCase()) ||
+            exercise.tags.find(tag =>
+                tag.toLowerCase().includes(exerciseQuery.toLowerCase())
+            )
         );
-    })
-
-    console.log(filterExercises);
-
-    let sortedExercises = filterExercises.sort(compareExercises);
-
+    });
+    let sortedExercises = filteredExercises.sort(compareExercises);
     function compareExercises(a,b) {
-        if (a.order < b.order) {
-            return -1;
-        } else if (a.order > b.order) {
-            return 1;
-        }
-        return 0;
+        return a.order - b.order;
     }
-    exerciseCard.innerHTML = '';
-    sortedExercises.forEach(function(exercise) {
-        renderExercises(exercise);
-    })
+    if (exerciseCard) {
+        exerciseCard.innerHTML = "";
+        sortedExercises.forEach(function(exercise) {
+            renderExercises(exercise);
+        });
+    }
 }
-
-let randomNum = Math.floor(Math.random()* exercises.length);
-console.log(randomNum);
-
+let randomNum = Math.floor(Math.random() * exercises.length);
 function exercisesTemplate(exercise) {
     return `
         <section class="exercise-card">
             <img src="${exercise.image}" 
-                alt="Photo of ${exercise.name}" 
-                class="exercise-image">
-
+            alt="Photo of ${exercise.name}" 
+            class="exercise-image">
             <div class="exercise-content">
-                <h2 class="exercise-title">${exercise.name}</h2>
-                <p class="exercise-count">Count: ${exercise.count}</p>
-                <p class="exercise-rep">Repetition: ${exercise.reps}</p>
-                <p class="exercise-description">${exercise.description}</p>
+                <h2 class="exercise-title">
+                    ${exercise.name}
+                </h2>
+                <p class="exercise-count">
+                    Count: ${exercise.count}
+                </p>
+                <p class="exercise-rep">
+                    Repetition: ${exercise.reps}
+                </p>
+                <p class="exercise-description">
+                    ${exercise.description}
+                </p>
             </div>
-	    </section>`;
+        </section>
+    `;
 }
-
 function renderExercises(exercise) {
     if (exerciseCard) {
         let html = exercisesTemplate(exercise);
-        exerciseCard.innerHTML += html
+        exerciseCard.innerHTML += html;
     }
 }
 function init() {
-    renderExercises(exercises[randomNum]);
+    if (exerciseCard) {
+        renderExercises(exercises[randomNum]);
+    }
 }
-
+const stretches = exercises
+    .filter((exercise) => exercise.tags.includes("stretch"))
+    .sort((a,b) => a.order - b.order);
+const calisthenics = exercises
+    .filter((exercise) => exercise.tags.includes("calisthenics"))
+    .sort((a,b) => a.order - b.order);
 
 const stretchList = document.querySelector(".stretch-checklist");
 const calisthenicsList = document.querySelector(".calisthenics-checklist");
-
 if (stretchList) {
     renderChecklist(stretches, stretchList);
 }
-
 if (calisthenicsList) {
     renderChecklist(calisthenics, calisthenicsList);
 }
-
-
 function checkListTemplate(exercise) {
     return `
         <li class="checklist-item">
             <input type="checkbox">
             <div class="exercise-info">
-                <span><strong>${exercise.name}</strong> |</span>
-                <span>Count: ${exercise.count} |</span>
-                <span>Reps: ${exercise.reps}</span>
+                <span>
+                    <strong>${exercise.name}</strong>
+                </span>
+                <span>
+                    Count: ${exercise.count}
+                </span>
+                <span>
+                    Reps: ${exercise.reps}
+                </span>
             </div>
         </li>
-    `
+    `;
 }
-
-function renderChecklist(exercises, list) {
-
+function renderChecklist(exerciseArray, list) {
     let html = "";
-
-    exercises.forEach((exercise) => {
+    exerciseArray.forEach((exercise) => {
         html += checkListTemplate(exercise);
     });
-
     list.innerHTML = html;
 }
-renderChecklist(exercises);
-
 init();
