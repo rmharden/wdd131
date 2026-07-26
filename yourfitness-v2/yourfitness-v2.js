@@ -461,7 +461,9 @@ function checkListTemplate(exercise) {
         <li class="checklist-item">
             <input type="checkbox">
             <div class="exercise-info">
-                <span><strong>${exercise.name}</strong></span>
+                <button class="exercise-name" data-name="${exercise.name}">
+                    ${exercise.name}
+                </button>
                 <span>Count: ${exercise.count}</span>
                 <span>Reps: ${exercise.reps}</span>
                 ${exercise.alternate ?
@@ -477,5 +479,37 @@ function renderChecklist(exerciseArray, list) {
         html += checkListTemplate(exercise);
     });
     list.innerHTML = html;
+}
+const exerciseModal = document.querySelector(".exercise-modal");
+const modalImage = document.querySelector(".modal-image");
+const modalTitle = document.querySelector(".modal-title");
+const modalCount = document.querySelector(".modal-count");
+const modalReps = document.querySelector(".modal-reps");
+const modalDescription = document.querySelector(".modal-description");
+const closeModalBtn = document.querySelector(".close-modal");
+if (exerciseModal) {
+    document.addEventListener("click", function(event) {
+        if (event.target.classList.contains("exercise-name")) {
+            const exerciseName = event.target.dataset.name;
+            const exercise = exercises.find(
+                item => item.name === exerciseName
+            );
+            modalImage.src = exercise.image;
+            modalImage.alt = exercise.name;
+            modalTitle.textContent = exercise.name;
+            modalCount.textContent = `Count: ${exercise.count}`;
+            modalReps.textContent = `Reps: ${exercise.reps}`;
+            modalDescription.textContent = exercise.description;
+            exerciseModal.showModal();
+        }
+    });
+    closeModalBtn.addEventListener("click", () => {
+        exerciseModal.close();
+    });
+    exerciseModal.addEventListener("click", (event) => {
+        if (event.target === exerciseModal) {
+            exerciseModal.close();
+        }
+    });
 }
 init();
