@@ -350,6 +350,9 @@ dialog {
 .exercise-info p {
     margin: 5px 0;
 }
+h2 {
+    text-align: center;
+}
 footer {
     font-size: small;
     padding: 8px;
