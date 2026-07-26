@@ -465,7 +465,7 @@ function checkListTemplate(exercise) {
                 <span>Count: ${exercise.count}</span>
                 <span>Reps: ${exercise.reps}</span>
                 ${exercise.alternate ?
-                    `<span>| Alternate with ${exercise.alternate}</span>`
+                    `<span>| Alternate with ${exercise.alternate} for 3 sets</span>`
                 : ''}
             </div>
         </li>
