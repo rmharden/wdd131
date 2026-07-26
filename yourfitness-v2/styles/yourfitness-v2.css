@@ -322,7 +322,7 @@ dialog {
     margin: 20px auto;
     max-width: 375px;
 }
-
+/*
 .checklist-item {
     background-color: #ffffff;
     border-radius: 12px;
@@ -349,6 +349,30 @@ dialog {
 
 .exercise-info p {
     margin: 5px 0;
+}*/
+.workout-checklist {
+    background-color: white;
+    border-radius: 12px;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.checklist-item:last-child {
+    border-bottom: none;
+}
+
+.exercise-info {
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     text-align: center;
@@ -435,6 +459,10 @@ footer {
         display: block;
         margin: 0;
         font-size: .9rem;
+    }
+    .exercise-info {
+        flex-direction: row;
+        gap: 10px;
     }
     .workout-checklist {
         max-width: 500px;
