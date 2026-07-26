@@ -358,6 +358,28 @@ footer {
     padding: 8px;
     text-align: center;
 }
+.exercise-modal {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.exercise-modal::backdrop {
+    background: rgba(0,0,0,.5);
+}
+
+.close-modal {
+    float: right;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+}
+
+.modal-image {
+    width: 100%;
+    border-radius: 10px;
+}
 
 @media screen and (min-width: 650px) {
     .menu-btn {
