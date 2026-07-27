@@ -48,6 +48,19 @@ body {
     background-color: aliceblue;
     color: #28615f;
     margin: 0;
+    line-height: 1.5;
+}
+h1,
+h2,
+h3,
+nav {
+    font-family: "Raleway", sans-serif;
+}
+h2 {
+    text-align: center;
+}
+main {
+    padding: 1rem;
 }
 img {
     max-width: 100%;
@@ -64,7 +77,6 @@ footer {
     background-color: #31B8B3;
 }
 header {
-    font-family: "Raleway", sans-serif;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -87,13 +99,6 @@ footer {
     width: 4rem;
     height: auto;
     padding: 1rem;
-}
-.reset-button {
-    display: block;
-    text-align: right;
-    margin: 1rem;
-    color: aliceblue;
-    text-decoration: none;
 }
 
 nav a {
@@ -135,9 +140,6 @@ nav a:hover {
 button:hover {
     cursor: pointer;
     opacity: .8;
-}
-h2 {
-    text-align: center;
 }
 
 @media screen and (min-width: 650px) {
