@@ -26,13 +26,18 @@
 .repetition-container,
 .exercise-card,
 .workout-generator-results,
-.workout-container,
-.exercise-search-container {
+.workout-container {
     border-radius: 8px;
     background-color: white;
     padding: 15px;
     box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
     margin: 20px;
+}
+.exercise-search-container {
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
 }
 .repetition-container input {
     border-radius: 5px;
