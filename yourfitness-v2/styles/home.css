@@ -1,0 +1,199 @@
+/*
+  --primary-color: #31B8B3;
+  --secondary-color: #28615F;
+  --accent1-color: #4CA450;
+  --accent2-color: #1F2937;
+
+  --heading-font:  "Raleway", sans-serif;
+  --paragraph-font: Arial, Helvetica, sans-serif;
+*/
+.reset-button {
+    display: block;
+    text-align: right;
+    margin: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.welcome-container{
+    display: block;
+    margin: 2rem;
+    text-align: center;
+}
+.welcome-container img {
+    width: 90%;
+    max-width: 500px;
+}
+.repetition-container,
+.exercise-card,
+.workout-generator-results,
+.workout-container,
+.exercise-search-container {
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
+    margin: 20px;
+}
+.repetition-container input {
+    border-radius: 5px;
+    border-color: #31B8B3;
+    text-align: center;
+}
+.repetition-generator button,
+.instructions-button {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 5px;
+    background-color: #31B8B3;
+    border: none;
+    text-align: center;
+    padding: 8px;
+    color: aliceblue;
+}
+.warning {
+    text-align: center;
+}
+.workout-generator-results {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
+    text-align: center;
+}
+.workout-table {
+    width: 90%;
+    margin: 1rem auto;
+    border-collapse:collapse ;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
+}
+.workout-table th,
+.workout-table td {
+    text-align: center;
+    padding: 0.75rem;
+    width: 20%;
+}
+.workout-table td {
+    border-bottom: 1px solid #ddd;
+}
+.workout-table th {
+    background-color: #31B8B3;
+    color: aliceblue;
+}
+.workout-table tr:last-child td {
+    border-bottom: none;
+}
+.workout-table tr:nth-child(even) {
+    background-color: #f5fafa;
+}
+.total-card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;    
+    margin: 1rem;
+}
+.total-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
+    text-align: center;
+    border: 1.5px solid #4CA450;
+    background-color: #f1fdf2;;
+    flex: 1 1 100px;
+}
+.total-card p {
+    margin: 0;
+    font-weight: 900;
+    font-family: "Raleway", sans-serif;
+    color: #4CA450;
+}
+.generator-motivation {
+    text-align: center;
+}
+.generator-motivation img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+.exercise-search {
+    display: block;
+    border: none;
+    height: auto;
+}
+.exercise-search label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.search-box { 
+    display: flex; 
+    border: 2px solid #31B8B3;; 
+    border-radius: 5px; 
+    height: 42px; 
+}
+.exercise-search button .divider { 
+    width: 1px; 
+    height: 60%; 
+    background-color: #31B8B3;;
+    margin-right: 0.5rem; 
+}
+.exercise-search img { 
+    width: 28px; 
+}         
+.exercise-search input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    height: 100%;
+    padding-left: 0.5rem;
+}
+.exercise-search button {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    border: none; 
+    height: 100%;
+    padding: 0 0.5rem;
+}
+
+@media screen and (min-width: 650px) {
+    .welcome-container p,
+    .workout-generator-results ,
+    .repetition-container{
+        max-width: 500px;
+        margin: 2rem auto;
+    }
+    .exercise-card {
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+    .exercise-image {
+        width: 280px;
+        height: auto;
+        margin-bottom: 18px;
+    }
+    .exercise-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .exercise-count,
+    .exercise-rep {
+        margin-top: 0.25rem;
+    }
+    .exercise-title {
+        padding-top: 10px;
+    }
+    .exercise {
+        margin: 0 18px;
+    }
+    .exercise-description {
+        display: block;
+        margin: 0;
+        font-size: .9rem;
+    }
+}
