@@ -450,11 +450,15 @@ const calisthenics = exercises
 
 const stretchList = document.querySelector(".stretch-checklist");
 const calisthenicsList = document.querySelector(".calisthenics-checklist");
+const runList = document.querySelector(".run-checklist")
 if (stretchList) {
     renderChecklist(stretches, stretchList);
 }
 if (calisthenicsList) {
     renderChecklist(calisthenics, calisthenicsList);
+}
+if (runList) {
+    renderChecklist(run, runList);
 }
 function checkListTemplate(exercise) {
     return `
