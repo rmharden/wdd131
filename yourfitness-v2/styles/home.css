@@ -35,8 +35,8 @@
 .exercise-search-container {
     border-radius: 8px;
     background-color: white;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 .exercise-card {
     border-radius: 8px;
@@ -178,6 +178,12 @@
         max-width: 500px;
         margin: 2rem auto;
     }
+    .exercise-search-container {
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
     .exercise-card {
         display: flex;
         gap: 1.5rem;
