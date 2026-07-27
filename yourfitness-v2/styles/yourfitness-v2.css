@@ -195,6 +195,7 @@ button:hover {
 .workout-table tr:nth-child(even) {
     background-color: #f5fafa;
 }
+
 .workout-generator-results {
     background-color: white;
     margin: 1rem;
