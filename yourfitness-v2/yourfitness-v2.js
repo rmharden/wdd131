@@ -447,6 +447,9 @@ const stretches = exercises
 const calisthenics = exercises
     .filter((exercise) => exercise.tags.includes("calisthenics"))
     .sort((a,b) => a.order - b.order);
+const run = exercises
+    .filter((exercise) => exercise.tags.includes("run"))
+    .sort((a,b) => a.order - b.order);
 
 const stretchList = document.querySelector(".stretch-checklist");
 const calisthenicsList = document.querySelector(".calisthenics-checklist");
