@@ -358,6 +358,7 @@ function generateWorkout(event) {
         sets.push(reps);
         workoutBody.innerHTML += `
         <tr>
+            <td></td>
             <td>Set ${i + 1}</td>
             <td>${reps}</td>
             <td>${reps}</td>
