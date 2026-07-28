@@ -1,0 +1,51 @@
+/*
+  --primary-color: #31B8B3;
+  --secondary-color: #28615F;
+  --accent1-color: #4CA450;
+  --accent2-color: #1F2937;
+
+  --heading-font:  "Raleway", sans-serif;
+  --paragraph-font: Arial, Helvetica, sans-serif;
+*/
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: .5rem 1rem;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.header-logo h1 {
+    margin: 0;
+    white-space: nowrap;
+    font-size: 1.6rem;
+}
+
+.logo {
+    width: 3rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: aliceblue;
+    background-color: #31B8B3;
+}
+@media screen and (min-width: 650px) {
+    .logo {
+        width: 4rem;
+    }
+
+    .header-logo h1 {
+        font-size: 2rem;
+    }
+}

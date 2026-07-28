@@ -8,41 +8,6 @@
   --paragraph-font: Arial, Helvetica, sans-serif;
 */
 
-/*
-looked up how to keep the header up at the top:
-https://www.w3schools.com/howto/howto_js_sticky_header.asp
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
-https://www.w3schools.com/css/css_z-index.asp
-*/
-/*
-  --primary-color: #31B8B3;
-  --secondary-color: #28615F;
-  --accent1-color: #4CA450;
-  --accent2-color: #1F2937;
-
-  --heading-font:  "Raleway", sans-serif;
-  --paragraph-font: Arial, Helvetica, sans-serif;
-*/
-
-/*
-looked up how to keep the header up at the top:
-https://www.w3schools.com/howto/howto_js_sticky_header.asp
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sticky_header
-https://www.w3schools.com/css/css_z-index.asp
-
-I learned that the overflow can be set to have a scrollbar if needed. With it hidden, it hides the information in the box or table.
-https://www.w3schools.com/css/css_overflow.asp
-
-This one shows how to style tables too
-https://www.w3schools.com/css/css_table.asp
-
-How to select childs:
-https://www.w3schools.com/cssref/tryit.php?filename=trycss_sel_nth-child
-
-button hovers
-https://www.w3schools.com/css/css3_buttons_hover.asp
-*/
-
 nav a {
     padding: 20px;
     color: aliceblue;
