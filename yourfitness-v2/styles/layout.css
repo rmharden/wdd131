@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     gap: .5rem;
+    padding-bottom: .5rem;
 }
 
 .header-logo h1 {
