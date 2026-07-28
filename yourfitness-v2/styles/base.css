@@ -10,6 +10,7 @@
 * {
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
@@ -26,4 +27,9 @@ h1,
 h2,
 h3 {
     font-family: "Raleway", sans-serif;
+}
+
+button,
+input {
+    font: inherit;
 }
