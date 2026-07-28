@@ -159,9 +159,7 @@ button:hover {
     nav {
         text-align: right;
     } 
-    header,
-    main,
-    footer {
+    main {
         max-width: 900px;
         margin: 0 auto;
     }
