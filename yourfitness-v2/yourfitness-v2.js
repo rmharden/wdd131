@@ -358,7 +358,7 @@ function generateWorkout(event) {
         sets.push(reps);
         workoutBody.innerHTML += `
         <tr>
-            <td><input type="checkbox" aria-label="Complete set ${session}"</td>
+            <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
             <td>${reps}</td>
             <td>${reps}</td>
