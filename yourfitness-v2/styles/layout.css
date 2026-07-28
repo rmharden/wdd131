@@ -43,6 +43,7 @@ header {
 nav {
     font-family: "Raleway", sans-serif;
     width: 100%;
+    text-align: center;
 }
 
 nav a {
@@ -88,6 +89,13 @@ nav a:hover {
 }
 .hide {
     display: none;
+}
+footer {
+    color: aliceblue;
+    background-color: #31B8B3;
+    font-size: small;
+    padding: 8px;
+    text-align: center;
 }
 @media screen and (min-width: 650px) {
 
