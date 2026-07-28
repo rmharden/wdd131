@@ -16,9 +16,9 @@
 }
 .header-logo {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: .5rem;
-    margin-right: auto;
 }
 
 .header-logo h1 {
@@ -64,8 +64,7 @@ nav a:hover {
     padding: .5rem;
     position: absolute;
     right: 1rem;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 1rem;
 }
 
 .bar1,
