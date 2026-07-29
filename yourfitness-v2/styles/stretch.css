@@ -1,0 +1,61 @@
+/*
+  Stretch Page
+*/
+
+/* ==========================
+   PAGE LAYOUT
+   ========================== */
+
+main {
+    padding: 1rem;
+}
+
+.workout-checklist {
+    max-width: 550px;
+    margin: 2rem auto;
+}
+
+.workout-checklist h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* ==========================
+   STRETCH LIST
+   ========================== */
+
+.stretch-checklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==========================
+   MODAL
+   ========================== */
+
+.modal-content {
+    text-align: center;
+}
+
+.modal-title {
+    margin-top: 1rem;
+}
+
+.modal-description {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* ==========================
+   DESKTOP
+   ========================== */
+
+@media screen and (min-width:650px){
+
+    .workout-checklist{
+        max-width:700px;
+    }
+
+}
