@@ -394,10 +394,10 @@ function generateWorkout(event) {
             </tr>
             `;
     }
-    const total = calculateTotals(sets);
+    /*const total = calculateTotals(sets);
     document.querySelector('.sit-up-total').textContent = total;
     document.querySelector('.push-up-total').textContent = total;
-    document.querySelector('.squat-total').textContent = total;
+    document.querySelector('.squat-total').textContent = total;*/
     document.querySelector(".workout-generator-results")
         .classList.remove("hide");
     instructionsBtn.classList.remove("hide");
