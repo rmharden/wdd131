@@ -351,7 +351,11 @@ if (workoutForm) {
 function generateWorkout(event) {
     event.preventDefault();
     workoutBody.innerHTML = "";
-    const startingReps = Number(document.querySelector('#rep-number').value);
+    /*replacing the const variables with query selectors for the three exercise elements.*/
+    /*const startingReps = Number(document.querySelector('#rep-number').value);*/
+    const startingSitUps = Number(document.querySelector('#sit-up-number').value);
+    const startingPushUps = Number(document.querySelector('#push-up-number').value);
+    const startingSquats = Number(document.querySelector('#squat-number').value);
     const sets = [];
     for (let i = 0; i < 6; i++) {
         const reps = startingReps + i;
