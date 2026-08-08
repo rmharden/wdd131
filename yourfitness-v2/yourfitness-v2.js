@@ -372,7 +372,7 @@ function generateWorkout(event) {
         sets.push(startingPushUps);
         sets.push(startingSquats);
         
-        workoutBody.innerHTML += `
+        /*workoutBody.innerHTML += `
         <tr>
             <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
@@ -380,7 +380,16 @@ function generateWorkout(event) {
             <td>${reps}</td>
             <td>${reps}</td>
         </tr>
-        `;
+        `;*/
+        workoutBody.innerHTML += `
+        <tr>
+            <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
+            <td>Set ${i + 1}</td>
+            <td>${startingSitUps}</td>
+            <td>${startingPushUps}</td>
+            <td>${startingSquats}</td>
+            </tr>
+            `;
     }
     const total = calculateTotals(sets);
     document.querySelector('.sit-up-total').textContent = total;
