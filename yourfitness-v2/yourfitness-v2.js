@@ -351,8 +351,10 @@ if (workoutForm) {
 function generateWorkout(event) {
     event.preventDefault();
     workoutBody.innerHTML = "";
+
     /*replacing the const variables with query selectors for the three exercise elements.*/
     /*const startingReps = Number(document.querySelector('#rep-number').value);*/
+   
     const startingSitUps = Number(document.querySelector('#sit-up-number').value);
     const startingPushUps = Number(document.querySelector('#push-up-number').value);
     const startingSquats = Number(document.querySelector('#squat-number').value);
