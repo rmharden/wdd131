@@ -359,7 +359,10 @@ function generateWorkout(event) {
     const startingPushUps = Number(document.querySelector('#push-up-number').value);
     const startingSquats = Number(document.querySelector('#squat-number').value);
     
-    const sets = [];
+    /*const sets = [];*/
+    const sitUpSets = [];
+    const pushUpSets = [];
+    const squatSets = [];
     
     for (let i = 0; i < 6; i++) {
         /*const reps = startingReps + i;*/
@@ -368,9 +371,9 @@ function generateWorkout(event) {
         const squats = startingSquats + i;
 
         /*sets.push(reps);*/
-        sets.push(startingSitUps);
-        sets.push(startingPushUps);
-        sets.push(startingSquats);
+        sets.push(sitUps);
+        sets.push(pushUps);
+        sets.push(squats);
         
         /*workoutBody.innerHTML += `
         <tr>
