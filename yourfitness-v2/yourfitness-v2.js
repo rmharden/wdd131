@@ -401,7 +401,7 @@ function generateWorkout(event) {
 
     const sitUpTotal = calculateTotals(sitUpSets);
     const pushUpTotal = calculateTotals(pushUpSets);
-    const squatTotal = calculateTotals(sitUpSets);
+    const squatTotal = calculateTotals(squatSets);
 
     document.querySelector('.sit-up-total').textContent = sitUpTotal;
     document.querySelector('.push-up-total').textContent = pushUpTotal;
