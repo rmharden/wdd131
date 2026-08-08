@@ -398,6 +398,15 @@ function generateWorkout(event) {
     document.querySelector('.sit-up-total').textContent = total;
     document.querySelector('.push-up-total').textContent = total;
     document.querySelector('.squat-total').textContent = total;*/
+
+    const sitUpTotal = calculateTotals(sitUpSets);
+    const pushUpTotal = calculateTotals(pushUpSets);
+    const squatTotal = calculateTotals(sitUpSets);
+
+    document.querySelector('.sit-up-total').textContent = sitUpTotal;
+    document.querySelector('.push-up-total').textContent = pushUpTotal;
+    document.querySelector('.squat-total').textContent = squatTotal;
+
     document.querySelector(".workout-generator-results")
         .classList.remove("hide");
     instructionsBtn.classList.remove("hide");
@@ -405,7 +414,7 @@ function generateWorkout(event) {
 function calculateTotals(sets) {
     return sets.reduce((acc, reps) => {
         return acc + reps;
-    });
+    }, 0);
 }
 const exerciseCard = document.querySelector('.exercise-card-container');
 const form = document.querySelector('.exercise-search');
