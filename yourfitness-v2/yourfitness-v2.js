@@ -371,9 +371,9 @@ function generateWorkout(event) {
         const squats = startingSquats + i;
 
         /*sets.push(reps);*/
-        sets.push(sitUps);
-        sets.push(pushUps);
-        sets.push(squats);
+        sitUpSets.push(sitUps);
+        pushUpSets.push(pushUps);
+        squatSets.push(squats);
         
         /*workoutBody.innerHTML += `
         <tr>
