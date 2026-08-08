@@ -364,7 +364,7 @@ function generateWorkout(event) {
     for (let i = 0; i < 6; i++) {
         /*const reps = startingReps + i;*/
         const sitUps = startingSitUps + i;
-        const pushUps = startingSitUps + i;
+        const pushUps = startingPushUps + i;
         const squats = startingSquats + i;
 
         /*sets.push(reps);*/
