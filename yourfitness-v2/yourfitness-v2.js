@@ -366,7 +366,12 @@ function generateWorkout(event) {
         const sitUps = startingSitUps + i;
         const pushUps = startingSitUps + i;
         const squats = startingSquats + i;
-        sets.push(reps);
+
+        /*sets.push(reps);*/
+        sets.push(startingSitUps);
+        sets.push(startingPushUps);
+        sets.push(startingSquats);
+        
         workoutBody.innerHTML += `
         <tr>
             <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
