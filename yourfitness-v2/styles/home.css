@@ -66,6 +66,7 @@
 }
 
 .repetition-container input {
+    display: block;
     border-radius: 5px;
     border-color: #31B8B3;
     text-align: center;
