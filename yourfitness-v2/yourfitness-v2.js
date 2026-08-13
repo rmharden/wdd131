@@ -435,7 +435,7 @@ function generateWorkout(event) {
         pushUpTotal = 0;
         squatTotal = 0;
 
-        document.querySelector('.sit-up-toatl').textContent = sitUpTotal;
+        document.querySelector('.sit-up-total').textContent = sitUpTotal;
         
         /*const reps = startingReps + i;*/
         const time = totalStartingMinutes + (duration * i);
