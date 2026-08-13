@@ -330,6 +330,10 @@ let sitUpSets = [];
 let pushUpSets = [];
 let squatSets = [];
 
+let sitUpTotal = 0;
+let pushUpTotal = 0;
+let squatTotal = 0;
+
 workoutBody.addEventListener("change", function(event) {
     console.log(event.target);
     console.log(event.target.checked);
