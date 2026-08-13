@@ -378,6 +378,10 @@ function generateWorkout(event) {
     event.preventDefault();
     workoutBody.innerHTML = "";
 
+    sitUpSets = [];
+    pushUpSets = [];
+    squatSets = [];
+
     /*replacing the const variables with query selectors for the three exercise elements.*/
     /*const startingReps = Number(document.querySelector('#rep-number').value);*/
    
