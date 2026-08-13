@@ -423,7 +423,7 @@ function generateWorkout(event) {
         <tr>
             <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
-            <td>${displayHourHour}:${displayMinutes} ${period}</td>
+            <td>${displayHour}:${displayMinutes} ${period}</td>
             <td>${sitUps}</td>
             <td>${pushUps}</td>
             <td>${squats}</td>
