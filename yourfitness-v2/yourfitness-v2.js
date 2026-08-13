@@ -338,6 +338,9 @@ workoutBody.addEventListener("change", function(event) {
     console.log(setNumber);
     
     const sitUps = sitUpSets[setNumber];
+    const pushUps = pushUpSets[setNumber];
+    const squats = squatSets[setNumber];
+
     if (event.target.checked) {
         console.log("The set was checked");
     } else {
