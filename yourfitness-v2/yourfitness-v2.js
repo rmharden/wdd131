@@ -359,6 +359,8 @@ workoutBody.addEventListener("change", function(event) {
     console.log(squatTotal);
 
     document.querySelector('.sit-up-total').textContent = sitUpTotal;
+    document.querySelector('.push-up-total').textContent = pushUpTotal;
+    document.querySelector('.squat-total').textContent = squatTotal;
 });
 
 const modal = document.querySelector('.instructions-modal');
