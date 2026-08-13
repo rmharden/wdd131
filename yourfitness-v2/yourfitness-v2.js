@@ -359,6 +359,11 @@ function generateWorkout(event) {
     const startingPushUps = Number(document.querySelector('#push-up-number').value);
     const startingSquats = Number(document.querySelector('#squat-number').value);
     
+    const startingTime = document.querySelector('#start-time').value;
+    const timeParts = startingTime.split(":");
+    
+    console.log(startingTime);
+
     /*const sets = [];*/
     const sitUpSets = [];
     const pushUpSets = [];
