@@ -407,6 +407,7 @@ function generateWorkout(event) {
         } else {
             period = "AM";
         }
+        https://www.w3schools.com/js/js_logical.asp
         */
         const displayHour = hour % 12 || 12;
         const displayMinutes = String(minutes).padStart(2, "0");
