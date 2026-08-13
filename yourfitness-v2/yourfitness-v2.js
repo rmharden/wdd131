@@ -382,7 +382,7 @@ function generateWorkout(event) {
         
         const hour = Math.floor(time / 60);
         const minutes = time % 60;
-        
+
         const sitUps = startingSitUps + i;
         const pushUps = startingPushUps + i;
         const squats = startingSquats + i;
@@ -405,6 +405,7 @@ function generateWorkout(event) {
         <tr>
             <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
+            <td>${hour}:${minutes}</td>
             <td>${sitUps}</td>
             <td>${pushUps}</td>
             <td>${squats}</td>
