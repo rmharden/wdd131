@@ -327,7 +327,7 @@ const exercises = [
 const workoutBody = document.querySelector('.workout-body');
 
 workoutBody.addEventListener("change", function(event) {
-
+    console.log(event.target);
 });
 
 const modal = document.querySelector('.instructions-modal');
