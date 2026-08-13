@@ -360,8 +360,12 @@ function generateWorkout(event) {
     const startingSquats = Number(document.querySelector('#squat-number').value);
     
     const startingTime = document.querySelector('#start-time').value;
-    const timeParts = startingTime.split(":");
+    console.log(startingTime);
     
+    const timeParts = startingTime.split(":");
+    const startingHour = Number(timeParts[0]);
+    const startingMinutes = Number(timeParts[1]);
+
     console.log(startingTime);
 
     /*const sets = [];*/
