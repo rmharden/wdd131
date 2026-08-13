@@ -326,6 +326,10 @@ const exercises = [
 
 const workoutBody = document.querySelector('.workout-body');
 
+const sitUpSets = [];
+const pushUpSets = [];
+const squatSets = [];
+
 workoutBody.addEventListener("change", function(event) {
     console.log(event.target);
     console.log(event.target.checked);
