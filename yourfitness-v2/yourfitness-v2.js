@@ -352,9 +352,9 @@ workoutBody.addEventListener("change", function(event) {
     } else {
         console.log("The set was unchecked");
     }
-    console.log(sitUps);
-    console.log(pushUps);
-    console.log(squats);
+    console.log(sitUpTotal);
+    console.log(pushUpTotal);
+    console.log(squatTotal);
 });
 
 const modal = document.querySelector('.instructions-modal');
