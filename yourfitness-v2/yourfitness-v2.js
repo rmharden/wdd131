@@ -336,7 +336,13 @@ workoutBody.addEventListener("change", function(event) {
     
     const setNumber = Number(event.target.dataset.set);
     console.log(setNumber);
+    
     const sitUps = sitUpSets[setNumber];
+    if (event.target.checked) {
+        console.log("The set was checked");
+    } else {
+        console.log("The set was unchecked");
+    }
     console.log(sitUps);
 });
 
