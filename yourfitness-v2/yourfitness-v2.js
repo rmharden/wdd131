@@ -394,11 +394,11 @@ function generateWorkout(event) {
         
         const hour = Math.floor(time / 60);
         /*https://www.w3schools.com/jsref/jsref_string_padstart.asp*/
-        const minutes = String(time % 60).padStart(2, "0");
+        /*const minutes = String(time % 60).padStart(2, "0");*/
+        const minutes = time % 60;
 
         const period = hour >= 12 ? "PM" : "AM";
         const displayHour = hour % 12 || 12;
-
         const displayMinutes = String(minutes).padStart(2, "0");
 
         const sitUps = startingSitUps + i;
@@ -423,7 +423,7 @@ function generateWorkout(event) {
         <tr>
             <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
-            <td>${hour}:${minutes}</td>
+            <td>${displayHourHour}:${displayMinutes} ${period}</td>
             <td>${sitUps}</td>
             <td>${pushUps}</td>
             <td>${squats}</td>
