@@ -396,14 +396,15 @@ function generateWorkout(event) {
         /*https://www.w3schools.com/jsref/jsref_string_padstart.asp*/
         /*const minutes = String(time % 60).padStart(2, "0");*/
         const minutes = time % 60;
-
-        const period = hour >= 12 ? "PM" : "AM";
+        
         /*
+        const period = hour >= 12 ? "PM" : "AM";
         https://www.w3schools.com/js/js_if_ternary.asp
         the ? is a tenary operator:
         const displayHour = hour % 12 || 12;
         https://www.w3schools.com/js/js_logical.asp
         */
+       
         let period;
         if (hour >= 12) {
             period = "PM";
