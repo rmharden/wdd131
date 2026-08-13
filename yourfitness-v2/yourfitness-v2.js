@@ -347,6 +347,8 @@ workoutBody.addEventListener("change", function(event) {
         console.log("The set was unchecked");
     }
     console.log(sitUps);
+    console.log(pushUps);
+    console.log(squats);
 });
 
 const modal = document.querySelector('.instructions-modal');
