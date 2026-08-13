@@ -392,7 +392,7 @@ function generateWorkout(event) {
         /*const reps = startingReps + i;*/
         const time = totalStartingMinutes + (duration * i);
         
-        const hour = Math.floor(time / 60);
+        const hour = Math.floor(time / 60) % 24;
         /*https://www.w3schools.com/jsref/jsref_string_padstart.asp*/
         /*const minutes = String(time % 60).padStart(2, "0");*/
         const minutes = time % 60;
