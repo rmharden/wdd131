@@ -430,6 +430,13 @@ function generateWorkout(event) {
     const squatSets = [];*/
     
     for (let i = 0; i < 6; i++) {
+        
+        sitUpTotal = 0;
+        pushUpTotal = 0;
+        squatTotal = 0;
+
+        document.querySelector('.sit-up-toatl').textContent = sitUpTotal;
+        
         /*const reps = startingReps + i;*/
         const time = totalStartingMinutes + (duration * i);
         
@@ -492,6 +499,7 @@ function generateWorkout(event) {
     document.querySelector('.push-up-total').textContent = total;
     document.querySelector('.squat-total').textContent = total;*/
 
+    /*
     const sitUpTotal = calculateTotals(sitUpSets);
     const pushUpTotal = calculateTotals(pushUpSets);
     const squatTotal = calculateTotals(squatSets);
@@ -499,6 +507,7 @@ function generateWorkout(event) {
     document.querySelector('.sit-up-total').textContent = sitUpTotal;
     document.querySelector('.push-up-total').textContent = pushUpTotal;
     document.querySelector('.squat-total').textContent = squatTotal;
+    */
 
     document.querySelector(".workout-generator-results")
         .classList.remove("hide");
