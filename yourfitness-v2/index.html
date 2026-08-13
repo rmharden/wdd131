@@ -125,6 +125,15 @@ W3Schools was used for concepts and a resource for all other HTML, CSS, and Java
                     type="time"
                     required
                 >
+                <label for="time-duration">How many minutes between sets:</label>
+                <input 
+                    id="time-duration"
+                    name="time-duration"
+                    type="number"
+                    min="1"
+                    max="120"
+                    required
+                >
                 <button type="submit">Generate Workout</button>
             </form>
             <p class="warning">⚠️ Please use your discretion. Do not begin any workout without consulting a healthcare professional first. ⚠️</p>
