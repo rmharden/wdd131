@@ -381,7 +381,8 @@ function generateWorkout(event) {
         const time = totalStartingMinutes + (duration * i);
         
         const hour = Math.floor(time / 60);
-        const minutes = time % 60;
+        /*https://www.w3schools.com/jsref/jsref_string_padstart.asp*/
+        const minutes = String(time % 60).padStart(2, "0");
 
         const sitUps = startingSitUps + i;
         const pushUps = startingPushUps + i;
