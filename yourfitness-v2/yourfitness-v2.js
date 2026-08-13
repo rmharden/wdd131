@@ -328,6 +328,7 @@ const workoutBody = document.querySelector('.workout-body');
 
 workoutBody.addEventListener("change", function(event) {
     console.log(event.target);
+    console.log(event.target.checked);
 });
 
 const modal = document.querySelector('.instructions-modal');
