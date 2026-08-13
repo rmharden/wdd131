@@ -323,6 +323,7 @@ const exercises = [
         tags: ['run', 'walk', 'full-body']
     }
 ];
+
 const workoutBody = document.querySelector('.workout-body');
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
@@ -433,7 +434,7 @@ function generateWorkout(event) {
         `;*/
         workoutBody.innerHTML += `
         <tr>
-            <td><input type="checkbox" aria-label="Complete set ${i + 1}"></td>
+            <td><input type="checkbox" data-set="${i}" aria-label="Complete set ${i + 1}"></td>
             <td>Set ${i + 1}</td>
             <td>${displayHour}:${displayMinutes} ${period}</td>
             <td>${sitUps}</td>
@@ -442,7 +443,11 @@ function generateWorkout(event) {
             </tr>
             `;
     }
-    /*const total = calculateTotals(sets);
+    /*
+    
+    https://www.w3schools.com/tags/att_data-.asp
+    Above is the  link to the data-* Attribute information. Set is for our sets in each cell.
+    const total = calculateTotals(sets);
     document.querySelector('.sit-up-total').textContent = total;
     document.querySelector('.push-up-total').textContent = total;
     document.querySelector('.squat-total').textContent = total;*/
