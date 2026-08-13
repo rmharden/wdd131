@@ -393,9 +393,9 @@ function generateWorkout(event) {
     const totalStartingMinutes = startingHour * 60 + startingMinutes;
 
     /*const sets = [];*/
-    const sitUpSets = [];
+    /*const sitUpSets = [];
     const pushUpSets = [];
-    const squatSets = [];
+    const squatSets = [];*/
     
     for (let i = 0; i < 6; i++) {
         /*const reps = startingReps + i;*/
