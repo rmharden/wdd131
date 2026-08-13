@@ -325,6 +325,11 @@ const exercises = [
 ];
 
 const workoutBody = document.querySelector('.workout-body');
+
+workoutBody.addEventListener("change", function(event) {
+
+});
+
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
