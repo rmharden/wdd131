@@ -328,6 +328,18 @@ const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
 
+const startTimeInput = document.querySelector('#start-time');
+
+if (startTimeInput) {
+    const now = new Date();
+
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2,'0');
+
+    startTimeInput.value = `${hours}:${minutes}`;
+}
+
+
 if (modal && instructionsBtn && closeButton) {
     modal.addEventListener('click', (event) => {
         if (event.target === modal) {
@@ -358,18 +370,6 @@ function generateWorkout(event) {
     const startingSitUps = Number(document.querySelector('#sit-up-number').value);
     const startingPushUps = Number(document.querySelector('#push-up-number').value);
     const startingSquats = Number(document.querySelector('#squat-number').value);
-    
-    const startTimeInput = document.querySelector('#start-time');
-
-    if (startTimeInput) {
-        const now = new Date();
-
-        const hours = String(now.getHours()).padStart(2, '0');
-        const minutes = String(now.getMinutes()).padStart(2,'0');
-
-        startTimeInput.value = `${hours}:${minutes}`;
-    }
-
 
     const startingTime = document.querySelector('#start-time').value;
     const duration = Number(document.querySelector('#time-duration').value);
