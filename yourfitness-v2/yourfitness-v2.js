@@ -350,7 +350,9 @@ workoutBody.addEventListener("change", function(event) {
         pushUpTotal += pushUps;
         squatTotal += squats;
     } else {
-        console.log("The set was unchecked");
+        sitUpTotal -= sitUps;
+        pushUpTotal -= pushUps;
+        squatTotal -= squats;
     }
     console.log(sitUpTotal);
     console.log(pushUpTotal);
