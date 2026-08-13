@@ -336,6 +336,7 @@ workoutBody.addEventListener("change", function(event) {
     
     const setNumber = Number(event.target.dataset.set);
     console.log(setNumber);
+    const sitUps = sitUpSets[setNumber];
 });
 
 const modal = document.querySelector('.instructions-modal');
