@@ -368,7 +368,7 @@ workoutBody.addEventListener("change", function(event) {
     if (checkedBoxes.length ==6 ) {
         document.querySelector('.generator-motivation').classList.remove('hide');
     } else {
-        document.querySelector('.genertor-motivation').classList.push('hide');
+        document.querySelector('.genertor-motivation').classList.add('hide');
     }
 });
 
