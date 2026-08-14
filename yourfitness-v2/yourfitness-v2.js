@@ -365,7 +365,7 @@ workoutBody.addEventListener("change", function(event) {
 
     const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
     const checkedBoxes = workoutBody.querySelectorAll('input[type="checkbox"]:checked');
-    if (checkedBoxes.length ==6 ) {
+    if (checkedBoxes.length ===6 ) {
         document.querySelector('.generator-motivation').classList.remove('hide');
     } else {
         document.querySelector('.genertor-motivation').classList.add('hide');
