@@ -364,6 +364,7 @@ workoutBody.addEventListener("change", function(event) {
     document.querySelector('.squat-total').textContent = squatTotal;
 
     const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
+    const checkedBoxes = workoutBody.querySelectorAll('input[type="checkbox"]:checked');
 });
 
 const modal = document.querySelector('.instructions-modal');
