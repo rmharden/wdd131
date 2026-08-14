@@ -365,6 +365,9 @@ workoutBody.addEventListener("change", function(event) {
 
     const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
     const checkedBoxes = workoutBody.querySelectorAll('input[type="checkbox"]:checked');
+    if (checkedBoxes.length ==6 ) {
+        
+    }
 });
 
 const modal = document.querySelector('.instructions-modal');
