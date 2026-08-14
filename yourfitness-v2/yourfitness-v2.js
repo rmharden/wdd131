@@ -324,6 +324,7 @@ const exercises = [
     }
 ];
 
+
 const workoutBody = document.querySelector('.workout-body');
 
 let sitUpSets = [];
@@ -361,6 +362,8 @@ workoutBody.addEventListener("change", function(event) {
     document.querySelector('.sit-up-total').textContent = sitUpTotal;
     document.querySelector('.push-up-total').textContent = pushUpTotal;
     document.querySelector('.squat-total').textContent = squatTotal;
+
+    const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
 });
 
 const modal = document.querySelector('.instructions-modal');
