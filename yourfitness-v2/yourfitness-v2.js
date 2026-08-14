@@ -430,6 +430,15 @@ function generateWorkout(event) {
     /*const sitUpSets = [];
     const pushUpSets = [];
     const squatSets = [];*/
+
+    sitUpTotal = 0;
+    pushUpTotal = 0
+    squatTotal = 0;
+
+    document.querySelector('.sit-up-total').textContent = sitUpTotal;
+    document.querySelector('.push-up-total').textContent = pushUpTotal;
+    document.querySelector('.squat-total').textContent = squatTotal;
+
     
     for (let i = 0; i < 6; i++) {
 
