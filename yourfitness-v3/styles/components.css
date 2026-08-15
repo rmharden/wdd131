@@ -1,0 +1,95 @@
+/*
+  --primary-color: #31B8B3;
+  --secondary-color: #28615F;
+  --accent1-color: #4CA450;
+  --accent2-color: #1F2937;
+
+  --heading-font:  "Raleway", sans-serif;
+  --paragraph-font: Arial, Helvetica, sans-serif;
+*/
+
+.card {
+    border-radius: 8px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(40, 97, 95, 0.2);
+}
+button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+.exercise-modal {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 400px;
+}
+.exercise-modal::backdrop {
+    background: rgba(0,0,0,.5);
+}
+.modal-image {
+    width: 100%;
+    border-radius: 10px;
+}
+.modal-images {
+    margin: 0;
+}
+.modal-images img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.close-modal {
+    float: right;
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+}
+.close-viewer {
+    position: absolute;
+    top: 10vh;
+    right: 2vh;
+    padding: 3px 6px;
+    font-size: 1.5em;
+}
+.workout-checklist {
+    background-color: white;
+    border-radius: 12px;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 375px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.checklist-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.checklist-item:last-child {
+    border-bottom: none;
+}
+.exercise-info {
+    display: flex;
+    flex-direction: column;
+}
+.generator-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media screen and (min-width: 650px) {
+
+    .exercise-info {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .workout-checklist {
+        max-width: 500px;
+    }
+}
