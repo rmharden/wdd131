@@ -334,44 +334,44 @@ let squatSets = [];
 let sitUpTotal = 0;
 let pushUpTotal = 0;
 let squatTotal = 0;
+if (workoutBody) {
+    workoutBody.addEventListener("change", function(event) {
+        console.log(event.target);
+        console.log(event.target.checked);
+        
+        const setNumber = Number(event.target.dataset.set);
+        console.log(setNumber);
+        
+        const sitUps = sitUpSets[setNumber];
+        const pushUps = pushUpSets[setNumber];
+        const squats = squatSets[setNumber];
 
-workoutBody.addEventListener("change", function(event) {
-    console.log(event.target);
-    console.log(event.target.checked);
-    
-    const setNumber = Number(event.target.dataset.set);
-    console.log(setNumber);
-    
-    const sitUps = sitUpSets[setNumber];
-    const pushUps = pushUpSets[setNumber];
-    const squats = squatSets[setNumber];
+        if (event.target.checked) {
+            sitUpTotal += sitUps;
+            pushUpTotal += pushUps;
+            squatTotal += squats;
+        } else {
+            sitUpTotal -= sitUps;
+            pushUpTotal -= pushUps;
+            squatTotal -= squats;
+        }
+        console.log(sitUpTotal);
+        console.log(pushUpTotal);
+        console.log(squatTotal);
 
-    if (event.target.checked) {
-        sitUpTotal += sitUps;
-        pushUpTotal += pushUps;
-        squatTotal += squats;
-    } else {
-        sitUpTotal -= sitUps;
-        pushUpTotal -= pushUps;
-        squatTotal -= squats;
-    }
-    console.log(sitUpTotal);
-    console.log(pushUpTotal);
-    console.log(squatTotal);
+        document.querySelector('.sit-up-total').textContent = sitUpTotal;
+        document.querySelector('.push-up-total').textContent = pushUpTotal;
+        document.querySelector('.squat-total').textContent = squatTotal;
 
-    document.querySelector('.sit-up-total').textContent = sitUpTotal;
-    document.querySelector('.push-up-total').textContent = pushUpTotal;
-    document.querySelector('.squat-total').textContent = squatTotal;
-
-    const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
-    const checkedBoxes = workoutBody.querySelectorAll('input[type="checkbox"]:checked');
-    if (checkedBoxes.length === 6 ) {
-        document.querySelector('.generator-motivation').classList.remove('hide');
-    } else {
-        document.querySelector('.generator-motivation').classList.add('hide');
-    }
-});
-
+        const checkboxes = workoutBody.querySelectorAll('input[type="checkbox"]');
+        const checkedBoxes = workoutBody.querySelectorAll('input[type="checkbox"]:checked');
+        if (checkedBoxes.length === 6 ) {
+            document.querySelector('.generator-motivation').classList.remove('hide');
+        } else {
+            document.querySelector('.generator-motivation').classList.add('hide');
+        }
+    });
+}
 const modal = document.querySelector('.instructions-modal');
 const instructionsBtn = document.querySelector('.instructions-button');
 const closeButton = document.querySelector('.close-viewer');
