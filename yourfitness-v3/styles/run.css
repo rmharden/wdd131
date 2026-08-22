@@ -112,11 +112,7 @@ header {
 .header-logo h1 {
     margin: 0;
 }
-.logo {
-    width: 4rem;
-    height: auto;
-    padding: 1rem;
-}
+
 .reset-button {
     display: block;
     text-align: right;
