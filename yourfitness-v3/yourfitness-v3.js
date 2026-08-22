@@ -384,11 +384,11 @@ const exercises = [
     },
         {
         image: 'images/pexels-anete-lusina-4793328.jpg',
-        name: 'Back #7',
+        name: 'Back #7: Superman Bicycle Crunch',
         reps: '12',
         count: '2',
         alternate: "all back exercises",
-        description: 'Lower your legs to the ground and place your arms behind your head, elbows out. Lift your head and shoulders off the ground to start, then raise your left elbow, pause briefly then return to center. Do 6 repetitions.  Perform the same movements with your right elbow. Do 6 repetitions.',
+        description: 'Lie face down with your hands behind your neck. Lift your chest and bring one elbow up and then touch your elbow back to the ground. Do 6 reps per side.',
         order: 38,
         tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
     },
