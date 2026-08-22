@@ -351,12 +351,15 @@ dialog {
 .exercise-info p {
     margin: 5px 0;
 }*/
+/* Workout Checklist */
+
 .workout-checklist {
     background-color: white;
     border-radius: 12px;
     padding: 0;
+    margin: 20px auto;
+    max-width: 375px;
     overflow: hidden;
-    list-style: none;
 }
 
 .checklist-item {
@@ -371,9 +374,38 @@ dialog {
     border-bottom: none;
 }
 
+.checklist-item input {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.checklist-image {
+    display: none;
+}
+
 .exercise-info {
     display: flex;
     flex-direction: column;
+    gap: 4px;
+}
+
+.exercise-name {
+    border: none;
+    background: none;
+    padding: 0;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #28615f;
+}
+
+.exercise-alternate {
+    font-size: .9rem;
+}
+
+.exercise-description {
+    display: none;
 }
 h2 {
     text-align: center;
@@ -426,46 +458,42 @@ footer {
         max-width: 900px;
         margin: 0 auto;
     }
-    .welcome-container p,
-    .workout-generator-results ,
-    .repetition-container{
-        max-width: 500px;
-        margin: 2rem auto;
+    .workout-checklist {
+        max-width: 850px;
     }
-    .exercise-card {
-        display: flex;
-        gap: 1.5rem;
+
+    .checklist-item {
         align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
     }
-    .exercise-image {
-        width: 280px;
-        height: auto;
-        margin-bottom: 18px;
+
+    .checklist-image {
+        display: block;
+        width: 220px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 8px;
+        flex-shrink: 0;
     }
-    .exercise-content {
-        display: flex;
-        flex-direction: column;
+
+    .exercise-info {
+        flex: 1;
     }
-    .exercise-count,
-    .exercise-rep {
-        margin-top: 0.25rem;
+
+    .exercise-name {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.25rem;
     }
-    .exercise-title {
-        padding-top: 10px;
-    }
-    .exercise {
-        margin: 0 18px;
-    }
+
     .exercise-description {
         display: block;
-        margin: 0;
+        margin: 8px 0 0;
         font-size: .9rem;
+        line-height: 1.5;
     }
-    .exercise-info {
-        flex-direction: row;
-        gap: 10px;
-    }
-    .workout-checklist {
-        max-width: 500px;
+
+    .exercise-alternate {
+        font-size: .9rem;
     }
 }

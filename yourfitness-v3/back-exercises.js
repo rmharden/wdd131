@@ -88,7 +88,7 @@ const exercises = [
         name: 'Back 8: Modified Push-Up',
         reps: '12',
         count: '2',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Place your hands directly under your shoulders and bring your body into a pushup position, knees on the ground and heels in towards your tush. Keeping your shoulders in line with your hips, slowly lower yourself down for two counts, then press up for two counts, executing a slow and controlled pushup. Do 12 repetitions.',
         order: 8,
         tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
@@ -104,16 +104,27 @@ const backList = document.querySelector(".back-exercises-checklist");
 function checkListTemplate(exercise) {
     return `
         <li class="checklist-item">
+            <img src="${exercise.image}" alt="Photo of ${exercise.name}" class="checklist-image">
+
             <input type="checkbox">
+
             <div class="exercise-info">
                 <button class="exercise-name" data-name="${exercise.name}">
                     ${exercise.name}
                 </button>
+
                 <span>Count: ${exercise.count}</span>
                 <span>Reps: ${exercise.reps}</span>
+
                 ${exercise.alternate ?
-                    `<span>| Alternate with ${exercise.alternate} for 3 sets</span>`
+                    `<span class="exercise-alternate">
+                        | Alternate with ${exercise.alternate} for 3 sets
+                    </span>`
                 : ''}
+
+                <p class="exercise-description">
+                    ${exercise.description}
+                </p>
             </div>
         </li>
     `;

@@ -84,12 +84,4 @@ button:hover {
 }
 @media screen and (min-width: 650px) {
 
-    .exercise-info {
-        flex-direction: row;
-        gap: 10px;
-    }
-
-    .workout-checklist {
-        max-width: 500px;
-    }
 }
