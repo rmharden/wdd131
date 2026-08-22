@@ -36,7 +36,8 @@ const exercises = [
         name: 'Back 3: Standing Side Bend',
         reps: '12',
         count: '4',
-        alternate: 'Lower your weights to your sides and rotate your palms so they face your body. Keep your shoulders stacked directly over your hips (do not hunch forward or lean back) and lean your upper body down to one side, then gently lean to the other. Do 12 repetitions.',
+        alternate: "all back exercises",
+        description: 'Lower your weights to your sides and rotate your palms so they face your body. Keep your shoulders stacked directly over your hips (do not hunch forward or lean back) and lean your upper body down to one side, then gently lean to the other. Do 12 repetitions.',
         order: 3,
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
