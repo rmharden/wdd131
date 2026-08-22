@@ -330,7 +330,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Start with your weights down by your sides, palms facing forward. Keep your arms straight and lift your weights outward, stopping at shoulder height. Squeeze your shoulder blades once you reach the top, but be mindful to keep the weights directly out from your shoulders. Lower your arms back down. Do 12 repetitions.',
         order: 32,
-        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
         image: 'images/pexels-karola-g-4397838.jpg',
@@ -340,7 +340,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Start with your arms overhead, palms facing forward. Bend your elbows outwards and press them in towards your sides, lowering weights to waist height. Squeeze your shoulder blades as you bring your elbows in. Do 12 repetitions.',
         order: 33,
-        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
         image: 'images/pexels-mart-production-8032923.jpg',
@@ -350,7 +350,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Lower your weights to your sides and rotate your palms so they face your body. Keep your shoulders stacked directly over your hips (do not hunch forward or lean back) and lean your upper body down to one side, then gently lean to the other. Do 12 repetitions.',
         order: 34,
-        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
         image: 'images/pexels-marta-nogueira-589022975-17092541.jpg',
@@ -360,7 +360,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Start with your elbows bent in towards your sides, weights extended outwards, and palms facing forward. Squeeze your elbows into your body (cinching your shoulder blades together), then release back out, keeping your shoulders down the entire time. Do 12 repetitions.',
         order: 35,
-        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
         image: 'images/pexels-scoutori-16143599.jpg',
@@ -370,7 +370,7 @@ const exercises = [
         alternate: "",
         description: 'Lie flat on your stomach, arms and legs extended out. Lift your arms and legs off the ground, as high as you can. Hold for a few seconds then lower yourself back down. Do 12 repetitions.',
         order: 36,
-        tags: ['back', 'muscular', 'core', 'calesthenics', 'legs', 'full-body']
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'legs', 'full-body']
     },
     {
         image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
@@ -380,7 +380,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Once again, lift your arms and legs off of the ground and then raise your left arm and right leg up even more. Hold here for a second or two then switch, raising your right arm and left leg up, holding briefly. Continue to alternate, count one repetition every time your right arm comes down.   Do 12 repetitions.',
         order: 37,
-        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
     },
         {
         image: 'images/pexels-anete-lusina-4793328.jpg',
@@ -390,7 +390,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Lower your legs to the ground and place your arms behind your head, elbows out. Lift your head and shoulders off the ground to start, then raise your left elbow, pause briefly then return to center. Do 6 repetitions.  Perform the same movements with your right elbow. Do 6 repetitions.',
         order: 38,
-        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
     },
     {
         image: 'images/pexels-n-voitkevich-5412251.jpg',
@@ -400,7 +400,7 @@ const exercises = [
         alternate: "Repeat this with all back exercises a total of three times.",
         description: 'Place your hands directly under your shoulders and bring your body into a pushup position, knees on the ground and heels in towards your tush. Keeping your shoulders in line with your hips, slowly lower yourself down for two counts, then press up for two counts, executing a slow and controlled pushup. Do 12 repetitions',
         order: 39,
-        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
     },
     {
         image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
