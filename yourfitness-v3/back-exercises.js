@@ -83,7 +83,7 @@ const exercises = [
         tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
     },
     {
-        image: 'images/temp-back-photos/banish-back-fat-pushup.jpg.jpg',
+        image: 'images/temp-back-photos/banish-back-fat-pushup.jpg',
         image2: 'images/temp-back-photos/banish-back-fat-slow-pushup.jpg',
         name: 'Back 8: Modified Push-Up',
         reps: '12',
@@ -145,6 +145,14 @@ if (exerciseModal) {
             );
             modalImage.src = exercise.image;
             modalImage.alt = exercise.name;
+            if (exercise.image2) {
+                modalImage2.src = exercise.image2;
+                modalImage2.alt = exercise.name;               
+                modalImage2.classList.remove("hide");
+            } else {
+                modalImage2.classList.add("hide");
+            }
+
             modalTitle.textContent = exercise.name;
             modalCount.textContent = `Count: ${exercise.count}`;
             modalReps.textContent = `Reps: ${exercise.reps}`;
