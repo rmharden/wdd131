@@ -419,7 +419,11 @@ footer {
         max-width: 500px;
         margin: 2rem auto;
     }
-    .exercise-card {
+    .exercise-search-container {
+        max-width: 700px;
+        margin: 20px auto;
+    }
+        .exercise-card {
         display: flex;
         gap: 1.5rem;
         align-items: flex-start;
