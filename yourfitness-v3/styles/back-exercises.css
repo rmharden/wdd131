@@ -473,14 +473,20 @@ footer {
         padding: 20px;
     }
 
+    .checklist-images {
+        display: flex;
+        gap: 8px;
+        width: 220px;
+        flex-shrink: 0;
+    }
+
     .checklist-image {
         display: block;
-        width: 220px;
+        width: 100%;
         height: 160px;
         object-fit: cover;
         border-radius: 8px;
-        flex-shrink: 0;
-    }
+}
 
     .exercise-info {
         flex: 1;
