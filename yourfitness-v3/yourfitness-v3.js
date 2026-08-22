@@ -374,7 +374,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
-        name: 'Back 6: Bird Dog',
+        name: 'Back 6: Alternating Superman',
         reps: '12',
         count: '2',
         alternate: "all back exercises",
