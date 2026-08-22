@@ -324,7 +324,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-rdne-8611937.jpg',
-        name: 'Back #1: Side Lateral Raise',
+        name: 'Back 1: Side Lateral Raise',
         reps: '12',
         count: '4',
         alternate: "all back exercises",
@@ -334,7 +334,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-karola-g-4397838.jpg',
-        name: 'Back #2: Dumbbell Lat Pullover',
+        name: 'Back 2: Dumbbell Lat Pullover',
         reps: '12',
         count: '4',
         alternate: "all back exercises",
@@ -344,7 +344,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-mart-production-8032923.jpg',
-        name: 'Back #3: Standing Side Bend',
+        name: 'Back 3: Standing Side Bend',
         reps: '12',
         count: '4',
         alternate: "with all back exercises",
@@ -354,7 +354,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-marta-nogueira-589022975-17092541.jpg',
-        name: 'Back #4: Chest Fly',
+        name: 'Back 4: Chest Fly',
         reps: '12',
         count: '4',
         alternate: "all back exercises",
@@ -364,7 +364,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-scoutori-16143599.jpg',
-        name: 'Back #5: Superman',
+        name: 'Back 5: Superman',
         reps: '12',
         count: '4',
         alternate: "all back exercises",
@@ -374,7 +374,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
-        name: 'Back #6: Bird Dog',
+        name: 'Back 6: Bird Dog',
         reps: '12',
         count: '2',
         alternate: "all back exercises",
@@ -384,7 +384,7 @@ const exercises = [
     },
         {
         image: 'images/pexels-anete-lusina-4793328.jpg',
-        name: 'Back #7: Superman Bicycle Crunch',
+        name: 'Back 7: Superman Bicycle Crunch',
         reps: '12',
         count: '2',
         alternate: "all back exercises",
@@ -394,7 +394,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-n-voitkevich-5412251.jpg',
-        name: 'Back #8: Modified Push-Up',
+        name: 'Back 8: Modified Push-Up',
         reps: '12',
         count: '2',
         alternate: "Repeat this with all back exercises a total of three times.",
