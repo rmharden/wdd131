@@ -7,6 +7,89 @@ function toggleMenu() {
     menu.classList.toggle('hide');
     btn.classList.toggle('change');
 }
+const backExercise = [
+        {
+        image: 'images/temp-back-photos/banish-back-fat-1.jpg',
+        mage: 'images/temp-back-photos/banish-back-fat-21.jpg',
+        name: 'Back 1: Side Lateral Raise',
+        reps: '12',
+        count: '4',
+        alternate: "all back exercises",
+        description: 'Start with your weights down by your sides, palms facing forward. Keep your arms straight and lift your weights outward, stopping at shoulder height. Squeeze your shoulder blades once you reach the top, but be mindful to keep the weights directly out from your shoulders. Lower your arms back down. Do 12 repetitions.',
+        order: 32,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-karola-g-4397838.jpg',
+        name: 'Back 2: Dumbbell Lat Pullover',
+        reps: '12',
+        count: '4',
+        alternate: "all back exercises",
+        description: 'Start with your arms overhead, palms facing forward. Bend your elbows outwards and press them in towards your sides, lowering weights to waist height. Squeeze your shoulder blades as you bring your elbows in. Do 12 repetitions.',
+        order: 33,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-mart-production-8032923.jpg',
+        name: 'Back 3: Standing Side Bend',
+        reps: '12',
+        count: '4',
+        alternate: "with all back exercises",
+        description: 'Hold weights at your sides and keep your shoulders over your hips. Lean your upper body to one side, then gently lean to the other.',
+        order: 34,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-marta-nogueira-589022975-17092541.jpg',
+        name: 'Back 4: Chest Fly',
+        reps: '12',
+        count: '4',
+        alternate: "all back exercises",
+        description: 'Hold weights out to your sides with elbows bent. Pull your elbows toward your body, squeezing your shoulder blades together. Release and repeat for 12 reps.',
+        order: 35,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
+    },
+    {
+        image: 'images/pexels-scoutori-16143599.jpg',
+        name: 'Back 5: Superman',
+        reps: '12',
+        count: '4',
+        alternate: "all back exercises",
+        description: 'Lie face down with your arms and legs extended. Lift your arms and legs off the floor, hold briefly, then slowly lower. Repeat for 12 reps.',
+        order: 36,
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'legs', 'full-body']
+    },
+    {
+        image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
+        name: 'Back 6: Alternating Superman',
+        reps: '12',
+        count: '2',
+        alternate: "all back exercises",
+        description: 'Lie face down with your arms and legs extended. Lift them off the floor, then raise your opposite arm and leg higher. Alternate sides, counting one rep each time your right arm lowers.Do 12 reps.',
+        order: 37,
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
+    },
+        {
+        image: 'images/pexels-anete-lusina-4793328.jpg',
+        name: 'Back 7: Superman Bicycle Crunch',
+        reps: '12',
+        count: '2',
+        alternate: "all back exercises",
+        description: 'Lie face down with your hands behind your neck. Lift your chest and bring one elbow up and then touch your elbow back to the ground. Do 6 reps per side.',
+        order: 38,
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
+    },
+    {
+        image: 'images/pexels-n-voitkevich-5412251.jpg',
+        name: 'Back 8: Modified Push-Up',
+        reps: '12',
+        count: '2',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Start in a push-up position with your knees on the floor. Slowly lower for two counts, then press back up for two counts. Keep your body aligned and controlled.',
+        order: 39,
+        tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
+    }
+];
 const exercises = [
     // Stretching
     {
@@ -411,8 +494,7 @@ const exercises = [
         description: 'Walk or run for at least 30 minutes every other day. Begin at a comfortable pace and gradually increase your time, distance, or speed as your fitness improves.',
         order: 40,
         tags: ['run', 'walk', 'full-body']
-    },
-            
+    }            
 ];
 
 
