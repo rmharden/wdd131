@@ -324,7 +324,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-rdne-8611937.jpg',
-        name: 'Back Exercise #1',
+        name: 'Back #1',
         reps: '12',
         count: '4',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -334,7 +334,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-karola-g-4397838.jpg',
-        name: 'Back Exercise #2',
+        name: 'Back #2',
         reps: '12',
         count: '4',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -344,7 +344,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-mart-production-8032923.jpg',
-        name: 'Back Exercise #3',
+        name: 'Back #3',
         reps: '12',
         count: '4',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -354,7 +354,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-marta-nogueira-589022975-17092541.jpg',
-        name: 'Back Exercise #4',
+        name: 'Back #4',
         reps: '12',
         count: '4',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -364,7 +364,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-scoutori-16143599.jpg',
-        name: 'Back Exercise #5',
+        name: 'Back #5',
         reps: '12',
         count: '4',
         alternate: "",
@@ -374,7 +374,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
-        name: 'Back Exercise #6',
+        name: 'Back #6',
         reps: '12',
         count: '2',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -384,7 +384,7 @@ const exercises = [
     },
         {
         image: 'images/pexels-anete-lusina-4793328.jpg',
-        name: 'Back Exercise #7',
+        name: 'Back #7',
         reps: '12',
         count: '2',
         alternate: "Repeat this with all back exercises a total of three times.",
@@ -394,7 +394,7 @@ const exercises = [
     },
     {
         image: 'images/pexels-n-voitkevich-5412251.jpg',
-        name: 'Back Exercise #8',
+        name: 'Back #8',
         reps: '12',
         count: '2',
         alternate: "Repeat this with all back exercises a total of three times.",
