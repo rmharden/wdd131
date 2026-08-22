@@ -9,8 +9,8 @@ function toggleMenu() {
 }
 const exercises = [
         {
-        image: 'images/temp-back-photos/banish-back-fat-1.jpg',
-        image2: 'images/temp-back-photos/banish-back-fat-21.jpg',
+        image: 'images/back-001a grok.jpg',
+        image2: 'images/back-001bgrok.jpg',
         name: 'Back 1: Side Lateral Raise',
         reps: '12',
         count: '4',
@@ -20,8 +20,8 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
-        image: 'images/temp-back-photos/banish-back-fat-overhead-press-up.jpg',
-        image2: 'images/temp-back-photos/banish-back-fat-overhead-press-down.jpg',
+        image: 'images/back-002a-ChatGPT.png',
+        image2: 'images/back-002b-grok.jpg',
         name: 'Back 2: Dumbbell Lat Pullover',
         reps: '12',
         count: '4',
@@ -42,7 +42,7 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
     },
     {
-        image: 'images/temp-back-photos/sculpt-back-1.jpg',
+        image: 'images/back-002b-grok.jpg',
         image2: 'images/temp-back-photos/sculpt-back-2.jpg',
         name: 'Back 4: Chest Fly',
         reps: '12',
