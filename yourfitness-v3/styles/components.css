@@ -22,17 +22,27 @@ button:hover {
     border: none;
     border-radius: 12px;
     padding: 20px;
-    max-width: 400px;
+    width: 85%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 .exercise-modal::backdrop {
     background: rgba(0,0,0,.5);
 }
-.modal-image {
+.modal-image,
+.modal-image2 {
+    display: block;
     width: 100%;
+    height: auto;
     border-radius: 10px;
+    object-fit: contain;
 }
 .modal-images {
     margin: 0;
+}
+.modal-image2 {
+    margin-top: 1rem;
 }
 .modal-images img {
     display: block;
@@ -81,6 +91,28 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+.exercise-modal {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 85%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-image,
+.modal-image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+.modal-image2 {
+    margin-top: 1rem;
 }
 @media screen and (min-width: 650px) {
 
