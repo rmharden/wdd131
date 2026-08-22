@@ -370,8 +370,30 @@ footer {
     width: 100%;
     border-radius: 10px;
 }
-
 @media screen and (min-width: 650px) {
+    .menu-btn {
+        display: none;
+    }
+
+    nav.hide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        border-top: none;
+        padding: 10px 12px;
+    }
+
+    header,
+    main,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+/*@media screen and (min-width: 650px) {
     .menu-btn {
         display: none;
     }
@@ -390,7 +412,7 @@ footer {
     footer {
         max-width: 900px;
         margin: 0 auto;
-    }
+    }*/
     .welcome-container p,
     .workout-generator-results ,
     .repetition-container{
