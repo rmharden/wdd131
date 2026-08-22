@@ -447,16 +447,19 @@ footer {
     .menu-btn {
         display: none;
     }
+
     nav.hide {
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
     nav a {
-        display: inline;
+        display: block;
         border-top: none;
+        padding: 10px 12px;
     }
-    nav {
-        text-align: right;
-    } 
+
     header,
     main,
     footer {

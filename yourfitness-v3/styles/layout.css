@@ -102,13 +102,14 @@ footer {
         display: none;
     }
     nav.hide {
-        display: block;
-    }
-    nav a {
-        display: inline;
-        border-top: none;
+        display: flex;
     }
     nav {
-        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    nav a {
+        display: block;
+        border-top: none;
     }
 }
