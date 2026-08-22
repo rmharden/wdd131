@@ -130,6 +130,7 @@ if (backList) {
 }
 const exerciseModal = document.querySelector(".exercise-modal");
 const modalImage = document.querySelector(".modal-image");
+const modalImage2 = document.querySelector(".modal-image2");
 const modalTitle = document.querySelector(".modal-title");
 const modalCount = document.querySelector(".modal-count");
 const modalReps = document.querySelector(".modal-reps");
