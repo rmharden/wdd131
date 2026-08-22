@@ -313,15 +313,106 @@ const exercises = [
         tags: ['muscular', 'abdomen', 'arms', 'hanging', 'core', 'bar', 'calisthenics']
     },
     {
+        image: 'images/pexels-yankrukov-8436687.jpg',
+        name: 'Heel Lifts',
+        reps: '30',
+        count: '2',
+        alternate: "",
+        description: 'Raise your heels off the ground, balancing on the balls of your feet. Pause, then slowly lower your heels back down. Keep your feet pointing forward for 10 reps. Start another set of 10 with your toes pointing outward. Finish with the last set of 10 with your toes pointing inward.',
+        order: 31,
+        tags: ['muscular', 'calesthenics', 'calves', 'legs']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #1',
+        reps: '12',
+        count: '4',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Start with your weights down by your sides, palms facing forward. Keep your arms straight and lift your weights outward, stopping at shoulder height. Squeeze your shoulder blades once you reach the top, but be mindful to keep the weights directly out from your shoulders. Lower your arms back down. Do 12 repetitions.',
+        order: 32,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #2',
+        reps: '12',
+        count: '4',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Start with your arms overhead, palms facing forward. Bend your elbows outwards and press them in towards your sides, lowering weights to waist height. Squeeze your shoulder blades as you bring your elbows in. Do 12 repetitions.',
+        order: 33,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #3',
+        reps: '12',
+        count: '4',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Lower your weights to your sides and rotate your palms so they face your body. Keep your shoulders stacked directly over your hips (do not hunch forward or lean back) and lean your upper body down to one side, then gently lean to the other. Do 12 repetitions.',
+        order: 34,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #4',
+        reps: '12',
+        count: '4',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Start with your elbows bent in towards your sides, weights extended outwards, and palms facing forward. Squeeze your elbows into your body (cinching your shoulder blades together), then release back out, keeping your shoulders down the entire time. Do 12 repetitions.',
+        order: 35,
+        tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #5',
+        reps: '12',
+        count: '4',
+        alternate: "",
+        description: 'Lie flat on your stomach, arms and legs extended out. Lift your arms and legs off the ground, as high as you can. Hold for a few seconds then lower yourself back down. Do 12 repetitions.',
+        order: 36,
+        tags: ['back', 'muscular', 'core', 'calesthenics', 'legs', 'full-body']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #6',
+        reps: '12',
+        count: '2',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Once again, lift your arms and legs off of the ground and then raise your left arm and right leg up even more. Hold here for a second or two then switch, raising your right arm and left leg up, holding briefly. Continue to alternate, count one repetition every time your right arm comes down.   Do 12 repetitions.',
+        order: 37,
+        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+    },
+        {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #7',
+        reps: '12',
+        count: '2',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Lower your legs to the ground and place your arms behind your head, elbows out. Lift your head and shoulders off the ground to start, then raise your left elbow, pause briefly then return to center. Do 6 repetitions.  Perform the same movements with your right elbow. Do 6 repetitions.',
+        order: 38,
+        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+    },
+    {
+        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        name: 'Back Exercise #8',
+        reps: '12',
+        count: '2',
+        alternate: "Repeat this with all back exercises a total of three times.",
+        description: 'Place your hands directly under your shoulders and bring your body into a pushup position, knees on the ground and heels in towards your tush. Keeping your shoulders in line with your hips, slowly lower yourself down for two counts, then press up for two counts, executing a slow and controlled pushup. Do 12 repetitions',
+        order: 39,
+        tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
+    },
+    {
         image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
         name: 'Run or Walk',
         reps: 'n/a',
         count: '30+ Min',
         alternate: "",
         description: 'Walk or run for at least 30 minutes every other day. Begin at a comfortable pace and gradually increase your time, distance, or speed as your fitness improves.',
-        order: 31,
+        order: 40,
         tags: ['run', 'walk', 'full-body']
-    }
+    },
+            
 ];
 
 
