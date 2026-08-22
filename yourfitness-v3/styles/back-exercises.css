@@ -463,6 +463,10 @@ footer {
         max-width: 900px;
         margin: 0 auto;
     }
+    .back-exercises-img {
+        display: block;
+        margin: 0 auto;
+    }
     .workout-checklist {
         max-width: 850px;
     }
