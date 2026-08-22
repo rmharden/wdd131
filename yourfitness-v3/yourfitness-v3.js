@@ -323,7 +323,7 @@ const exercises = [
         tags: ['muscular', 'calesthenics', 'calves', 'legs']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-rdne-8611937.jpg',
         name: 'Back Exercise #1',
         reps: '12',
         count: '4',
@@ -333,7 +333,7 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-karola-g-4397838.jpg',
         name: 'Back Exercise #2',
         reps: '12',
         count: '4',
@@ -343,7 +343,7 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-mart-production-8032923.jpg',
         name: 'Back Exercise #3',
         reps: '12',
         count: '4',
@@ -353,7 +353,7 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-marta-nogueira-589022975-17092541.jpg',
         name: 'Back Exercise #4',
         reps: '12',
         count: '4',
@@ -363,7 +363,7 @@ const exercises = [
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calesthenics']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-scoutori-16143599.jpg',
         name: 'Back Exercise #5',
         reps: '12',
         count: '4',
@@ -373,7 +373,7 @@ const exercises = [
         tags: ['back', 'muscular', 'core', 'calesthenics', 'legs', 'full-body']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-rachid-bendhiba-2151490392-36895640.jpg',
         name: 'Back Exercise #6',
         reps: '12',
         count: '2',
@@ -383,7 +383,7 @@ const exercises = [
         tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
     },
         {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-anete-lusina-4793328.jpg',
         name: 'Back Exercise #7',
         reps: '12',
         count: '2',
@@ -393,7 +393,7 @@ const exercises = [
         tags: ['back', 'muscular', 'core', 'calesthenics', 'arms', 'legs', 'full-body']
     },
     {
-        image: 'images/pexels-quang-nguyen-vinh-222549-10615645.jpg',
+        image: 'images/pexels-n-voitkevich-5412251.jpg',
         name: 'Back Exercise #8',
         reps: '12',
         count: '2',
