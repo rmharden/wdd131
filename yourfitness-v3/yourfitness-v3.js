@@ -327,7 +327,7 @@ const exercises = [
         name: 'Back #1',
         reps: '12',
         count: '4',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Start with your weights down by your sides, palms facing forward. Keep your arms straight and lift your weights outward, stopping at shoulder height. Squeeze your shoulder blades once you reach the top, but be mindful to keep the weights directly out from your shoulders. Lower your arms back down. Do 12 repetitions.',
         order: 32,
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
@@ -337,7 +337,7 @@ const exercises = [
         name: 'Back #2',
         reps: '12',
         count: '4',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Start with your arms overhead, palms facing forward. Bend your elbows outwards and press them in towards your sides, lowering weights to waist height. Squeeze your shoulder blades as you bring your elbows in. Do 12 repetitions.',
         order: 33,
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
@@ -347,7 +347,7 @@ const exercises = [
         name: 'Back #3',
         reps: '12',
         count: '4',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "with all back exercises",
         description: 'Lower your weights to your sides and rotate your palms so they face your body. Keep your shoulders stacked directly over your hips (do not hunch forward or lean back) and lean your upper body down to one side, then gently lean to the other. Do 12 repetitions.',
         order: 34,
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
@@ -357,7 +357,7 @@ const exercises = [
         name: 'Back #4',
         reps: '12',
         count: '4',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Start with your elbows bent in towards your sides, weights extended outwards, and palms facing forward. Squeeze your elbows into your body (cinching your shoulder blades together), then release back out, keeping your shoulders down the entire time. Do 12 repetitions.',
         order: 35,
         tags: ['back', 'arms', 'muscular', 'weights', 'dumbbells', 'core', 'calisthenics']
@@ -367,7 +367,7 @@ const exercises = [
         name: 'Back #5',
         reps: '12',
         count: '4',
-        alternate: "",
+        alternate: "all back exercises",
         description: 'Lie flat on your stomach, arms and legs extended out. Lift your arms and legs off the ground, as high as you can. Hold for a few seconds then lower yourself back down. Do 12 repetitions.',
         order: 36,
         tags: ['back', 'muscular', 'core', 'calisthenics', 'legs', 'full-body']
@@ -377,7 +377,7 @@ const exercises = [
         name: 'Back #6',
         reps: '12',
         count: '2',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Once again, lift your arms and legs off of the ground and then raise your left arm and right leg up even more. Hold here for a second or two then switch, raising your right arm and left leg up, holding briefly. Continue to alternate, count one repetition every time your right arm comes down.   Do 12 repetitions.',
         order: 37,
         tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
@@ -387,7 +387,7 @@ const exercises = [
         name: 'Back #7',
         reps: '12',
         count: '2',
-        alternate: "Repeat this with all back exercises a total of three times.",
+        alternate: "all back exercises",
         description: 'Lower your legs to the ground and place your arms behind your head, elbows out. Lift your head and shoulders off the ground to start, then raise your left elbow, pause briefly then return to center. Do 6 repetitions.  Perform the same movements with your right elbow. Do 6 repetitions.',
         order: 38,
         tags: ['back', 'muscular', 'core', 'calisthenics', 'arms', 'legs', 'full-body']
