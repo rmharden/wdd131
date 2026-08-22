@@ -486,7 +486,9 @@ footer {
         height: 160px;
         object-fit: cover;
         border-radius: 8px;
-}
+        flex: 1;
+        min-width: 0;
+    }
 
     .exercise-info {
         flex: 1;
