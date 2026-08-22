@@ -104,7 +104,13 @@ const backList = document.querySelector(".back-exercises-checklist");
 function checkListTemplate(exercise) {
     return `
         <li class="checklist-item">
-            <img src="${exercise.image}" alt="Photo of ${exercise.name}" class="checklist-image">
+            <div class="checklist-images">
+                <img src="${exercise.image}" alt="Photo of ${exercise.name}" class="checklist-image">
+
+                ${exercise.image2 ?
+                    `<img src="${exercise.image2}" alt="Photo of ${exercise.name}" class="checklist-image">`
+                    : ''}
+            </div>
 
             <input type="checkbox">
 

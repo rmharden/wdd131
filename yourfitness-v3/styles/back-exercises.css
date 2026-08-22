@@ -437,6 +437,11 @@ footer {
     width: 100%;
     border-radius: 10px;
 }
+.back-exercises-checklist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 @media screen and (min-width: 650px) {
     .menu-btn {
@@ -492,7 +497,6 @@ footer {
         font-size: .9rem;
         line-height: 1.5;
     }
-
     .exercise-alternate {
         font-size: .9rem;
     }
