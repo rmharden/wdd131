@@ -396,7 +396,15 @@ function ratingTemplate(rating) {
 	</section>`
 }*/
 function recipesTemplate(recipe) {
-	return `<section class="recipe-card">
+    const ingredientsList = recipe.recipeIngredient.map(function(ingredient) {
+        return `<li>${ingredient}</li>`;
+    }).join("");
+
+    const instructionsList = recipe.recipeInstructions.map(function(instruction) {
+        return `<li>${instruction}</li>`;
+    }).join("");
+
+    return `<section class="recipe-card">
             <img src="${recipe.image}" 
                 alt="Photo of ${recipe.name}" 
                 class="recipe-image">
@@ -405,16 +413,29 @@ function recipesTemplate(recipe) {
                     ${tagTemplate(recipe.tags)}
                 </div>
                 <h2 class="recipe-title">${recipe.name}</h2>
-                    ${ratingTemplate(recipe.rating)}
-                <p class="recipe-prepTime">Prep Time: ${recipe.prepTime}</p>
-                <p class="recipe-cookTime">Cook Time: ${recipe.cookTime}</p>
-                <p class="recipe-yield">${recipe.recipeYield}</p>
+                ${ratingTemplate(recipe.rating)}
+
+                <div class="recipe-details">
+                    <p class="recipe-prepTime">Prep Time: ${recipe.prepTime}</p>
+                    <p class="recipe-cookTime">Cook Time: ${recipe.cookTime}</p>
+                    <p class="recipe-yield">${recipe.recipeYield}</p>
+                </div>
+
                 <p class="recipe-description">${recipe.description}</p>
-                <ul class="ingredient">Ingredients: ${recipe.recipeIngredient}</ul>
-				<p class="recipe-instructions">${recipe.recipeInstructions}</p>
+
+                <h3>Ingredients</h3>
+                <ul class="ingredients">
+                    ${ingredientsList}
+                </ul>
+
+                <h3>Instructions</h3>
+                <ol class="instructions">
+                    ${instructionsList}
+                </ol>
             </div>
-	    </section> `
-}
+        </section>`;
+	}
+
 
 function renderRecipes(recipe) {
     let html = recipesTemplate(recipe);
