@@ -109,13 +109,13 @@ const recipes = [
 		datePublished: '2018-09-19',
 		tags: ['Southwest', 'Entree'],
 		description:
-			'Black beans and tomatoes served over a bed of rice. Top with cheese and scoop up with tortilla chips for maximum enjoyment.',
-		image: './images/black-beans-and-rice.jpg',
+			'Beans and tomatoes served over a bed of rice. Top with cheese and scoop up with tortilla chips for maximum enjoyment.',
+		image: './images/pexels-i-own-my-food-art-76108785-8992843.jpg',
 		recipeIngredient: [
 			'1 Medium Onion, diced',
 			'2 Cloves Garlic, minced',
 			'1 Tbsp Olive oil',
-			'1 Can Black Beans (15oz)',
+			'1 Can Beans (15oz)',
 			'1 Can Diced Tomatoes (15oz)',
 			'1/8 tsp Cayenne Pepper (optional)',
 			'2 C Brown Rice (uncooked)',
@@ -127,7 +127,7 @@ const recipes = [
 		recipeInstructions: [
 			'Add 4 cups water to a saucepan and bring to a boil. Add Rice, stir, cover, and reduce heat to low. Cook until moisture is gone. (20-30 minutes)',
 			'In another saucepan heat the oil and add the diced onion and garlic. Cook until tender.',
-			'Stir in the drained Black beans, Undrained tomatoes, and Cayenne.',
+			'Stir in the drained beans, Undrained tomatoes, and Cayenne.',
 			'Bring to a boil, then reduce heat and simmer uncovered for 15 min.',
 			'Serve over rice, topped with grated cheese and Tortilla chips.'
 		],
