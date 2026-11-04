@@ -282,6 +282,40 @@ const recipes = [
 		],
 		recipeYield: '12 servings',
 		rating: 4
+	},
+		{
+		author: 'Daytona Dawn Danielsen',
+		url: 'https://daytonadanielsen.com/scandinavian-glogg-alcohol-free/',
+		isBasedOn: '',
+		cookTime: '60min',
+		datePublished: '2022-11-26',
+		tags: ['Drinks'],
+		description:
+			"A pot of a spiced beverage simmering on the stove, releasing its fragrant spices into the air. The flickering glow of candles, a crackling fireplace. It’s hard to imagine a more cozy setting in which to celebrate the holiday season. I created this recipe for Scandinavian gløgg (alcohol-free) in 2021, in honor of everyone who doesn’t drink.",
+		image: './images/pexels-jdgromov-6427773.jpg',
+		recipeIngredient: [
+			'1/4 C orange juice juice (no sugar added)',
+			'32 fl oz black cherry juice (no sugar added)',
+			'32 fl oz apple juice (no sugar added)',
+			'1/2 cup raisins',
+			'8 dried figs, quartered',
+			'3 cinnamon sticks',
+			'10 green cardamom pods',
+			'1 tablespoon whole cloves',
+			'2 star anise',
+			'2-3 tablespoons loose black tea leaves',
+			'1/4 cup blanched almonds'
+		],
+		name: 'Glögg (Alcohol-Free)',
+		prepTime: '30 min',
+		recipeInstructions: [
+			'Heat all three juices in a large pot with the raisins, figs, cinnamon sticks, cardamom pods, star anise, and strips of orange peel. Bring to a boil, then lower the heat, cover, and allow to simmer for 30 minutes.',
+			'Meanwhile, in a small pan, combine the water, sugar, and tea leaves and bring to a boil, stirring until the sugar dissolves. Turn off the heat and allow to steep while the gløgg simmers.',
+			'Strain out the tea leaves while you pour the sweetened water into the gløgg. Ladle the gløgg into mugs, ideally something clear and heatproof, adding to each some of the raisins, figs, and almonds. (Be sure not to accidentally pour the cloves into the mugs as you serve.) Garnish with a cinnamon stick and a slice of orange, if you’d like.',
+			'NOTE: The amount of sugar is a matter of taste, and depends on the juices you choose. I recommend searching for unsweetened juices so you can have control of how sweet you make the gløgg. Ultimately, the choice is yours, and I hope you make this recipe again and again, adjusting ingredients and making it your own.'
+		],
+		recipeYield: '',
+		rating: 5
 	}
 ];            
 
