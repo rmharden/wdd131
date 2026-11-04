@@ -255,7 +255,7 @@ const recipes = [
 		isBasedOn: '',
 		cookTime: '45min',
 		datePublished: '2023-10-10',
-		tags: ['Dessert'],
+		tags: ['Dessert', 'Apples'],
 		description:
 			"This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.",
 		image: './images/apple-crisp.jpg',
@@ -289,7 +289,7 @@ const recipes = [
 		isBasedOn: '',
 		cookTime: '60min',
 		datePublished: '2022-11-26',
-		tags: ['Drinks'],
+		tags: ['Drinks', 'Christmas'],
 		description:
 			"A pot of a spiced beverage simmering on the stove, releasing its fragrant spices into the air. The flickering glow of candles, a crackling fireplace. It’s hard to imagine a more cozy setting in which to celebrate the holiday season. I created this recipe for Scandinavian gløgg (alcohol-free) in 2021, in honor of everyone who doesn’t drink.",
 		image: './images/pexels-jdgromov-6427773.jpg',
