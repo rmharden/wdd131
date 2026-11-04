@@ -180,7 +180,7 @@ const recipes = [
 		datePublished: '2018-09-19',
 		tags: ['Dessert'],
 		description: 'Delicious soft chocolate chip cookies with coconut.',
-		image: './images/chocolate-chip-cookies.jpg',
+		image: './images/pexels-beytlik-13156066.jpg',
 		recipeIngredient: [
 			'1 Lb butter, softened',
 			'1 C white sugar',
