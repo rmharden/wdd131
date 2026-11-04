@@ -122,7 +122,7 @@ const recipes = [
 			'Grated Cheese',
 			'Tortilla Chips'
 		],
-		name: 'Black Beans and Rice',
+		name: 'Beans and Rice',
 		prepTime: '10 min',
 		recipeInstructions: [
 			'Add 4 cups water to a saucepan and bring to a boil. Add Rice, stir, cover, and reduce heat to low. Cook until moisture is gone. (20-30 minutes)',
@@ -215,7 +215,7 @@ const recipes = [
 		tags: ['Dessert', 'German'],
 		description:
 			"This gooseberry cake with crumble is easy to follow, a bit tart and not too sweet. Made up of a cake base, filled with fresh gooseberries and vanilla cream and finished off with crumble that's flavored with vanilla. A must have recipe for gooseberry lovers!!",
-		image: './images/german-gooseberry-cake.jpg',
+		image: './images/pexels-esra-afsar-123882149-34202446.jpg',
 		recipeIngredient: [
 			'For the Cake Base:',
 			'180 g (1 ½ cups/ 6.3 oz) plain flour',
