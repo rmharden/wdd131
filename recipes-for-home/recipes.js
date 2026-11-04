@@ -48,7 +48,7 @@ const recipes = [
 		tags: ['Chicken', 'Entree'],
 		description:
 			'Delicious quick and easy creamy rice dish. The mustard, mushrooms, and lemon all blend together wonderfully',
-		image: './images/escalopes-de-poulet-a-la-creme.webp',
+		image: './images/pexels-huzaifabukhari-16845749.jpg',
 		recipeIngredient: [
 			'2 Chicken Tenders, Cubed',
 			'4 Mushrooms, Sliced',
@@ -306,7 +306,7 @@ const recipes = [
 			'2-3 tablespoons loose black tea leaves',
 			'1/4 cup blanched almonds'
 		],
-		name: 'Glögg (Alcohol-Free)',
+		name: 'Glögg/Gløgg (Alcohol-Free)',
 		prepTime: '30 min',
 		recipeInstructions: [
 			'Heat all three juices in a large pot with the raisins, figs, cinnamon sticks, cardamom pods, star anise, and strips of orange peel. Bring to a boil, then lower the heat, cover, and allow to simmer for 30 minutes.',
